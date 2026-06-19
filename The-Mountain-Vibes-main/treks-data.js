@@ -764,7 +764,7 @@ const TREKS = {
   ratankhadak: {
     num: 6,
     title: "Rantankhadak Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(6)Ranthan%20khadak%20Trek.webp?updatedAt=1779290768973",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/6%20Ranthan%20khadak%20Trek%204.webp?raw=true",
     region: "Uttarakhand",
     diff: "Moderate",
     season: "April–June & September–November",
