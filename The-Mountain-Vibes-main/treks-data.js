@@ -1023,7 +1023,7 @@ const TREKS = {
   },
   pangarchulla: {
     title: "Pangarchulla Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(5)Pangarchulla%20Trek.avif?updatedAt=1779290758376",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/5%20Pangarchulla%20Trek%204.jpg?raw=true",
     region: "Uttarakhand",
     diff: "Moderate to Difficult",
     season: "April to June & September to November",
