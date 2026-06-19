@@ -466,7 +466,7 @@ const TREKS = {
   kuari: {
     num: 4,
     title: "Kuari Pass Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(4)%20Kuari%20PassTrek.jpeg?updatedAt=1779290781202",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/4%20Kuari%20Pass%20Trek%205.jpg?raw=true",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "March–June & September–December",
@@ -1064,7 +1064,7 @@ const TREKS = {
   kgl: {
     num: 8,
     title: "Kashmir Great Lakes Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(8)Kashmir%20Great%20Lake%20Trek.webp?updatedAt=1779290763235",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/8%20Kashmir%20Great%20Lake%20Trek%204.webp?raw=true",
     region: "Kashmir",
     diff: "Moderate",
     season: "July–September",
@@ -1387,7 +1387,7 @@ const TREKS = {
   kedartal: {
     num: 10,
     title: "Kedartal Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/treks/(10)Kedartal%20Trek.webp?updatedAt=1779292379325",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/10%20Kedartal%20Trek%206.jpg?raw=true",
     region: "Gangotri, Uttarakhand",
     diff: "Difficult",
     season: "May–June & September–October",
@@ -1539,7 +1539,7 @@ const TREKS = {
   pindari: {
     num: 11,
     title: "Pindari Glacier Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/treks/(11)Pindari%20Glacier%20Trek.jpg",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/11%20Pindari%20Glacier%20Trek%202.webp?raw=true",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "April–June & September–November",
