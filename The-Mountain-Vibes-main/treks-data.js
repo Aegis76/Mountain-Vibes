@@ -569,12 +569,12 @@ const TREKS = {
       "💊 Personal medicines and energy snacks",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(4)%20Kuari%20PassTrek.jpeg?updatedAt=1779290781202",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/4 Kuari PassTrek 1.jpeg",
+      "The_Mountains_All_treks_imag/4 Kuari Pass Trek 6.webp",
+      "The_Mountains_All_treks_imag/4 Kuari Pass Trek 5.jpg",
+      "The_Mountains_All_treks_imag/4 Kuari Pass Trek 4.webp",
+      "The_Mountains_All_treks_imag/4 Kuari Pass Trek 3.webp",
+      "The_Mountains_All_treks_imag/4 Kuari Pass Trek 2.webp",
     ],
     reviews: [
       {
@@ -722,12 +722,12 @@ const TREKS = {
       "💊 Personal medicines and a first aid kit",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(5)Pangarchulla%20Trek.avif?updatedAt=1779290758376",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/5 Pangarchulla Trek 6.jpg?updatedAt=1779290758376",
+      "The_Mountains_All_treks_imag/5 Pangarchulla Trek 5.jpg",
+      "The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg",
+      "The_Mountains_All_treks_imag/5 Pangarchulla Trek 3.webp",
+      "The_Mountains_All_treks_imag/5 Pangarchulla Trek 2.webp",
+      "The_Mountains_All_treks_imag/5Pangarchulla Trek1.jpg",
     ],
     reviews: [
       {
@@ -875,12 +875,12 @@ const TREKS = {
       "💊 Personal medicines and energy snacks",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(6)Ranthan%20khadak%20Trek.webp?updatedAt=1779290768973",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 3.jpg?updatedAt=1779290768973",
+      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 6.jpg",
+      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 5.jpg",
+      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 4.webp",
+      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 2.webp",
+      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 1.webp",
     ],
     reviews: [
       {
