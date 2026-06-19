@@ -32,7 +32,7 @@ function renderAllTreks(gridId = "allTreksGrid") {
 
     card.innerHTML = `
       <div class="tk-img">
-        <img src="${getImgUrl(t.img)}" alt="${t.title}">
+        <img src="${t.img}" alt="${t.title}">
         <div class="tk-loc">📍 ${t.region.split(",")[0]}</div>
       </div>
       <div class="tk-body">
@@ -55,10 +55,10 @@ function renderAllTreks(gridId = "allTreksGrid") {
 window.filterTreks = function () {
   const searchInput = document.getElementById("trekSearch");
   const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
-  
+
   const activeTabEl = document.querySelector(".ftab.active");
   const activeTab = activeTabEl ? activeTabEl.textContent.toLowerCase().trim() : "all treks";
-  
+
   const cards = document.querySelectorAll(".trek-card");
 
   cards.forEach((card) => {
@@ -104,7 +104,7 @@ function openTrek(key) {
   };
 
   const heroImg = document.getElementById("tdHeroImg");
-  if (heroImg) heroImg.src = getImgUrl(t.img);
+  if (heroImg) heroImg.src = t.img;
 
   setEl("tdTitle", t.title);
   setEl("tdBreadName", t.title);
@@ -115,7 +115,7 @@ function openTrek(key) {
   // Brochure Download Button
   const existingDlBtn = document.getElementById("tdBrochureBtn");
   if (existingDlBtn) existingDlBtn.remove();
-  
+
   if (t.brochure) {
     const dlBtnHtml = `
       <div id="tdBrochureBtn" style="margin: 24px 0; display: flex; justify-content: flex-start;">
@@ -186,7 +186,7 @@ function openTrek(key) {
   const photosHtml = t.photos
     .map(
       (p) =>
-        `<div class="photo-item" onclick="openLB2('${p}')"><img src="${getImgUrl(p)}" alt="Photo"></div>`,
+        `<div class="photo-item" onclick="openLB2('${p}')"><img src="${p}" alt="Photo"></div>`,
     )
     .join("");
   setEl("tdPhotos", photosHtml, true);
@@ -196,7 +196,7 @@ function openTrek(key) {
   const vidHtml = vidImgs
     .map(
       (p, i) =>
-        `<div class="vt-card" onclick="showToast('▶ Playing video...')"><img src="${getImgUrl(p)}" alt="V"><div class="vt-overlay"></div><div class="yt-play">▶</div><div class="vt-info"><div class="vt-badge">TREK VIDEO</div><div class="vt-name-big">${t.title}</div></div></div>`,
+        `<div class="vt-card" onclick="showToast('▶ Playing video...')"><img src="${p}" alt="V"><div class="vt-overlay"></div><div class="yt-play">▶</div><div class="vt-info"><div class="vt-badge">TREK VIDEO</div><div class="vt-name-big">${t.title}</div></div></div>`,
     )
     .join("");
   setEl("tdVidGrid", vidHtml, true);
@@ -205,7 +205,7 @@ function openTrek(key) {
     .slice(0, 3)
     .map(
       (p, i) =>
-        `<div class="vt-card" onclick="showToast('▶ Playing testimonial...')"><img src="${getImgUrl(p)}" alt="T"><div class="vt-overlay"></div><div class="yt-play">▶</div><div class="vt-info"><div class="vt-badge">TREKKER TESTIMONIALS</div><div class="vt-name-big">${t.title}</div><div class="vt-name-tag">${["AARYA", "SHUBHAM", "DILRUBA"][i]}</div></div></div>`,
+        `<div class="vt-card" onclick="showToast('▶ Playing testimonial...')"><img src="${p}" alt="T"><div class="vt-overlay"></div><div class="yt-play">▶</div><div class="vt-info"><div class="vt-badge">TREKKER TESTIMONIALS</div><div class="vt-name-big">${t.title}</div><div class="vt-name-tag">${["AARYA", "SHUBHAM", "DILRUBA"][i]}</div></div></div>`,
     )
     .join("");
   setEl("tdTestiGrid", testiHtml, true);
@@ -224,7 +224,7 @@ function openTrek(key) {
     .slice(0, 3)
     .map(
       (p, i) =>
-        `<div class="article-card"><div class="ac-img"><img src="${getImgUrl(p)}" alt="Article"></div><div class="ac-body"><div class="ac-date">11 Apr 2026</div><div class="ac-title">${["Complete Guide to " + t.title + " 2026", "What to Pack for " + t.title + ": Ultimate Gear List", "Best Time to Do " + t.title + " — Season Guide"][i]}</div><div class="ac-line"></div></div></div>`,
+        `<div class="article-card"><div class="ac-img"><img src="${p}" alt="Article"></div><div class="ac-body"><div class="ac-date">11 Apr 2026</div><div class="ac-title">${["Complete Guide to " + t.title + " 2026", "What to Pack for " + t.title + ": Ultimate Gear List", "Best Time to Do " + t.title + " — Season Guide"][i]}</div><div class="ac-line"></div></div></div>`,
     )
     .join("");
   setEl("tdArticles", articlesHtml, true);
@@ -290,16 +290,16 @@ function switchTdTab(id, btn) {
 function redirectToBooking() {
   const urlParams = new URLSearchParams(window.location.search);
   const trekKey = urlParams.get("trek");
-  
+
   const selectedDate = document.getElementById("tdDates").value;
   const trekkerCount = document.getElementById("tdCount").textContent;
-  
+
   if (!trekKey) {
     if (typeof showToast === 'function') showToast("❌ Error: Trek not found");
     else alert("❌ Error: Trek not found");
     return;
   }
-  
+
   const bookingUrl = `booking.html?type=trek&trek=${trekKey}&date=${encodeURIComponent(selectedDate)}&count=${trekkerCount}`;
   window.location.href = bookingUrl;
 }
