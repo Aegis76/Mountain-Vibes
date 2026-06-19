@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Treks | The Mountain Vibes</title>
+    <meta
+      name="description"
+      content="Explore our wide range of Himalayan treks, from beginner-friendly walks to challenging high-altitude expeditions."
+    />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="navbar.css" rel="stylesheet" />
+    <link href="footer.css" rel="stylesheet" />
+    <link href="trek.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Logo" class="logo-icon" />
+        <div class="logo-txt">
+          <strong
+            >The Mountain<span style="color: rgb(255, 255, 0); font-size: 1em"
+              >Vibes</span
+            ></strong
+          >
+          <span>Safest &amp; Trusted Adventure Provider</span>
+        </div>
+      </a>
+      <ul class="nav-right">
+        <div class="nav-search">
+          <input type="text" placeholder="Search treks..." />
+        </div>
+        <li><a href="trek.html" class="nb active">All Treks</a></li>
+        <li><a href="camp.html" class="nb">Summer Camps</a></li>
+        <li><a href="about.html" class="nb">About Us</a></li>
+        <li><a href="gallery.html" class="nb">Gallery</a></li>
+        <li><a href="contact.html" class="nb">Contact Us</a></li>
+      </ul>
+      <button class="nb menu" type="button">☰</button>
+    </nav>
+
+    <div class="page active" id="page-all-treks">
+      <section class="all-treks-hero">
+        <div
+          class="hero-overlay"
+          style="
+            background: linear-gradient(
+              to bottom,
+              rgba(15, 31, 46, 0.9),
+              rgba(15, 31, 46, 0.7)
+            );
+          "
+        ></div>
+        <div class="at-hero-content">
+          <h1>Explore Our <em>Adventures</em></h1>
+          <p>
+            From the heights of Everest to the meadows of Kashmir, find your
+            next journey.
+          </p>
+        </div>
+      </section>
+
+      <section class="trek-filter-bar">
+        <div class="filter-container">
+          <div class="filter-row search-row">
+            <div class="filter-search-wrap">
+              <span class="fs-ico">🔍</span>
+              <input
+                type="text"
+                class="trek-search-input"
+                id="trekSearch"
+                placeholder="Search by trek name, region or month..."
+                onkeyup="filterTreks()"
+              />
+            </div>
+          </div>
+          <div class="filter-row" style="margin-top: 15px">
+            <button class="ftab active" onclick="setFTab(this)">
+              All Treks
+            </button>
+            <button class="ftab" onclick="setFTab(this)">Uttarakhand</button>
+            <button class="ftab" onclick="setFTab(this)">Nepal</button>
+            <button class="ftab" onclick="setFTab(this)">Kashmir</button>
+            <button class="ftab" onclick="setFTab(this)">Difficult</button>
+            <button class="ftab" onclick="setFTab(this)">Moderate</button>
+            <button class="ftab" onclick="setFTab(this)">Easy</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="treks-grid-section">
+        <div class="grid-layout" id="allTreksGrid">
+          <!-- Dynamically populated from script.js -->
+        </div>
+      </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-section">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h6>Navigation</h6>
+            <a href="index.html">Home</a>
+            <a href="trek.html">Treks</a>
+            <a href="camp.html">Summer Camp</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html#faq">FAQs</a>
+          </div>
+          <div class="footer-col">
+            <h6>Legal</h6>
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms & Conditions</a>
+          </div>
+          <div class="footer-col">
+            <h6>Contact info</h6>
+            <div class="cc-row">📍 Roopkund Base Camp, Lohajung</div>
+            <div class="cc-row">📞 +91 9557711495</div>
+            <div class="cc-row">✉ info@themountainvibes.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 The Mountain Vibes. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="img-utils.js"></script>
+    <script src="treks-data.js"></script>
+    <script src="trek-logic.js"></script>
+    <script src="script.js"></script>
+    <script>
+      // Dynamically render all treks from TREKS object
+      function renderAllTreks() {
+        const grid = document.getElementById("allTreksGrid");
+        if (!grid) return;
+
+        grid.innerHTML = "";
+
+        // Sort keys to ensure consistent order if needed, or just use Object.keys
+        Object.keys(TREKS).forEach((key) => {
+          const t = TREKS[key];
+          const card = document.createElement("div");
+          card.className = "trek-card reveal";
+          card.setAttribute(
+            "onclick",
+            `window.location.href='view-trek.html?trek=${key}'`,
+          );
+
+          // Store full region and searchable text in data attributes
+          // Extract months from dates array for searchability
+          const months = t.dates
+            ? t.dates.map((d) => d.split(" ")[0]).join(" ")
+            : "";
+          const searchableText = (
+            t.title +
+            " " +
+            t.region +
+            " " +
+            t.diff +
+            " " +
+            t.dur +
+            " " +
+            (t.season || "") +
+            " " +
+            months
+          ).toLowerCase();
+          card.setAttribute("data-search", searchableText);
+
+          card.innerHTML = `
+          <div class="tk-img">
+            <img src="${t.img}" alt="${t.title}">
+            <div class="tk-loc">📍 ${t.region.split(",")[0]}</div>
+          </div>
+          <div class="tk-body">
+            <div class="tk-title">${t.title}</div>
+            <div class="tk-meta">
+              <span>DURATION: <strong>${t.dur.toUpperCase()}</strong></span>
+              <span>GRADE: <strong>${t.diff.toUpperCase()}</strong></span>
+            </div>
+            <div class="tk-price">Starts from <strong>₹${t.price.toLocaleString("en-IN")}</strong></div>
+            <button class="tk-btn">View Trek Details</button>
+          </div>
+        `;
+          grid.appendChild(card);
+        });
+
+        // Trigger reveal animations
+        if (typeof triggerReveal === "function") triggerReveal();
+      }
+
+      // Call render on load
+      window.addEventListener("DOMContentLoaded", () => {
+        renderAllTreks();
+
+        // Handle search query from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get("q");
+        if (query) {
+          const searchInput = document.getElementById("trekSearch");
+          const navSearchInput = document.querySelector(".nav-search input");
+          if (searchInput) searchInput.value = query;
+          if (navSearchInput) navSearchInput.value = query;
+          filterTreks();
+        }
+      });
+
+      // Override filterTreks to work with data attributes
+      window.filterTreks = function () {
+        const query = document
+          .getElementById("trekSearch")
+          .value.toLowerCase()
+          .trim();
+        const activeTabEl = document.querySelector(".ftab.active");
+        const activeTab = activeTabEl
+          ? activeTabEl.textContent.toLowerCase().trim()
+          : "all treks";
+        const cards = document.querySelectorAll(".trek-card");
+
+        // Use requestAnimationFrame for smooth UI updates
+        requestAnimationFrame(() => {
+          cards.forEach((card) => {
+            const text = card.getAttribute("data-search");
+            if (!text) return;
+
+            const matchesSearch = !query || text.includes(query);
+            let matchesTab =
+              activeTab === "all treks" || text.includes(activeTab);
+
+            if (matchesSearch && matchesTab) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
+          });
+
+          // Trigger reveal animations for visible cards
+          if (typeof triggerReveal === "function") triggerReveal();
+        });
+      };
+    </script>
+  </body>
+</html>

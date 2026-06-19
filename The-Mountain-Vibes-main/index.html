@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Mountain Vibes | Safest & Trusted Adventure Provider</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="navbar.css" rel="stylesheet" />
+    <link href="footer.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="LogoImg.png" alt="Logo" class="logo-icon" />
+        <div class="logo-txt">
+          <strong
+            >The Mountain<span style="color: rgb(255, 255, 0); font-size: 1em"
+              >Vibes</span
+            ></strong
+          >
+          <span>Safest &amp; Trusted Adventure Provider</span>
+        </div>
+      </a>
+      <ul class="nav-right">
+        <div class="nav-search">
+          <input type="text" placeholder="Search treks..." />
+        </div>
+        <li><a href="trek.html" class="nb">All Treks</a></li>
+        <li><a href="camp.html" class="nb">Summer Camps</a></li>
+        <li><a href="about.html" class="nb">About Us</a></li>
+        <li><a href="gallery.html" class="nb">Gallery</a></li>
+        <li><a href="contact.html" class="nb">Contact Us</a></li>
+      </ul>
+      <button class="nb menu" type="button">☰</button>
+    </nav>
+
+    <div class="page active" id="page-home">
+      <!-- HERO SLIDER -->
+      <div class="hero-slider">
+        <div class="hero-slide active">
+          <img
+            src="/The-Mountain-Vibes/roopkund1.jpeg?updatedAt=1777906691135"
+            alt="Hero 1"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-slide">
+          <img
+            src="/The-Mountain-Vibes/roopkund2.jpeg?updatedAt=1777906688262"
+            alt="Hero 2"
+          />
+        </div>
+        <div class="hero-slide">
+          <img
+            src="/The-Mountain-Vibes/kgl1.jpeg?updatedAt=1777906577035"
+            alt="Hero 3"
+          />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" id="heroContent">
+          <h1 id="heroTitle">
+            There are moments<br />you <em>can't explain</em>
+          </h1>
+          <p id="heroSubtitle">
+            Standing in the Himalayas, feeling completely alive — this is one of
+            them. Trek for
+            <a
+              href="https://api.whatsapp.com/send?phone=919557711495&text=Hi!%20I'm%20interested%20in%20becoming%20a%20Trek%20Ambassador%20for%20The%20Mountain%20Vibes."
+              >FREE</a
+            >
+            as our Ambassador.
+          </p>
+          <div class="hero-divider"></div>
+          <div class="hero-btns">
+            <button
+              class="hero-btn gold-btn"
+              onclick="
+                document
+                  .getElementById('popular-treks')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
+            >
+              Begin Your Journey
+            </button>
+            <button
+              class="hero-btn"
+              onclick="window.location.href = 'trek.html'"
+            >
+              Choose a Trek
+            </button>
+          </div>
+        </div>
+        <button class="hero-arrow h-prev" onclick="changeHeroSlide(-1)">
+          ‹
+        </button>
+        <button class="hero-arrow h-next" onclick="changeHeroSlide(1)">
+          ›
+        </button>
+        <div class="hero-dots" id="heroDots"></div>
+        <div class="terms-note">*Terms and Conditions Apply</div>
+      </div>
+
+      <!-- CATEGORY STRIP -->
+      <div class="cat-strip">
+        <div class="cat-item" onclick="window.location.href = 'private.html'">
+          <img
+            src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&q=80"
+            alt="Private"
+          />
+          <div class="cat-overlay"></div>
+          <div class="cat-label">
+            <span class="cat-ico">🗺</span>Private Trip
+          </div>
+        </div>
+        <div class="cat-item" onclick="window.location.href = 'camp.html'">
+          <img
+            src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=400&q=80"
+            alt="Summer"
+          />
+          <div class="cat-overlay"></div>
+          <div class="cat-label">
+            <span class="cat-ico">⛺</span>Summer Camp
+          </div>
+        </div>
+        <div class="cat-item">
+          <img
+            src="https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=400&q=80"
+            alt="Suggest"
+          />
+          <div class="cat-overlay"></div>
+          <div class="cat-label"><span class="cat-ico">💡</span>Suggest Me</div>
+        </div>
+        <div class="cat-item">
+          <img
+            src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=400&q=80"
+            alt="Family"
+          />
+          <div class="cat-overlay"></div>
+          <div class="cat-label">
+            <span class="cat-ico">🏠</span>Family &amp; Kids
+          </div>
+        </div>
+        <div class="cat-item">
+          <img
+            src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=400&q=80"
+            alt="Learning"
+          />
+          <div class="cat-overlay"></div>
+          <div class="cat-label">
+            <span class="cat-ico">📚</span>Learning Program
+          </div>
+        </div>
+        <div class="cat-item">
+          <img
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80"
+            alt="Heal"
+          />
+          <div class="cat-overlay"></div>
+          <div class="cat-label">
+            <span class="cat-ico">🌿</span>Heal &amp; Trek
+          </div>
+        </div>
+      </div>
+
+      <!-- TREK CARDS -->
+      <section class="treks-section" id="popular-treks">
+        <h2>Plan Your Next Adventure</h2>
+        <div class="treks-heading">Most Popular Upcoming Himalayan Treks</div>
+        <div class="treks-slider-wrap">
+          <button class="ts-arrow ts-prev" onclick="slideTreks(-1)">‹</button>
+          <div class="treks-slider" id="treksSlider">
+            <div
+              class="trek-card reveal"
+              onclick="window.location.href = 'view-trek.html?trek=roopkund'"
+            >
+              <div class="tk-img">
+                <img
+                  src="/The-Mountain-Vibes/roopkund1.jpeg?updatedAt=1777906691135"
+                  alt="Roopkund"
+                />
+                <div class="tk-loc">📍 Uttarakhand</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-title">Roopkund Trek</div>
+                <div class="tk-meta">
+                  <span>DURATION: <strong>8 DAYS</strong></span
+                  ><span>GRADE: <strong>MODERATE</strong></span>
+                </div>
+                <button class="tk-btn">View Trek Details</button>
+              </div>
+            </div>
+
+            <div
+              class="trek-card reveal"
+              onclick="window.location.href = 'view-trek.html?trek=ali'"
+            >
+              <div class="tk-img">
+                <img
+                  src="/The-Mountain-Vibes/ali4.jpeg?updatedAt=1777906667455"
+                  alt="Ali Bedni Bugyal"
+                />
+                <div class="tk-loc">📍 Uttarakhand</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-title">Ali Bedni Bugyal Trek</div>
+                <div class="tk-meta">
+                  <span>DURATION: <strong>6 DAYS</strong></span
+                  ><span>GRADE: <strong>EASY TO MODERATE</strong></span>
+                </div>
+                <button class="tk-btn">View Trek Details</button>
+              </div>
+            </div>
+
+            <div
+              class="trek-card reveal"
+              onclick="window.location.href = 'view-trek.html?trek=kgl'"
+            >
+              <div class="tk-img">
+                <img
+                  src="/The-Mountain-Vibes/photos/Treks/(8)Kashmir%20Great%20Lake%20Trek.webp?updatedAt=1779290763235"
+                  alt="Kashmir Great Lakes"
+                />
+                <div class="tk-loc">📍 Kashmir</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-title">Kashmir Great Lakes Trek</div>
+                <div class="tk-meta">
+                  <span>DURATION: <strong>8 DAYS</strong></span
+                  ><span>GRADE: <strong>MODERATE</strong></span>
+                </div>
+                <button class="tk-btn">View Trek Details</button>
+              </div>
+            </div>
+
+            <div
+              class="trek-card reveal"
+              onclick="window.location.href = 'view-trek.html?trek=vof'"
+            >
+              <div class="tk-img">
+                <img
+                  src="/The-Mountain-Vibes/Valley-of-Flowers-with-Badrinath-Tour.jpg"
+                  alt="Valley of Flowers"
+                />
+                <div class="tk-loc">📍 Uttarakhand</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-title">Valley of Flowers Trek</div>
+                <div class="tk-meta">
+                  <span>DURATION: <strong>6 DAYS</strong></span
+                  ><span>GRADE: <strong>EASY TO MODERATE</strong></span>
+                </div>
+                <button class="tk-btn">View Trek Details</button>
+              </div>
+            </div>
+          </div>
+          <button class="ts-arrow ts-next" onclick="slideTreks(1)">›</button>
+        </div>
+      </section>
+
+      <!-- STATS BAR -->
+      <div class="stat-container">
+        <div class="stats-bar reveal">
+          <div class="stat-item highlighted">
+            <div class="stat-num">500,000+</div>
+            <div class="stat-label">Happy Trekkers</div>
+            <div class="stat-sub">Across 60+ destinations</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100+</div>
+            <div class="stat-label">Treks</div>
+            <div class="stat-sub">Multiple regions</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">20+</div>
+            <div class="stat-label">Awards</div>
+            <div class="stat-sub">Industry recognition</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">16+</div>
+            <div class="stat-label">Years</div>
+            <div class="stat-sub">Of safe adventures</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">1,238+</div>
+            <div class="stat-label">Heal Himala</div>
+            <div class="stat-sub">Cleanup drives conducted</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <section class="gallery">
+        <h2>Moments from the Mountains</h2>
+        <div class="gallery-grid">
+          <div class="g-item">
+            <img
+              src="/The-Mountain-Vibes/roopkund1.jpeg?updatedAt=1777906691135"
+              loading="lazy"
+            />
+          </div>
+          <div class="g-item">
+            <img
+              src="/The-Mountain-Vibes/photos/Treks/(13)Kailash%20Mansarovar%20Yatra.jpg?updatedAt=1779290765015"
+              loading="lazy"
+            />
+          </div>
+          <div class="g-item">
+            <img
+              src="/The-Mountain-Vibes/photos/Treks/treks/(9)Gomukh%20Tapovan%20Trek.webp?updatedAt=1779292379304"
+              loading="lazy"
+            />
+          </div>
+          <div class="g-item">
+            <img
+              src="/The-Mountain-Vibes/ali4.jpeg?updatedAt=1777906667455"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- TRUST SECTION -->
+      <section class="trust-section" id="about">
+        <div class="trust-tabs-container">
+          <div class="trust-tabs">
+            <button
+              class="tr-tab active"
+              onclick="setTrustTab('reviews', this)"
+            >
+              ⭐ Google Reviews
+            </button>
+            <button class="tr-tab" onclick="setTrustTab('awards', this)">
+              🏆 Awards
+            </button>
+            <button class="tr-tab" onclick="setTrustTab('trusted', this)">
+              🛡 Trusted By
+            </button>
+            <!-- <button class="tr-tab" onclick="setTrustTab('video', this)">
+            ▶ Video Reviews
+          </button> -->
+          </div>
+        </div>
+        <div class="trust-panel active" id="tp-reviews">
+          <div class="reviews-row">
+            <div class="google-score">
+              <div class="gs-num">4.9</div>
+              <div class="gs-stars">★★★★★</div>
+              <div class="gs-logo">
+                <span>G</span><span>o</span><span>o</span><span>g</span
+                ><span>l</span><span>e</span>
+              </div>
+              <div class="gs-count">10,704+ Reviews</div>
+            </div>
+            <div class="rev-container">
+              <div class="rev-cards">
+                <div class="rev-card">
+                  <div class="rc-top">
+                    <div class="rc-user">
+                      <div class="rc-av">D</div>
+                      <div>
+                        <div class="rc-name">Dipendra Kumar</div>
+                        <div class="rc-date">29/03/26</div>
+                      </div>
+                    </div>
+                    <span class="rc-gico">🔵</span>
+                  </div>
+                  <div class="rc-stars">★★★★★</div>
+                  <div class="rc-text">
+                    Naag Tibba weekend trek was an amazing experience!
+                    Everything was very well managed, and a big shoutout to our
+                    trek leaders — Sahil Luniyal and Kartik Verma — for being
+                    incredibly supportive throughout the journey.
+                  </div>
+                </div>
+                <div class="rev-card">
+                  <div class="rc-top">
+                    <div class="rc-user">
+                      <div class="rc-av">M</div>
+                      <div>
+                        <div class="rc-name">Mustafa Shahid</div>
+                        <div class="rc-date">27/03/26</div>
+                      </div>
+                    </div>
+                    <span class="rc-gico">🔵</span>
+                  </div>
+                  <div class="rc-stars">★★★★★</div>
+                  <div class="rc-text">
+                    I have completed four treks with Mountain Vibes. The first
+                    one was Sandakphu-Phalut in Nov 2024. Each experience has
+                    been exceptional — the guides are knowledgeable and safety
+                    is always first priority.
+                  </div>
+                </div>
+                <div class="rev-card">
+                  <div class="rc-top">
+                    <div class="rc-user">
+                      <div class="rc-av">J</div>
+                      <div>
+                        <div class="rc-name">Jaideep Koppikar</div>
+                        <div class="rc-date">23/03/26</div>
+                      </div>
+                    </div>
+                    <span class="rc-gico">🔵</span>
+                  </div>
+                  <div class="rc-stars">★★★★★</div>
+                  <div class="rc-text">
+                    Loneliness can be maddening. And it was a momentary madness
+                    that led me to the Kuari Pass trek. Having gone with
+                    Mountain Vibes, you can't help but reach out to experience
+                    more adventures with them!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trust-panel" id="tp-awards">
+          <div class="trust-panel-content">
+            <div class="tpc-icon">🏆</div>
+            <div class="tpc-title">20+ Industry Awards</div>
+            <p class="tpc-text">
+              Recognized as India's safest and most trusted architecture
+              organization by leading travel publications and adventure
+              federations.
+            </p>
+          </div>
+        </div>
+        <div class="trust-panel" id="tp-trusted">
+          <div class="trust-panel-content">
+            <div class="tpc-icon">🛡</div>
+            <div class="tpc-title">Trusted by 500,000+ Trekkers</div>
+            <p class="tpc-text">
+              From solo adventurers to corporate groups and school students —
+              Mountain Vibes has guided trekkers of all backgrounds safely
+              through the Himalayas.
+            </p>
+          </div>
+        </div>
+        <div class="trust-panel" id="tp-video">
+          <div class="video-grid">
+            <div
+              class="vid-card"
+              onclick="showToast('▶ Playing Kedarkantha Summit video...')"
+            >
+              <video
+                src="/The-Mountain-Vibes/new%20vdo%20src/track3.mp4?updatedAt=1778057969738"
+                controls
+                muted
+                loop
+                autoplay
+              ></video>
+              <div class="vid-overlay">
+                <div class="play-btn">▶</div>
+              </div>
+              <div class="vid-info">
+                <div class="vid-title"></div>
+              </div>
+            </div>
+            <div
+              class="vid-card"
+              onclick="showToast('▶ Playing Brahmatal Lake video...')"
+            >
+              <video
+                src="/The-Mountain-Vibes/new%20vdo%20src/WhatsApp%20Video%202026-05-06%20at%202.13.08%20PM.mp4?updatedAt=1778057963984"
+                controls
+                muted
+                loop
+                autoplay
+                alt="Brahmatal"
+              ></video>
+              <div class="vid-overlay">
+                <div class="play-btn">▶</div>
+              </div>
+              <div class="vid-info">
+                <div class="vid-title"></div>
+              </div>
+            </div>
+            <div
+              class="vid-card"
+              onclick="showToast('▶ Playing Kashmir Great Lakes video...')"
+            >
+              <video
+                src="/The-Mountain-Vibes/new%20vdo%20src/trackking.mp4?updatedAt=1778057952872"
+                controls
+                muted
+                loop
+                autoplay
+                alt="KGL"
+              ></video>
+              <div class="vid-overlay">
+                <div class="play-btn">▶</div>
+              </div>
+              <div class="vid-info">
+                <div class="vid-title"></div>
+              </div>
+            </div>
+            <div
+              class="vid-card"
+              onclick="showToast('▶ Playing Roopkund Mystery video...')"
+            >
+              <video
+                src="/The-Mountain-Vibes/new%20vdo%20src/lake1.mp4?updatedAt=1778057965442"
+                controls
+                muted
+                loop
+                autoplay
+              ></video>
+              <div class="vid-overlay">
+                <div class="play-btn">▶</div>
+              </div>
+              <div class="vid-info">
+                <div class="vid-title"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOG / STAY INFORMED -->
+      <section class="blog-section">
+        <h2>Stay Informed</h2>
+        <p>Latest news, trek stories, and videos from the Himalayas</p>
+        <div class="blog-underline"></div>
+        <div class="blog-slider-wrap">
+          <div class="blog-slider">
+            <!-- YouTube Video 1 -->
+            <div class="blog-card reveal">
+              <div class="bc-img">
+                <iframe
+                  src="https://www.youtube.com/embed/7iM7sQ4NIBc"
+                  title="Ali Bedni Bugyal Trek"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="bc-body">
+                <div class="bc-date">Video Story</div>
+                <div class="bc-title">
+                  Ali Bedni Bugyal Trek: Experience the Grandest Meadows of
+                  India
+                </div>
+              </div>
+            </div>
+
+            <!-- YouTube Video 2 -->
+            <div class="blog-card reveal">
+              <div class="bc-img">
+                <iframe
+                  src="https://www.youtube.com/embed/MBfekosOPE8"
+                  title="Brahmatal Trek"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="bc-body">
+                <div class="bc-date">Video Story</div>
+                <div class="bc-title">
+                  Brahmatal Trek: A Spectacular Winter Journey in the Himalayas
+                </div>
+              </div>
+            </div>
+
+            <!-- YouTube Video 3 -->
+            <div class="blog-card reveal">
+              <div class="bc-img">
+                <iframe
+                  src="https://www.youtube.com/embed/obvWXVA3wvg"
+                  title="Kuari Pass Trek"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="bc-body">
+                <div class="bc-date">Video Story</div>
+                <div class="bc-title">
+                  Kuari Pass Trek: Walking Through the Lord Curzon Trail
+                </div>
+              </div>
+            </div>
+
+            <!-- YouTube Video 4 -->
+            <div class="blog-card reveal">
+              <div class="bc-img">
+                <iframe
+                  src="https://www.youtube.com/embed/BDC8plIF7S0"
+                  title="Kedarkantha Trek"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="bc-body">
+                <div class="bc-date">Video Story</div>
+                <div class="bc-title">
+                  Kedarkantha Trek: The Most Popular Winter Trek in India
+                </div>
+              </div>
+            </div>
+
+            <!-- YouTube Video 5 -->
+            <div class="blog-card reveal">
+              <div class="bc-img">
+                <iframe
+                  src="https://www.youtube.com/embed/cUd_thoTYwQ"
+                  title="Valley of Flowers"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="bc-body">
+                <div class="bc-date">Video Story</div>
+                <div class="bc-title">
+                  Valley of Flowers: A Walk Through the UNESCO World Heritage
+                  Site
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq-section" id="faq">
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        <div class="faq-underline"></div>
+
+        <!-- FAQ Tabs -->
+        <div class="faq-tabs">
+          <button
+            class="faq-tab active"
+            onclick="switchFaqTab('beginner', this)"
+          >
+            <div class="ft-icon">🎓</div>
+            <div class="ft-label">Beginner Guide</div>
+          </button>
+          <button class="faq-tab" onclick="switchFaqTab('booking', this)">
+            <div class="ft-icon">📋</div>
+            <div class="ft-label">Booking Guide</div>
+          </button>
+          <button class="faq-tab" onclick="switchFaqTab('family', this)">
+            <div class="ft-icon">👨‍👩‍👧</div>
+            <div class="ft-label">Family Trek</div>
+          </button>
+          <button class="faq-tab" onclick="switchFaqTab('rent', this)">
+            <div class="ft-icon">🎒</div>
+            <div class="ft-label">Rent</div>
+          </button>
+          <button class="faq-tab" onclick="switchFaqTab('women', this)">
+            <div class="ft-icon">🚺</div>
+            <div class="ft-label">Women Trekker</div>
+          </button>
+        </div>
+
+        <div class="faq-list">
+          <!-- Beginner Guide -->
+          <div class="faq-group active" id="faq-beginner">
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                How to choose the right trek? <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Choose based on your fitness level, available time, and
+                experience. Beginners should start with Easy or Easy-Moderate
+                treks like Kedarkantha or Ali Bedni Bugyal.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                Is trekking safe for beginners? <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Yes! Many of our treks are perfect for beginners. Our certified
+                guides ensure your safety and provide all necessary support
+                throughout the journey.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                How should I prepare physically? <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Start with regular cardio exercises (running, cycling, swimming)
+                and strength training 4-6 weeks before your trek. Increasing
+                your stamina and leg strength will make the experience much more
+                enjoyable.
+              </div>
+            </div>
+          </div>
+
+          <!-- Booking Guide -->
+          <div class="faq-group" id="faq-booking">
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                What is the booking and cancellation policy?
+                <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                You can book online through our website. Our cancellation policy
+                varies depending on how close to the trek date you cancel.
+                Please refer to our Terms & Conditions for full details.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                Do I need travel insurance? <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Yes, we strongly recommend travel insurance that covers
+                high-altitude trekking and emergency evacuation. It provides
+                peace of mind and financial protection.
+              </div>
+            </div>
+          </div>
+
+          <!-- Family Trek -->
+          <div class="faq-group" id="faq-family">
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                Are your treks suitable for families and kids?
+                <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Absolutely! We have specially curated family-friendly treks that
+                are safe and enjoyable for children as young as 8 years old.
+                These treks have manageable distances and beautiful campsites.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                What special care do you provide for children?
+                <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Our guides are trained to handle children's needs, and we ensure
+                child-friendly meals and a relaxed pace. We also conduct
+                educational activities about nature and wildlife during the
+                trek.
+              </div>
+            </div>
+          </div>
+
+          <!-- Women Trekker -->
+          <div class="faq-group" id="faq-women">
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                Is it safe for solo women to trek with Mountain Vibes?
+                <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Safety is our top priority. We have a strict zero-tolerance
+                policy for harassment. Our staff is vetted, and we often have
+                female trek leads or coordinators. Solo women often join our
+                fixed groups and feel very safe.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                What are the toilet and menstrual hygiene facilities?
+                <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                We provide private dry toilet tents at all campsites. For
+                menstrual hygiene, we advise carrying zip-lock bags for
+                disposal. Our female staff can provide additional support and
+                guidance if needed.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                Do you provide separate tents for women?
+                <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Yes! We provide separate tent accommodations for women on all
+                our treks, ensuring privacy and comfort. If you're trekking
+                solo, you'll share a tent with another female trekker.
+              </div>
+            </div>
+          </div>
+
+          <!-- Rent & Gear -->
+          <div class="faq-group" id="faq-rent">
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                What essential gear do I need? <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Essential gear includes sturdy trekking boots, a 40-50L
+                backpack, warm layers (down jacket, thermals), waterproof outer
+                layers, and a good quality sleeping bag.
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q" onclick="toggleFaq(this)">
+                Can I rent trekking gear from you? <span class="arr">▾</span>
+              </button>
+              <div class="faq-a">
+                Yes! We provide high-quality trekking gear on rent, including
+                down jackets, trekking poles, gaiters, and backpacks. You can
+                book these in advance or at the base camp for most treks.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-section">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h6>Navigation</h6>
+            <a href="index.html">Home</a>
+            <a href="trek.html">All Treks</a>
+            <a href="camp.html">Summer Camps</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html#faq">FAQs</a>
+          </div>
+          <div class="footer-col">
+            <h6>Legal</h6>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="disclaimer.html">Disclaimer</a>
+          </div>
+          <div class="footer-col">
+            <h6>Contact Info</h6>
+            <div class="cc-row">📍 Roopkund Base Camp, Lohajung</div>
+            <div class="cc-row">📞 +91 9557711495</div>
+            <div class="cc-row">✉ info@themountainvibes.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 The Mountain Vibes. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="img-utils.js"></script>
+    <script src="treks-data.js"></script>
+    <script src="trek-logic.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
