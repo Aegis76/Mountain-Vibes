@@ -11,129 +11,9 @@
     <link href="footer.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <link href="gallery.css" rel="stylesheet" />
-
-    <style>
-        /* Fix for HEIC images — fallback styling */
-        .mosaic-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            background: #1a1a2e;
-        }
-
-        /* Ensure lightbox works */
-        .museum-lightbox {
-            display: none;
-            position: fixed;
-            inset: 0;
-            z-index: 9999;
-            background: rgba(0, 0, 0, 0.92);
-            backdrop-filter: blur(12px);
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 20px;
-        }
-        .museum-lightbox.active {
-            display: flex;
-        }
-        .museum-lightbox .lb-close {
-            position: absolute;
-            top: 24px;
-            right: 32px;
-            font-size: 3rem;
-            color: #fff;
-            cursor: pointer;
-            opacity: 0.7;
-            transition: 0.3s;
-            z-index: 10;
-            font-family: serif;
-            line-height: 1;
-        }
-        .museum-lightbox .lb-close:hover {
-            opacity: 1;
-            transform: rotate(90deg);
-        }
-        .museum-lightbox .lb-content {
-            max-width: 92vw;
-            max-height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .museum-lightbox .lb-content img {
-            max-width: 100%;
-            max-height: 80vh;
-            object-fit: contain;
-            border-radius: 8px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
-        }
-        .museum-lightbox .lb-nav {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 40px;
-            z-index: 10;
-        }
-        .museum-lightbox .lb-nav button {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.25);
-            color: #fff;
-            font-size: 2rem;
-            padding: 10px 28px;
-            border-radius: 40px;
-            cursor: pointer;
-            transition: 0.3s;
-            backdrop-filter: blur(4px);
-        }
-        .museum-lightbox .lb-nav button:hover {
-            background: rgba(255, 215, 0, 0.25);
-            border-color: #ffd700;
-            transform: scale(1.05);
-        }
-        .museum-lightbox .lb-counter {
-            position: absolute;
-            bottom: 120px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: rgba(255, 255, 255, 0.5);
-            font-family: 'Inter', sans-serif;
-            font-size: 0.9rem;
-            letter-spacing: 2px;
-            z-index: 10;
-        }
-
-        /* Responsive touch-ups */
-        @media (max-width: 640px) {
-            .museum-lightbox .lb-close {
-                top: 12px;
-                right: 20px;
-                font-size: 2.2rem;
-            }
-            .museum-lightbox .lb-nav {
-                gap: 20px;
-                bottom: 24px;
-            }
-            .museum-lightbox .lb-nav button {
-                font-size: 1.4rem;
-                padding: 6px 18px;
-            }
-            .museum-lightbox .lb-content {
-                max-width: 98vw;
-                max-height: 70vh;
-            }
-            .museum-lightbox .lb-content img {
-                max-height: 70vh;
-            }
-        }
-    </style>
 </head>
 
 <body>
-
     <!-- NAVBAR -->
     <nav>
         <a href="index.html" class="logo">
@@ -145,7 +25,7 @@
         </a>
         <ul class="nav-right">
             <div class="nav-search">
-                <input type="text" placeholder="Search treks..." />
+                <input type="text" placeholder="Search treks..." id="searchInput" />
             </div>
             <li><a href="trek.html" class="nb">All Treks</a></li>
             <li><a href="camp.html" class="nb">Summer Camps</a></li>
@@ -153,11 +33,10 @@
             <li><a href="gallery.html" class="nb active">Gallery</a></li>
             <li><a href="contact.html" class="nb">Contact Us</a></li>
         </ul>
-        <button class="nb menu" type="button">☰</button>
+        <button class="nb menu" type="button" id="menuToggle">☰</button>
     </nav>
 
     <div class="page" id="page-gallery">
-
         <!-- GALLERY HERO -->
         <div class="gallery-hero">
             <div class="hero-image-wrap">
@@ -166,96 +45,75 @@
             <div class="hero-text-container">
                 <h1 class="hero-title">Visual <em>Journeys</em></h1>
                 <div class="hero-line"></div>
-                <p class="hero-subtitle">
-                    A curated collection of breathtaking moments captured across the majestic Himalayas.
-                </p>
+                <p class="hero-subtitle">A curated collection of breathtaking moments captured across the majestic Himalayas.</p>
             </div>
         </div>
 
         <!-- GALLERY SECTION -->
         <section class="editorial-gallery">
-
-            <!-- MOSAIC GRID 1 -->
             <div class="mosaic-grid">
-
-                <div class="mosaic-item anchor reveal" onclick="openLB2('The_Mountains_All_treks_imag/1roopkund2.jpg?updatedAt=1779290806474')">
-                    <img src="The_Mountains_All_treks_imag/1roopkund2.jpg" alt="Roopkund" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80'" />
+                <!-- Cluster 1 -->
+                <div class="mosaic-item anchor reveal" data-img="The_Mountains_All_treks_imag/1roopkund2.jpg?updatedAt=1779290806474" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/1roopkund2.jpg" alt="Roopkund" />
                     <div class="mosaic-caption">Roopkund Lake, 16k ft</div>
                 </div>
-
-                <div class="mosaic-item wide reveal" onclick="openLB2('https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920')">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920" alt="Kedarkantha" loading="lazy" />
+                <div class="mosaic-item wide reveal" data-img="https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920" onclick="openLB2(this)">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920" alt="Kedarkantha" />
                     <div class="mosaic-caption">The Winter Peak</div>
                 </div>
-
-                <div class="mosaic-item small reveal" onclick="openLB2('The_Mountains_All_treks_imag/3%20brahmataal%204%20.jpg')">
-                    <img src="The_Mountains_All_treks_imag/3%20brahmataal%204%20.jpg" alt="Brahmatal" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=80'" />
+                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" alt="Brahmatal" />
                     <div class="mosaic-caption">Frozen Trails</div>
                 </div>
-
-                <div class="mosaic-item small reveal" onclick="openLB2('The_Mountains_All_treks_imag/(2)Ali%20Bedani%20Bugyal%205.HEIC')">
-                    <img src="The_Mountains_All_treks_imag/(2)Ali%20Bedani%20Bugyal%205.HEIC" alt="Ali" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80'" />
+                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.HEIC" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.HEIC" alt="Ali" />
                     <div class="mosaic-caption">High Altitudes</div>
                 </div>
-
             </div>
 
-            <!-- QUOTE DIVIDER -->
             <div class="editorial-intermission reveal">
                 <div class="quote-wrap">
                     <span class="gold-line"></span>
-                    <blockquote class="editorial-quote">
-                        "The air at 14,000ft isn't just thin; it's pure. Every breath is a reminder of where we truly belong."
-                    </blockquote>
+                    <blockquote class="editorial-quote">"The air at 14,000ft isn't just thin; it's pure. Every breath is a reminder of where we truly belong."</blockquote>
                     <span class="gold-line"></span>
                 </div>
             </div>
 
-            <!-- MOSAIC GRID 2 -->
             <div class="mosaic-grid">
-
-                <div class="mosaic-item tall reveal" onclick="openLB2('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80')">
-                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80" alt="Vista" loading="lazy" />
+                <!-- Cluster 2 -->
+                <div class="mosaic-item tall reveal" data-img="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80" onclick="openLB2(this)">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80" alt="Vista" />
                     <div class="mosaic-caption">Eternal Vistas</div>
                 </div>
-
-                <div class="mosaic-item wide reveal" onclick="openLB2('https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920')">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920" alt="Snow Peak" loading="lazy" />
+                <div class="mosaic-item wide reveal" data-img="https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920" onclick="openLB2(this)">
+                    <img src="https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920" alt="Snow Peak" />
                     <div class="mosaic-caption">Pure White Silences</div>
                 </div>
-
-                <div class="mosaic-item small reveal" onclick="openLB2('The_Mountains_All_treks_imag/3Brahmataal%206.HEIC')">
-                    <img src="The_Mountains_All_treks_imag/3Brahmataal%206.HEIC" alt="Trekking Path" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80'" />
+                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/3Brahmataal 6.HEIC" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/3Brahmataal 6.HEIC" alt="Trekking Path" />
                     <div class="mosaic-caption">The Path Unknown</div>
                 </div>
-
-                <div class="mosaic-item small reveal" onclick="openLB2('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80')">
-                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="High Altitude" loading="lazy" />
+                <div class="mosaic-item small reveal" data-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" onclick="openLB2(this)">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="High Altitude" />
                     <div class="mosaic-caption">Above The Clouds</div>
                 </div>
-
-                <div class="mosaic-item wide reveal" onclick="openLB2('The_Mountains_All_treks_imag/8%20Kashmir%20Great%20Lake%20Trek%204.webp')">
-                    <img src="The_Mountains_All_treks_imag/8%20Kashmir%20Great%20Lake%20Trek%204.webp" alt="Mist Mountains" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1470071459604-7b5ec3ce9a2a?w=800&q=80'" />
+                <div class="mosaic-item wide reveal" data-img="The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp" alt="Mist Mountains" />
                     <div class="mosaic-caption">Mist and Majesty</div>
                 </div>
-
-                <div class="mosaic-item tall reveal" onclick="openLB2('The_Mountains_All_treks_imag/3%20brahmataal%204%20.jpg')">
-                    <img src="The_Mountains_All_treks_imag/3%20brahmataal%204%20.jpg" alt="Winter Trek" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=80'" />
+                <div class="mosaic-item tall reveal" data-img="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" alt="Winter Trek" />
                     <div class="mosaic-caption">Winter's Embrace</div>
                 </div>
-
-                <div class="mosaic-item small reveal" onclick="openLB2('The_Mountains_All_treks_imag/5%20Pangarchulla%20Trek%204.jpg')">
-                    <img src="The_Mountains_All_treks_imag/5%20Pangarchulla%20Trek%204.jpg" alt="Summit View" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80'" />
+                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg?updatedAt=1777906577035" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg?updatedAt=1777906577035" alt="Summit View" />
                     <div class="mosaic-caption">The Final Step</div>
                 </div>
-
-                <div class="mosaic-item small reveal" onclick="openLB2('The_Mountains_All_treks_imag/12%20Tarasar%20Marsar%20Trek%206.webp')">
-                    <img src="The_Mountains_All_treks_imag/12%20Tarasar%20Marsar%20Trek%206.webp" alt="Lake reflection" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80'" />
+                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp?updatedAt=1777906554057" onclick="openLB2(this)">
+                    <img src="The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp?updatedAt=1777906554057" alt="Lake reflection" />
                     <div class="mosaic-caption">Still Waters</div>
                 </div>
-
             </div>
-
         </section>
 
         <!-- FOOTER -->
@@ -286,156 +144,315 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                © 2026 The Mountain Vibes. All rights reserved.
-            </div>
+            <div class="footer-bottom">© 2026 The Mountain Vibes. All rights reserved.</div>
         </footer>
-
     </div>
 
     <!-- MUSEUM LIGHTBOX -->
     <div id="lb" class="museum-lightbox">
-        <div class="lb-close" onclick="closeLB()">&times;</div>
+        <div class="lb-close" id="lbClose">&times;</div>
         <div class="lb-content">
             <img id="lbImg" src="" alt="Fullscreen view" />
         </div>
-        <div class="lb-counter" id="lbCounter">1 / 1</div>
         <div class="lb-nav">
-            <button class="lb-prev" onclick="prevImage()">←</button>
-            <button class="lb-next" onclick="nextImage()">→</button>
+            <button class="lb-prev" id="lbPrev">←</button>
+            <button class="lb-next" id="lbNext">→</button>
         </div>
     </div>
 
     <script>
-        // ============================================================
-        //  GALLERY LIGHTBOX — fully self-contained
-        // ============================================================
+        // ─── LIGHTBOX STATE ───
+        let galleryItems = [];
+        let currentIndex = 0;
+        const lb = document.getElementById('lb');
+        const lbImg = document.getElementById('lbImg');
+        const lbClose = document.getElementById('lbClose');
+        const lbPrev = document.getElementById('lbPrev');
+        const lbNext = document.getElementById('lbNext');
 
-        (function() {
-            'use strict';
+        // ─── COLLECT ALL GALLERY ITEMS ───
+        function collectGalleryItems() {
+            const items = document.querySelectorAll('.mosaic-item[data-img]');
+            galleryItems = [];
+            items.forEach(el => {
+                const src = el.getAttribute('data-img');
+                if (src) galleryItems.push(src);
+            });
+        }
 
-            // ----- collect all gallery image URLs from .mosaic-item onclick -----
-            function getAllGalleryImages() {
+        // ─── OPEN LIGHTBOX ───
+        function openLB2(element) {
+            const src = element.getAttribute('data-img');
+            if (!src) return;
+            // find index
+            const idx = galleryItems.indexOf(src);
+            if (idx !== -1) currentIndex = idx;
+            else {
+                // if not found, push it
+                galleryItems.push(src);
+                currentIndex = galleryItems.length - 1;
+            }
+            showImage(currentIndex);
+            lb.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // ─── SHOW IMAGE BY INDEX ───
+        function showImage(index) {
+            if (!galleryItems.length) return;
+            if (index < 0) index = galleryItems.length - 1;
+            if (index >= galleryItems.length) index = 0;
+            currentIndex = index;
+            const src = galleryItems[currentIndex];
+            lbImg.src = src;
+            lbImg.alt = 'Gallery image ' + (currentIndex + 1);
+            // update nav button visibility
+            lbPrev.style.display = galleryItems.length > 1 ? 'flex' : 'none';
+            lbNext.style.display = galleryItems.length > 1 ? 'flex' : 'none';
+        }
+
+        // ─── CLOSE LIGHTBOX ───
+        function closeLB() {
+            lb.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // ─── NAVIGATION ───
+        function prevImage() {
+            showImage(currentIndex - 1);
+        }
+
+        function nextImage() {
+            showImage(currentIndex + 1);
+        }
+
+        // ─── KEYBOARD SUPPORT ───
+        document.addEventListener('keydown', function(e) {
+            if (!lb.classList.contains('active')) return;
+            if (e.key === 'Escape') closeLB();
+            if (e.key === 'ArrowLeft') prevImage();
+            if (e.key === 'ArrowRight') nextImage();
+        });
+
+        // ─── CLICK OUTSIDE TO CLOSE ───
+        lb.addEventListener('click', function(e) {
+            if (e.target === lb || e.target === lbImg) closeLB();
+        });
+
+        // ─── EVENT BINDINGS ───
+        lbClose.addEventListener('click', closeLB);
+        lbPrev.addEventListener('click', function(e) { e.stopPropagation();
+            prevImage(); });
+        lbNext.addEventListener('click', function(e) { e.stopPropagation();
+            nextImage(); });
+
+        // ─── INIT ───
+        collectGalleryItems();
+
+        // If any item is clicked via the old inline onclick with string arg,
+        // we need to also support that. But we've changed onclick to pass 'this'.
+        // For backward compatibility, also handle direct string calls.
+        // We'll keep both: the inline onclick="openLB2(this)" is used now.
+
+        // ─── HAMBURGER MENU ───
+        const menuToggle = document.getElementById('menuToggle');
+        const navRight = document.querySelector('.nav-right');
+        if (menuToggle && navRight) {
+            menuToggle.addEventListener('click', function() {
+                navRight.classList.toggle('open');
+            });
+        }
+
+        // ─── SEARCH (filter treks – just a demo) ───
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            searchInput.addEventListener('input', function() {
+                const query = this.value.toLowerCase().trim();
                 const items = document.querySelectorAll('.mosaic-item');
-                const urls = [];
-                items.forEach(el => {
-                    const attr = el.getAttribute('onclick');
-                    if (!attr) return;
-                    // extract the URL from openLB2('...')
-                    const match = attr.match(/openLB2\s*\(\s*['"]([^'"]+)['"]\s*\)/);
-                    if (match && match[1]) {
-                        urls.push(match[1]);
+                items.forEach(item => {
+                    const caption = item.querySelector('.mosaic-caption');
+                    if (caption) {
+                        const text = caption.textContent.toLowerCase();
+                        if (query === '' || text.includes(query)) {
+                            item.style.display = '';
+                        } else {
+                            item.style.display = 'none';
+                        }
                     }
                 });
-                return urls;
-            }
-
-            let imageList = [];
-            let currentIndex = 0;
-            let lb = document.getElementById('lb');
-            let lbImg = document.getElementById('lbImg');
-            let lbCounter = document.getElementById('lbCounter');
-
-            // ----- open lightbox at given index -----
-            window.openLB2 = function(url) {
-                // rebuild image list on each open (in case DOM changed)
-                imageList = getAllGalleryImages();
-                // find index of this url (or fallback to 0)
-                let idx = imageList.indexOf(url);
-                if (idx === -1) {
-                    // if not found, prepend it
-                    imageList.unshift(url);
-                    idx = 0;
-                }
-                currentIndex = idx;
-                showImage(currentIndex);
-                lb.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            };
-
-            // ----- close -----
-            window.closeLB = function() {
-                lb.classList.remove('active');
-                document.body.style.overflow = '';
-            };
-
-            // ----- show image at index -----
-            function showImage(index) {
-                if (!imageList.length) return;
-                if (index < 0) index = imageList.length - 1;
-                if (index >= imageList.length) index = 0;
-                currentIndex = index;
-                const url = imageList[currentIndex];
-                lbImg.src = url;
-                lbImg.alt = 'Gallery image ' + (currentIndex + 1);
-                if (lbCounter) {
-                    lbCounter.textContent = (currentIndex + 1) + ' / ' + imageList.length;
-                }
-            }
-
-            // ----- navigation -----
-            window.prevImage = function() {
-                if (!imageList.length) return;
-                showImage(currentIndex - 1);
-            };
-            window.nextImage = function() {
-                if (!imageList.length) return;
-                showImage(currentIndex + 1);
-            };
-
-            // ----- keyboard support -----
-            document.addEventListener('keydown', function(e) {
-                if (!lb.classList.contains('active')) return;
-                if (e.key === 'Escape') { closeLB(); return; }
-                if (e.key === 'ArrowLeft') { e.preventDefault();
-                    prevImage(); return; }
-                if (e.key === 'ArrowRight') { e.preventDefault();
-                    nextImage(); return; }
             });
+        }
 
-            // ----- click on overlay to close -----
-            lb.addEventListener('click', function(e) {
-                if (e.target === lb) closeLB();
-            });
-
-            // ----- preload images for smoother navigation -----
-            function preloadAdjacent() {
-                if (!imageList.length) return;
-                const prevIdx = (currentIndex - 1 + imageList.length) % imageList.length;
-                const nextIdx = (currentIndex + 1) % imageList.length;
-                [prevIdx, nextIdx].forEach(idx => {
-                    const img = new Image();
-                    img.src = imageList[idx];
-                });
-            }
-
-            // override showImage to also preload
-            const origShow = showImage;
-            showImage = function(index) {
-                origShow(index);
-                setTimeout(preloadAdjacent, 100);
-            };
-
-            // ----- handle img load error fallback -----
-            // (already handled via onerror attributes on thumbnails)
-            // for the lightbox image, add a fallback
-            lbImg.addEventListener('error', function() {
-                if (this.src && !this.src.includes('unsplash')) {
-                    this.src = 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=80';
+        // ─── SCROLL REVEAL (simple) ───
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.reveal');
+            const windowHeight = window.innerHeight;
+            reveals.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < windowHeight - 80) {
+                    el.classList.add('visible');
                 }
             });
+        }
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', revealOnScroll);
 
-            // ----- if any onclick has a trailing comma or broken syntax, fix them -----
-            // (we already cleaned up the HTML, but just in case)
-            console.log('📸 Gallery lightbox ready — ' + getAllGalleryImages().length + ' images found.');
+        // ─── FALLBACK: If any image fails to load, show a placeholder? ───
+        // We'll just let it be – the browser will show broken image icon.
+        // But we can add a small error handler.
+        document.querySelectorAll('.mosaic-item img').forEach(img => {
+            img.addEventListener('error', function() {
+                // silently fail – keep layout
+                this.style.opacity = '0.5';
+            });
+        });
 
-        })();
+        console.log('Gallery lightbox ready — ' + galleryItems.length + ' images loaded.');
     </script>
 
-    <!-- external scripts (if they exist, they'll enhance but not break) -->
-    <script src="config.js"></script>
-    <script src="img-utils.js"></script>
-    <script src="script.js"></script>
+    <style>
+        /* ─── LIGHTBOX STYLES (inlined for reliability) ─── */
+        .museum-lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: rgba(0, 0, 0, 0.92);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            backdrop-filter: blur(6px);
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+        .museum-lightbox.active {
+            display: flex;
+            opacity: 1;
+        }
+        .museum-lightbox .lb-close {
+            position: absolute;
+            top: 24px;
+            right: 32px;
+            font-size: 3rem;
+            color: #fff;
+            cursor: pointer;
+            z-index: 10;
+            font-weight: 300;
+            line-height: 1;
+            transition: transform 0.2s;
+        }
+        .museum-lightbox .lb-close:hover {
+            transform: scale(1.2);
+        }
+        .museum-lightbox .lb-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            max-width: 1200px;
+            max-height: 90vh;
+        }
+        .museum-lightbox .lb-content img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 4px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            user-select: none;
+        }
+        .museum-lightbox .lb-nav {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            pointer-events: none;
+            padding: 0 20px;
+        }
+        .museum-lightbox .lb-nav button {
+            pointer-events: auto;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-size: 2.2rem;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.25s, transform 0.2s;
+            backdrop-filter: blur(4px);
+        }
+        .museum-lightbox .lb-nav button:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: scale(1.05);
+        }
+        .museum-lightbox .lb-nav button:active {
+            transform: scale(0.92);
+        }
 
+        /* ─── MOBILE ADJUSTMENTS ─── */
+        @media (max-width: 640px) {
+            .museum-lightbox .lb-nav button {
+                width: 44px;
+                height: 44px;
+                font-size: 1.5rem;
+            }
+            .museum-lightbox .lb-close {
+                top: 16px;
+                right: 20px;
+                font-size: 2.4rem;
+            }
+        }
+
+        /* ─── REVEAL ANIMATION ─── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ─── SEARCH / NAV TOGGLE (mobile) ─── */
+        @media (max-width: 768px) {
+            .nav-right.open {
+                display: flex !important;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #1a1a2e;
+                padding: 20px;
+                gap: 12px;
+                border-top: 1px solid rgba(255, 255, 255, 0.08);
+            }
+            .nav-right.open .nav-search {
+                width: 100%;
+            }
+            .nav-right.open li {
+                width: 100%;
+            }
+            .nav-right.open li a {
+                display: block;
+                padding: 10px 0;
+                width: 100%;
+            }
+        }
+    </style>
+
+    <!-- External scripts (if they exist, they'll run alongside) -->
+    <script src="config.js">
+    </script>
+    <script src="img-utils.js">
+    </script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
