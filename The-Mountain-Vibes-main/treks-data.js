@@ -133,11 +133,11 @@ const TREKS = {
     ],
     photos: [
       "The-Mountain-Vibes-main/images/20251101_162014.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund3.jpg?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund5.jpg?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1roopkund2.jpg?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/images/20251102_072937.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund3.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund5.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1roopkund2.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg",
+      "The-Mountain-Vibes-main/images/20251102_072937.jpg",
     ],
     reviews: [
       {
