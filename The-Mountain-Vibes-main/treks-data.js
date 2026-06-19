@@ -1690,7 +1690,7 @@ const TREKS = {
   tarsar: {
     num: 12,
     title: "Tarsar Marsar Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/treks/(12)Tarasar%20Marsar%20Trek.jpg",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/12%20Tarasar%20Marsar%20Trek%201.jpg?raw=true",
     region: "Kashmir",
     diff: "Moderate",
     season: "July–September",
@@ -1843,7 +1843,7 @@ const TREKS = {
   },
   kailash: {
     title: "Kailash Mansarovar Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(13)Kailash%20Mansarovar%20Yatra.jpg?updatedAt=1779290765015",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/13%20Kailash%20Mansarovar%20Yatra%202.webp?raw=true",
     region: "Tibet Autonomous Region",
     diff: "Difficult",
     season: "May to September",
@@ -2043,7 +2043,7 @@ const TREKS = {
   },
   "char-dham": {
     title: "Char Dham Yatra",
-    img: "/The-Mountain-Vibes/photos/Treks/treks/(16)%20Char%20Dham.jpg",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/16%20Char%20Dham%201.jpg?raw=true",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "May to June & September to October",
@@ -2228,7 +2228,7 @@ const TREKS = {
   },
   "panch-kedar": {
     title: "Panch Kedar Yatra",
-    img: "/The-Mountain-Vibes/photos/Treks/treks/(17)Panch%20Kedar.avif",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/17%20Panch%20Kedar%202.jpg?raw=true",
     region: "Uttarakhand",
     diff: "Moderate to Difficult",
     season: "May to June & September to October",
@@ -2453,7 +2453,7 @@ const TREKS = {
   },
   annapurna: {
     title: "Annapurna Circuit Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(15)%20Annapurna%20Circuit.webp?updatedAt=1779290765222",
+    img: "https://github.com/Aegis76/Mountain-Vibes/blob/main/The-Mountain-Vibes-main/The_Mountains_All_treks_imag/15%20Annapurna%20Circuit%20%201.webp?raw=true",
     region: "Nepal",
     diff: "Moderate to Difficult",
     season: "March to May & September to November",
@@ -2646,7 +2646,7 @@ const TREKS = {
   },
   vof: {
     title: "Valley of Flowers",
-    img: "/The-Mountain-Vibes/Valley-of-Flowers-with-Badrinath-Tour.jpg",
+    img: "https://images.unsplash.com/photo-1600707656536-c5ace2c14c29?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "July to September",
