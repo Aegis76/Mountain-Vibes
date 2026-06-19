@@ -130,12 +130,12 @@ const TREKS = {
       "🌧 Rain cover and a 50–60L backpack",
     ],
     photos: [
-      "The-Mountain-Vibes-main/images/20251101_162014.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund3.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund5.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1roopkund2.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg",
-      "The-Mountain-Vibes-main/images/20251102_072937.jpg",
+      "images/20251101_162014.jpg",
+      "The_Mountains_All_treks_imag/1Roopkund3.jpg",
+      "The_Mountains_All_treks_imag/1Roopkund5.jpg",
+      "The_Mountains_All_treks_imag/1roopkund2.jpg",
+      "The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg",
+      "images/20251102_072937.jpg",
     ],
     reviews: [
       {
