@@ -2,7 +2,7 @@
 const TREKS = {
   ebc: {
     title: "Everest Base Camp Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(14)Everest%20Base%20Camp%20Trek.jpg?updatedAt=1779290777946",
+    img: "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 6.webp?updatedAt=1779290777946",
     region: "Khumbu, Nepal",
     diff: "Moderate to Difficult",
     season: "March to May & September to November",
@@ -190,10 +190,10 @@ const TREKS = {
     ],
     photos: [
       "https://images.unsplash.com/photo-1544735716-ea9ef790f501?w=600&q=80",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=600&q=80",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 4.jpg",
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 2.webp",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 1.jpg",
       "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
     ],
     reviews: [
@@ -515,12 +515,12 @@ const TREKS = {
       "💊 Personal medicines",
     ],
     photos: [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 1.webp",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 2.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 3.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 5.webp",
       "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 6.webp",
     ],
     reviews: [
       {
@@ -561,7 +561,7 @@ const TREKS = {
   },
   roopkund: {
     title: "Roopkund Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(1)Roopkund%20Terk.jpg?updatedAt=1779290806474",
+    img: "The_Mountains_All_treks_imag/1Roopkund4.webp?updatedAt=1779290806474",
     region: "Uttarakhand",
     diff: "Moderate-Difficult",
     season: "May – Jun, Sep – Oct",
@@ -687,12 +687,12 @@ const TREKS = {
       "🌧 Rain cover and backpack",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(1)Roopkund%20Terk.jpg?updatedAt=1779290806474",
-      "https://lh3.googleusercontent.com/pw/AP1GczPpsU4GQQ9emo7Hj5Z0pbagFzNIZ-F8p1jgyIzgjl4SLonpKHAs1oAFf16Px8UxCsIvQkVpPlP5RGD3jB0sK05W4pEz-0gZnG0tujqjRIsDItrreW8=w1920",
-      "https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920",
-      "https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920",
-      "https://lh3.googleusercontent.com/pw/AP1GczMwVv1-ZFApfozBNv_g3ok4AU9EuLCzdaD7qJxcy3kdI_dY9EmNbo1xvIrCV26t3t0ef8kl7lXNRrp_8AcHoinIPjSiR3qT3rAAp83bfy5MoeRgiKw=w1920",
-      "https://lh3.googleusercontent.com/pw/AP1GczM2oRc9A_KzArFl_cPcuWvMsilfKinxp59Xk7rpb7OLD6Dr4uarFN8xzAIb1GJRBqsmBLoayB0UXph7JSRp1pnI-aKtijGyNBEnAtgOIZ4oe_FH4Gw=w1920",
+      "The-Mountain-Vibes-main/images/20251101_162014.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund3.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund5.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1roopkund2.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg",
+      "The-Mountain-Vibes-main/images/20251102_072937.jpg",
     ],
     reviews: [
       {
@@ -725,7 +725,7 @@ const TREKS = {
   },
   ali: {
     title: "Ali Bedni Bugyal Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(2)Ali%20Bedani%20Bugyal.HEIC?updatedAt=1779290808960",
+    img: "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 2.jpg?updatedAt=1779290808960",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "April to June & September to November",
@@ -837,12 +837,12 @@ const TREKS = {
       "💊 Personal medicines and first aid kit",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(2)Ali%20Bedani%20Bugyal.HEIC?updatedAt=1779290808960",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.jpg",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal6.jpg",
+      "images/20251028_093314.jpg",
+      "images/20251028_080632.jpg",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 1.jpg",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 3.jpg",
     ],
     reviews: [
       {
@@ -875,7 +875,7 @@ const TREKS = {
   },
   brahmatal: {
     title: "Brahmatal Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(3)Brahmatal%20Trek.jpg?updatedAt=1779290762548",
+    img: "images/IMG_6883.jpg?updatedAt=1779290762548",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "December to March",
@@ -985,12 +985,12 @@ const TREKS = {
       "💊 Personal medicines",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(3)Brahmatal%20Trek.jpg?updatedAt=1779290762548",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "images/IMG_7072.jpg?updatedAt=1779290762548",
+      "images/IMG_7398.jpg",
+      "The_Mountains_All_treks_imag/3 brahmataal 5.jpg",
+      "The_Mountains_All_treks_imag/3 brahmataal 3.jpg",
+      "The_Mountains_All_treks_imag/3 brahmataal 2.jpg",
+      "The_Mountains_All_treks_imag/3 brahmataal  1.webp",
     ],
     reviews: [
       {
