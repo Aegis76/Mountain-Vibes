@@ -190,10 +190,10 @@ const TREKS = {
     ],
     photos: [
       "https://images.unsplash.com/photo-1544735716-ea9ef790f501?w=600&q=80",
-      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 4.jpg",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 4.jpg?updatedAt=1779290777946",
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 2.webp",
-      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 1.jpg",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 2.webp?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 1.jpg?updatedAt=1779290777946",
       "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
     ],
     reviews: [
@@ -515,12 +515,12 @@ const TREKS = {
       "💊 Personal medicines",
     ],
     photos: [
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 1.webp",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 2.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 3.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 5.webp",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 1.webp?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 2.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 3.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 5.webp?updatedAt=1779290777946",
       "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 6.webp",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 6.webp?updatedAt=1779290777946",
     ],
     reviews: [
       {
@@ -688,11 +688,11 @@ const TREKS = {
     ],
     photos: [
       "The-Mountain-Vibes-main/images/20251101_162014.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund3.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund5.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1roopkund2.jpg",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg",
-      "The-Mountain-Vibes-main/images/20251102_072937.jpg",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund3.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1Roopkund5.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/1roopkund2.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg?updatedAt=1779290777946",
+      "The-Mountain-Vibes-main/images/20251102_072937.jpg?updatedAt=1779290777946",
     ],
     reviews: [
       {
@@ -837,12 +837,12 @@ const TREKS = {
       "💊 Personal medicines and first aid kit",
     ],
     photos: [
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.jpg",
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal6.jpg",
-      "images/20251028_093314.jpg",
-      "images/20251028_080632.jpg",
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 1.jpg",
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 3.jpg",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal6.jpg?updatedAt=1779290777946",
+      "images/20251028_093314.jpg?updatedAt=1779290777946",
+      "images/20251028_080632.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 1.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 3.jpg?updatedAt=1779290777946",
     ],
     reviews: [
       {
@@ -987,10 +987,10 @@ const TREKS = {
     photos: [
       "images/IMG_7072.jpg?updatedAt=1779290762548",
       "images/IMG_7398.jpg",
-      "The_Mountains_All_treks_imag/3 brahmataal 5.jpg",
-      "The_Mountains_All_treks_imag/3 brahmataal 3.jpg",
-      "The_Mountains_All_treks_imag/3 brahmataal 2.jpg",
-      "The_Mountains_All_treks_imag/3 brahmataal  1.webp",
+      "The_Mountains_All_treks_imag/3 brahmataal 5.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/3 brahmataal 3.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/3 brahmataal 2.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/3 brahmataal  1.webp?updatedAt=1779290777946",
     ],
     reviews: [
       {
