@@ -1,529 +1,291 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery | The Mountain Vibes</title>
-    <meta name="description" content="Visual journeys through the Himalayas. A collection of breathtaking moments captured by our trekkers." />
+    <meta
+      name="description"
+      content="Visual journeys through the Himalayas. A collection of breathtaking moments captured by our trekkers."
+    />
     <link rel="icon" type="image/png" href="logo.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="navbar.css" rel="stylesheet" />
     <link href="footer.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <link href="gallery.css" rel="stylesheet" />
+  </head>
 
-    <style>
-        /* ===== LIGHTBOX OVERRIDES ===== */
-        .museum-lightbox {
-            position: fixed;
-            inset: 0;
-            z-index: 9999;
-            background: rgba(0, 0, 0, 0.92);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.35s ease;
-            backdrop-filter: blur(6px);
-        }
-        .museum-lightbox.is-open {
-            display: flex;
-            opacity: 1;
-        }
-        .lb-content {
-            position: relative;
-            max-width: 90vw;
-            max-height: 85vh;
-            overflow: hidden;
-            border-radius: 12px;
-            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
-        }
-        .lb-content img {
-            display: block;
-            width: auto;
-            max-width: 90vw;
-            max-height: 85vh;
-            object-fit: contain;
-            border-radius: 12px;
-        }
-        .lb-close {
-            position: fixed;
-            top: 28px;
-            right: 40px;
-            font-size: 44px;
-            color: #fff;
-            cursor: pointer;
-            z-index: 10001;
-            font-weight: 300;
-            line-height: 1;
-            transition: transform 0.25s ease, color 0.25s ease;
-            background: none;
-            border: none;
-            padding: 0;
-        }
-        .lb-close:hover {
-            transform: rotate(90deg);
-            color: #f5c842;
-        }
-        .lb-nav {
-            position: fixed;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 28px;
-            z-index: 10001;
-        }
-        .lb-nav button {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: #fff;
-            width: 52px;
-            height: 52px;
-            border-radius: 50%;
-            font-size: 22px;
-            cursor: pointer;
-            transition: background 0.3s ease, transform 0.25s ease;
-            backdrop-filter: blur(4px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0;
-        }
-        .lb-nav button:hover {
-            background: rgba(245, 200, 66, 0.25);
-            border-color: #f5c842;
-            transform: scale(1.08);
-        }
-        .lb-counter {
-            position: fixed;
-            bottom: 108px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-            letter-spacing: 2px;
-            z-index: 10001;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 6px 18px;
-            border-radius: 30px;
-            backdrop-filter: blur(4px);
-        }
-
-        /* ===== REVEAL ANIMATION ===== */
-        .reveal {
-            opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
-        }
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* ===== MOSAIC ITEM CURSOR ===== */
-        .mosaic-item {
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            border-radius: 12px;
-        }
-        .mosaic-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-        }
-        .mosaic-item:hover img {
-            transform: scale(1.04);
-        }
-        .mosaic-caption {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 20px 18px 14px;
-            background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-            color: #fff;
-            font-family: 'Inter', sans-serif;
-            font-size: 14px;
-            font-weight: 500;
-            letter-spacing: 0.3px;
-            opacity: 0;
-            transition: opacity 0.4s ease;
-            pointer-events: none;
-            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-        }
-        .mosaic-item:hover .mosaic-caption {
-            opacity: 1;
-        }
-
-        /* ===== RESPONSIVE TWEAKS ===== */
-        @media (max-width: 768px) {
-            .lb-content {
-                max-width: 95vw;
-                max-height: 75vh;
-            }
-            .lb-content img {
-                max-width: 95vw;
-                max-height: 75vh;
-            }
-            .lb-close {
-                top: 16px;
-                right: 20px;
-                font-size: 34px;
-            }
-            .lb-nav {
-                bottom: 28px;
-                gap: 18px;
-            }
-            .lb-nav button {
-                width: 44px;
-                height: 44px;
-                font-size: 18px;
-            }
-            .lb-counter {
-                bottom: 82px;
-                font-size: 12px;
-                padding: 4px 14px;
-            }
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <!-- NAVBAR -->
     <nav>
-        <a href="index.html" class="logo">
-            <img src="images/LogoImg.png" alt="Logo" class="logo-icon" />
-            <div class="logo-txt">
-                <strong>The Mountain<span style="color: rgb(255, 255, 0); font-size: 1em">Vibes</span></strong>
-                <span>Safest &amp; Trusted Adventure Provider</span>
-            </div>
-        </a>
-        <ul class="nav-right">
-            <div class="nav-search">
-                <input type="text" placeholder="Search treks..." />
-            </div>
-            <li><a href="trek.html" class="nb">All Treks</a></li>
-            <li><a href="camp.html" class="nb">Summer Camps</a></li>
-            <li><a href="about.html" class="nb">About Us</a></li>
-            <li><a href="gallery.html" class="nb active">Gallery</a></li>
-            <li><a href="contact.html" class="nb">Contact Us</a></li>
-        </ul>
-        <button class="nb menu" type="button">☰</button>
+      <a href="index.html" class="logo">
+        <img src="images/LogoImg.png" alt="Logo" class="logo-icon" />
+        <div class="logo-txt">
+          <strong
+            >The Mountain<span style="color: rgb(255, 255, 0); font-size: 1em"
+              >Vibes</span
+            ></strong
+          >
+          <span>Safest &amp; Trusted Adventure Provider</span>
+        </div>
+      </a>
+      <ul class="nav-right">
+        <div class="nav-search">
+          <input type="text" placeholder="Search treks..." />
+        </div>
+        <li><a href="trek.html" class="nb">All Treks</a></li>
+        <li><a href="camp.html" class="nb">Summer Camps</a></li>
+        <li><a href="about.html" class="nb">About Us</a></li>
+        <li><a href="gallery.html" class="nb active">Gallery</a></li>
+        <li><a href="contact.html" class="nb">Contact Us</a></li>
+      </ul>
+      <button class="nb menu" type="button">☰</button>
     </nav>
 
     <div class="page" id="page-gallery">
-        <!-- GALLERY HERO -->
-        <div class="gallery-hero">
-            <div class="hero-image-wrap">
-                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80" alt="Mountain Vista" class="hero-img" />
-            </div>
-            <div class="hero-text-container">
-                <h1 class="hero-title">Visual <em>Journeys</em></h1>
-                <div class="hero-line"></div>
-                <p class="hero-subtitle">
-                    A curated collection of breathtaking moments captured across the
-                    majestic Himalayas.
-                </p>
-            </div>
+      <!-- GALLERY HERO -->
+      <div class="gallery-hero">
+        <div class="hero-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80"
+            alt="Mountain Vista"
+            class="hero-img"
+          />
+        </div>
+        <div class="hero-text-container">
+          <h1 class="hero-title">Visual <em>Journeys</em></h1>
+          <div class="hero-line"></div>
+          <p class="hero-subtitle">
+            A curated collection of breathtaking moments captured across the
+            majestic Himalayas.
+          </p>
+        </div>
+      </div>
+
+      <!-- GALLERY SECTION -->
+      <section class="editorial-gallery">
+        <div class="mosaic-grid">
+          <!-- Cluster 1 -->
+          <div
+            class="mosaic-item anchor reveal"
+            onclick="
+              openLB2(
+                'The_Mountains_All_treks_imag/1roopkund2.jpg?updatedAt=1779290806474',
+              )
+            "
+          >
+            <img src="The_Mountains_All_treks_imag/1roopkund2.jpg" alt="Roopkund" />
+            <div class="mosaic-caption">Roopkund Lake, 16k ft</div>
+          </div>
+          <div
+            class="mosaic-item wide reveal"
+            onclick="
+              openLB2(
+                'https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920',
+              )
+            "
+          >
+            <img
+              src="https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920"
+              alt="Kedarkantha"
+            />
+            <div class="mosaic-caption">The Winter Peak</div>
+          </div>
+          <div
+            class="mosaic-item small reveal"
+            onclick="openLB2('The_Mountains_All_treks_imag/3 brahmataal 4 .jpg')"
+          >
+            <img src="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" alt="Brahmatal" />
+            <div class="mosaic-caption">Frozen Trails</div>
+          </div>
+          <div
+            class="mosaic-item small reveal"
+            onclick="openLB2('The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.HEIC')"
+          >
+            <img src="The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.HEIC" alt="Ali" />
+            <div class="mosaic-caption">High Altitudes</div>
+          </div>
         </div>
 
-        <!-- GALLERY SECTION -->
-        <section class="editorial-gallery">
-            <div class="mosaic-grid">
-                <!-- Cluster 1 -->
-                <div class="mosaic-item anchor reveal" data-img="The_Mountains_All_treks_imag/1roopkund2.jpg">
-                    <img src="The_Mountains_All_treks_imag/1roopkund2.jpg" alt="Roopkund" />
-                    <div class="mosaic-caption">Roopkund Lake, 16k ft</div>
-                </div>
-                <div class="mosaic-item wide reveal" data-img="https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczMtEEvZJh4v48_W4HdH4qbnHKBp5LzermuLECEx1LXYuZKQZ8NN-CtqOrnki6fiW7PgslERMA44bIjk7ysYx774VVZM3kLv7cKYFsxp5T7rqXH6Zbs=w1920" alt="Kedarkantha" />
-                    <div class="mosaic-caption">The Winter Peak</div>
-                </div>
-                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg">
-                    <img src="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" alt="Brahmatal" />
-                    <div class="mosaic-caption">Frozen Trails</div>
-                </div>
-                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.HEIC">
-                    <img src="The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.HEIC" alt="Ali" />
-                    <div class="mosaic-caption">High Altitudes</div>
-                </div>
-            </div>
+        <div class="editorial-intermission reveal">
+          <div class="quote-wrap">
+            <span class="gold-line"></span>
+            <blockquote class="editorial-quote">
+              "The air at 14,000ft isn't just thin; it's pure. Every breath is a
+              reminder of where we truly belong."
+            </blockquote>
+            <span class="gold-line"></span>
+          </div>
+        </div>
 
-            <div class="editorial-intermission reveal">
-                <div class="quote-wrap">
-                    <span class="gold-line"></span>
-                    <blockquote class="editorial-quote">
-                        "The air at 14,000ft isn't just thin; it's pure. Every breath is a
-                        reminder of where we truly belong."
-                    </blockquote>
-                    <span class="gold-line"></span>
-                </div>
-            </div>
+        <div class="mosaic-grid">
+          <!-- Cluster 2 -->
+          <div
+            class="mosaic-item tall reveal"
+            onclick="
+              openLB2('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80',)
+            "
+          >
+            <img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80"
+              alt="Vista"
+            />
+            <div class="mosaic-caption">Eternal Vistas</div>
+          </div>
+          <div
+            class="mosaic-item wide reveal"
+            onclick="
+              openLB2(
+                'https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920',
+              )
+            "
+          >
+            <img
+              src="https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920"
+              alt="Snow Peak"
+            />
+            <div class="mosaic-caption">Pure White Silences</div>
+          </div>
+          <div
+            class="mosaic-item small reveal"
+            onclick="
+              openLB2(
+                'The_Mountains_All_treks_imag/3Brahmataal 6.HEIC',
+              )
+            "
+          >
+            <img
+              src="The_Mountains_All_treks_imag/3Brahmataal 6.HEIC"
+              alt="Trekking Path"
+            />
+            <div class="mosaic-caption">The Path Unknown</div>
+          </div>
+          <div
+            class="mosaic-item small reveal"
+            onclick="
+              openLB2(
+                'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
+              )
+            "
+          >
+            <img
+              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+              alt="High Altitude"
+            />
+            <div class="mosaic-caption">Above The Clouds</div>
+          </div>
+          <div
+            class="mosaic-item wide reveal"
+            onclick="
+              openLB2(
+                'The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp',
+              )
+            "
+          >
+            <img
+              src="The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp"
+              alt="Mist Mountains"
+            />
+            <div class="mosaic-caption">Mist and Majesty</div>
+          </div>
+          <div
+            class="mosaic-item tall reveal"
+            onclick="
+              openLB2(
+                'The_Mountains_All_treks_imag/3 brahmataal 4 .jpg',
+              )
+            "
+          >
+            <img
+              src="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg"
+              alt="Winter Trek"
+            />
+            <div class="mosaic-caption">Winter's Embrace</div>
+          </div>
+          <div
+            class="mosaic-item small reveal"
+            onclick="
+              openLB2(
+                'The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg',
+              )
+            "
+          >
+            <img
+              src="The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg?updatedAt=1777906577035"
+              alt="Summit View"
+            />
+            <div class="mosaic-caption">The Final Step</div>
+          </div>
+          <div
+            class="mosaic-item small reveal"
+            onclick="
+              openLB2(
+                'The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp',
+              )
+            "
+          >
+            <img
+              src="The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp?updatedAt=1777906554057"
+              alt="Lake reflection"
+            />
+            <div class="mosaic-caption">Still Waters</div>
+          </div>
+        </div>
+      </section>
 
-            <div class="mosaic-grid">
-                <!-- Cluster 2 -->
-                <div class="mosaic-item tall reveal" data-img="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80">
-                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80" alt="Vista" />
-                    <div class="mosaic-caption">Eternal Vistas</div>
-                </div>
-                <div class="mosaic-item wide reveal" data-img="https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920">
-                    <img src="https://lh3.googleusercontent.com/pw/AP1GczN4cbzEhavKIouj94EpwTssUYukoUI3LvX0wusdcOTsAAy9e9zeQL9_9WyU7-oFlpS9ehnIfEZ5pK_o5p0Aq4boWmgPUfO3HvKsUtrbnqDycmd_WNI=w1920" alt="Snow Peak" />
-                    <div class="mosaic-caption">Pure White Silences</div>
-                </div>
-                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/3Brahmataal 6.HEIC">
-                    <img src="The_Mountains_All_treks_imag/3Brahmataal 6.HEIC" alt="Trekking Path" />
-                    <div class="mosaic-caption">The Path Unknown</div>
-                </div>
-                <div class="mosaic-item small reveal" data-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80">
-                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="High Altitude" />
-                    <div class="mosaic-caption">Above The Clouds</div>
-                </div>
-                <div class="mosaic-item wide reveal" data-img="The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp">
-                    <img src="The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp" alt="Mist Mountains" />
-                    <div class="mosaic-caption">Mist and Majesty</div>
-                </div>
-                <div class="mosaic-item tall reveal" data-img="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg">
-                    <img src="The_Mountains_All_treks_imag/3 brahmataal 4 .jpg" alt="Winter Trek" />
-                    <div class="mosaic-caption">Winter's Embrace</div>
-                </div>
-                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg">
-                    <img src="The_Mountains_All_treks_imag/5 Pangarchulla Trek 4.jpg" alt="Summit View" />
-                    <div class="mosaic-caption">The Final Step</div>
-                </div>
-                <div class="mosaic-item small reveal" data-img="The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp">
-                    <img src="The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp" alt="Lake reflection" />
-                    <div class="mosaic-caption">Still Waters</div>
-                </div>
+      <!-- FOOTER -->
+      <footer style="margin-top: 60px">
+        <div class="footer-section">
+          <div class="footer-grid">
+            <div class="footer-col">
+              <h6>Navigation</h6>
+              <a href="index.html">Home</a>
+              <a href="trek.html">Treks</a>
+              <a href="camp.html">Summer Camp</a>
+              <a href="about.html">About Us</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact.html">Contact Us</a>
+              <a href="index.html#faq">FAQs</a>
             </div>
-        </section>
-
-        <!-- FOOTER -->
-        <footer style="margin-top: 60px">
-            <div class="footer-section">
-                <div class="footer-grid">
-                    <div class="footer-col">
-                        <h6>Navigation</h6>
-                        <a href="index.html">Home</a>
-                        <a href="trek.html">Treks</a>
-                        <a href="camp.html">Summer Camp</a>
-                        <a href="about.html">About Us</a>
-                        <a href="gallery.html">Gallery</a>
-                        <a href="contact.html">Contact Us</a>
-                        <a href="index.html#faq">FAQs</a>
-                    </div>
-                    <div class="footer-col">
-                        <h6>Legal</h6>
-                        <a href="disclaimer.html">Disclaimer</a>
-                        <a href="privacy.html">Privacy Policy</a>
-                        <a href="terms.html">Terms & Conditions</a>
-                    </div>
-                    <div class="footer-col">
-                        <h6>Contact info</h6>
-                        <div class="cc-row">📍 Roopkund Base Camp, Lohajung</div>
-                        <div class="cc-row">📞 +91 9557711495</div>
-                        <div class="cc-row">✉ info@themountainvibes.com</div>
-                    </div>
-                </div>
+            <div class="footer-col">
+              <h6>Legal</h6>
+              <a href="disclaimer.html">Disclaimer</a>
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="terms.html">Terms & Conditions</a>
             </div>
-            <div class="footer-bottom">
-                © 2026 The Mountain Vibes. All rights reserved.
+            <div class="footer-col">
+              <h6>Contact info</h6>
+              <div class="cc-row">📍 Roopkund Base Camp, Lohajung</div>
+              <div class="cc-row">📞 +91 9557711495</div>
+              <div class="cc-row">✉ info@themountainvibes.com</div>
             </div>
-        </footer>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © 2026 The Mountain Vibes. All rights reserved.
+        </div>
+      </footer>
     </div>
 
     <!-- MUSEUM LIGHTBOX -->
     <div id="lb" class="museum-lightbox">
-        <button class="lb-close" aria-label="Close lightbox">&times;</button>
-        <div class="lb-content">
-            <img id="lbImg" src="" alt="Fullscreen view" />
-        </div>
-        <div class="lb-nav">
-            <button class="lb-prev" aria-label="Previous">←</button>
-            <button class="lb-next" aria-label="Next">→</button>
-        </div>
-        <div class="lb-counter" id="lbCounter">1 / 1</div>
+      <div class="lb-close">&times;</div>
+      <div class="lb-content">
+        <img id="lbImg" src="" alt="Fullscreen view" />
+      </div>
+      <div class="lb-nav">
+        <button class="lb-prev">←</button>
+        <button class="lb-next">→</button>
+      </div>
     </div>
 
-    <script>
-        (function() {
-            'use strict';
-
-            // ----- COLLECT GALLERY ITEMS -----
-            var items = document.querySelectorAll('.mosaic-item[data-img]');
-            var gallery = [];
-            items.forEach(function(el) {
-                var src = el.getAttribute('data-img');
-                if (src) gallery.push(src);
-            });
-
-            // ----- LIGHTBOX STATE -----
-            var lb = document.getElementById('lb');
-            var lbImg = document.getElementById('lbImg');
-            var closeBtn = document.querySelector('.lb-close');
-            var prevBtn = document.querySelector('.lb-prev');
-            var nextBtn = document.querySelector('.lb-next');
-            var counter = document.getElementById('lbCounter');
-
-            var currentIndex = 0;
-            var isOpen = false;
-
-            // ----- OPEN LIGHTBOX (exposed globally) -----
-            window.openLB2 = function(src) {
-                var idx = gallery.indexOf(src);
-                if (idx === -1) {
-                    // If the exact src isn't in the gallery, try to match by filename
-                    var fallbackIdx = -1;
-                    var srcFileName = src.split('/').pop().split('?')[0];
-                    for (var i = 0; i < gallery.length; i++) {
-                        var gFileName = gallery[i].split('/').pop().split('?')[0];
-                        if (gFileName === srcFileName) {
-                            fallbackIdx = i;
-                            break;
-                        }
-                    }
-                    idx = fallbackIdx !== -1 ? fallbackIdx : 0;
-                }
-                currentIndex = Math.max(0, Math.min(idx, gallery.length - 1));
-                showImage(currentIndex);
-                openLightbox();
-            };
-
-            // Also support click on mosaic-item (using data-img)
-            items.forEach(function(el) {
-                el.addEventListener('click', function() {
-                    var src = this.getAttribute('data-img');
-                    if (src) {
-                        window.openLB2(src);
-                    }
-                });
-            });
-
-            // ----- LIGHTBOX CONTROLS -----
-            function openLightbox() {
-                lb.classList.add('is-open');
-                isOpen = true;
-                document.body.style.overflow = 'hidden';
-            }
-
-            function closeLightbox() {
-                lb.classList.remove('is-open');
-                isOpen = false;
-                document.body.style.overflow = '';
-            }
-
-            function showImage(index) {
-                if (!gallery.length) return;
-                var src = gallery[index];
-                if (!src) return;
-                lbImg.src = src;
-                lbImg.alt = 'Gallery image ' + (index + 1);
-                counter.textContent = (index + 1) + ' / ' + gallery.length;
-            }
-
-            function prevImage() {
-                if (!gallery.length) return;
-                currentIndex = (currentIndex - 1 + gallery.length) % gallery.length;
-                showImage(currentIndex);
-            }
-
-            function nextImage() {
-                if (!gallery.length) return;
-                currentIndex = (currentIndex + 1) % gallery.length;
-                showImage(currentIndex);
-            }
-
-            // ----- KEYBOARD SUPPORT -----
-            function onKeydown(e) {
-                if (!isOpen) return;
-                if (e.key === 'Escape') {
-                    closeLightbox();
-                    e.preventDefault();
-                } else if (e.key === 'ArrowLeft') {
-                    prevImage();
-                    e.preventDefault();
-                } else if (e.key === 'ArrowRight') {
-                    nextImage();
-                    e.preventDefault();
-                }
-            }
-
-            // ----- CLOSE ON OVERLAY CLICK -----
-            function onOverlayClick(e) {
-                if (e.target === lb || e.target === lb.querySelector('.lb-content')) {
-                    closeLightbox();
-                }
-            }
-
-            // ----- BIND EVENTS -----
-            closeBtn.addEventListener('click', closeLightbox);
-            prevBtn.addEventListener('click', prevImage);
-            nextBtn.addEventListener('click', nextImage);
-            lb.addEventListener('click', onOverlayClick);
-            document.addEventListener('keydown', onKeydown);
-
-            // ----- SCROLL REVEAL (Intersection Observer) -----
-            var revealEls = document.querySelectorAll('.reveal');
-            if ('IntersectionObserver' in window) {
-                var observer = new IntersectionObserver(function(entries) {
-                    entries.forEach(function(entry) {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                        }
-                    });
-                }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-                revealEls.forEach(function(el) {
-                    observer.observe(el);
-                });
-                // Also check if any are already visible
-                setTimeout(function() {
-                    revealEls.forEach(function(el) {
-                        var rect = el.getBoundingClientRect();
-                        var winH = window.innerHeight;
-                        if (rect.top < winH - 80 && rect.bottom > 0) {
-                            el.classList.add('visible');
-                        }
-                    });
-                }, 200);
-            } else {
-                // Fallback: show all
-                revealEls.forEach(function(el) {
-                    el.classList.add('visible');
-                });
-            }
-
-            // ----- NAVBAR MOBILE TOGGLE -----
-            var menuBtn = document.querySelector('.menu');
-            var navRight = document.querySelector('.nav-right');
-            if (menuBtn && navRight) {
-                menuBtn.addEventListener('click', function() {
-                    navRight.classList.toggle('nav-open');
-                });
-            }
-
-            // ----- SEARCH INPUT (placeholder demo) -----
-            var searchInput = document.querySelector('.nav-search input');
-            if (searchInput) {
-                searchInput.addEventListener('keydown', function(e) {
-                    if (e.key === 'Enter') {
-                        var val = this.value.trim();
-                        if (val) {
-                            window.location.href = 'trek.html?search=' + encodeURIComponent(val);
-                        }
-                    }
-                });
-            }
-
-        })();
-    </script>
-
-    <!-- External scripts (kept for compatibility, but our inline code handles everything) -->
     <script src="config.js"></script>
     <script src="img-utils.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
