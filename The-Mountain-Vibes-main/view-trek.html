@@ -275,6 +275,7 @@
         font-size: 20px;
         font-weight: 700;
         color: var(--navy);
+        cursor: pointer;
       }
 
       .td-total-row {
@@ -306,6 +307,7 @@
         border-radius: 8px;
         font-size: 16px;
         font-weight: 800;
+        cursor: pointer;
         transition: all 0.2s;
       }
 
@@ -768,7 +770,7 @@
             <div class="td-form-group">
               <label>Choose Departure Date</label>
               <select class="td-select" id="tdDates">
-                <!-- Populated by script.js -->
+                <!-- Populated by booking script -->
               </select>
             </div>
 
@@ -787,22 +789,15 @@
                 <div
                   style="font-size: 12px; color: var(--muted); font-weight: 600"
                 >
-                 
+
                 </div>
               </div>
             </div>
 
             <div class="td-total-row">
               <div class="td-total-label">Subtotal</div>
-              <div class="td-total-val" id="tdTotalDisplay">₹8,500</div>
+              <div class="td-total-val" id="tdTotalDisplay">₹18,000</div>
             </div>
-            <script>
-              // Sync tdTotal with tdTotalDisplay for this page
-              setInterval(() => {
-                document.getElementById("tdTotalDisplay").textContent =
-                  document.getElementById("tdTotal").textContent;
-              }, 100);
-            </script>
 
             <button class="td-book-btn" onclick="redirectToBooking()">
               BOOK NOW
@@ -883,7 +878,7 @@
     <div id="lb" class="lb"><img id="lbImg" /></div>
 
     <script src="config.js"></script>
-  
+
     <script src="treks-data.js"></script>
     <script src="trek-logic.js"></script>
     <script src="script.js"></script>
@@ -911,6 +906,68 @@
           window.location.href = n + ".html";
         }
       };
+    </script>
+
+    <!-- Booking widget: departure dates + trekker count + live price -->
+    <script>
+      (function () {
+        const ymd = (dt) =>
+          `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}-${String(dt.getDate()).padStart(2, "0")}`;
+        const fmt = (n) => "₹" + n.toLocaleString("en-IN");
+
+        // per-person price, read from the "now" price (adapts to whatever trek loads)
+        const basePrice = () =>
+          parseInt((document.getElementById("tdTotal").textContent || "0").replace(/[^\d]/g, ""), 10) || 0;
+
+        let count = 1;
+
+        function render() {
+          const cnt = document.getElementById("tdCount");
+          const disp = document.getElementById("tdTotalDisplay");
+          if (cnt) cnt.textContent = count;
+          if (disp) disp.textContent = fmt(basePrice() * count); // price × trekkers
+        }
+
+        // +/- buttons (overrides any earlier changeCount so this one wins)
+        window.changeCount = function (delta) {
+          count = Math.max(1, count + delta); // never below 1
+          render();
+        };
+
+        // fill departure dates only if nothing has populated them yet
+        function fillDates() {
+          const sel = document.getElementById("tdDates");
+          if (!sel || sel.options.length > 0) return;
+          let d = new Date();
+          d.setDate(d.getDate() + ((6 - d.getDay() + 7) % 7 || 7)); // next Saturday
+          let opts = `<option value="" disabled selected>Select a date</option>`;
+          for (let i = 0; i < 8; i++) {
+            const label = d.toLocaleDateString("en-IN", {
+              weekday: "short",
+              day: "numeric",
+              month: "short",
+              year: "numeric",
+            });
+            opts += `<option value="${ymd(d)}">${label}</option>`;
+            d.setDate(d.getDate() + 7);
+          }
+          sel.innerHTML = opts;
+        }
+
+        function init() {
+          fillDates();
+          count = 1;
+          render();
+        }
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", init);
+        } else {
+          init();
+        }
+        // re-run after openTrek (runs on window load) sets the real price
+        window.addEventListener("load", () => setTimeout(render, 0));
+      })();
     </script>
   </body>
 </html>
