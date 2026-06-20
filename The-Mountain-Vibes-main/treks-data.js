@@ -1186,12 +1186,12 @@ const TREKS = {
       "💊 Personal medicines and a first aid kit",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(8)Kashmir%20Great%20Lake%20Trek.webp?updatedAt=1779290763235",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 1.webp?updatedAt=1779290763235",
+      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 3.webp",
+      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp",
+      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 5.jpeg",
+      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 6.webp",
+      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 2.jpg",
     ],
     reviews: [
       {
@@ -1345,12 +1345,12 @@ const TREKS = {
       "💊 Personal medicines and a first aid kit",
     ],
     photos: [
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 1.webp?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 2.jpg?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 3.jpg?updatedAt=1779290777946",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 5.webp?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 1.webp?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 2.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 3.jpg?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 5.webp?updatedAt=1779290777946",
       "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "The-Mountain-Vibes-main/The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 6.webp?updatedAt=1779290777946",
+      "The_Mountains_All_treks_imag/9 Gomukh Tapovan Trek 6.webp?updatedAt=1779290777946",
     ],
     reviews: [
       {
@@ -1497,12 +1497,12 @@ const TREKS = {
       "💊 Personal medicines and a first aid kit",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/treks/(10)Kedartal%20Trek.webp?updatedAt=1779292379325",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/10 Kedartal Trek 1.webp?updatedAt=1779292379325",
+      "The_Mountains_All_treks_imag/10 Kedartal Trek 2.webp",
+      "The_Mountains_All_treks_imag/10 Kedartal Trek 5.jpg",
+      "The_Mountains_All_treks_imag/10 Kedartal Trek 3.webp",
+      "The_Mountains_All_treks_imag/10 Kedartal Trek 6.jpg",
+      "The_Mountains_All_treks_imag/10 Kedartal Trek 4.webp",
     ],
     reviews: [
       {
@@ -1648,12 +1648,12 @@ const TREKS = {
       "🔦 Headlamp and energy snacks",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/treks/(11)Pindari%20Glacier%20Trek.jpg",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/11 Pindari Glacier Trek 6.webp",
+      "The_Mountains_All_treks_imag/11 Pindari Glacier Trek 4.jpg",
+      "The_Mountains_All_treks_imag/11 Pindari Glacier Trek 1.jpg",
+      "The_Mountains_All_treks_imag/11 Pindari Glacier Trek 2.webp",
+      "The_Mountains_All_treks_imag/11 Pindari Glacier Trek 3.webp",
+      "The_Mountains_All_treks_imag/11 Pindari Glacier Trek 5.webp",
     ],
     reviews: [
       {
@@ -1803,12 +1803,12 @@ const TREKS = {
       "🎒 Rain cover and backpack protection",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/treks/(12)Tarasar%20Marsar%20Trek.jpg",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 6.webp",
+      "The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 3.webp",
+      "The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 4.webp",
+      "The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 2.jpg",
+      "The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 5.webp",
+      "The_Mountains_All_treks_imag/12 Tarasar Marsar Trek 1.jpg",
     ],
     reviews: [
       {
@@ -2004,12 +2004,12 @@ const TREKS = {
       "🛂 Passport and travel documents",
     ],
     photos: [
-      "/The-Mountain-Vibes/photos/Treks/(13)Kailash%20Mansarovar%20Yatra.jpg?updatedAt=1779290765015",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 2.webp?updatedAt=1779290765015",
+      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 5.webp",
+      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 3.webp",
+      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 4.webp",
+      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 6.jpg",
+      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 1.jpg",
     ],
     reviews: [
       {
