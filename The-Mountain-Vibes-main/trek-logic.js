@@ -79,6 +79,24 @@ window.filterTreks = function () {
 let currentCount = 1,
   currentPrice = 0;
 
+// Build a fallback list of upcoming departure dates (next 8 Saturdays)
+function generateDepartureDates() {
+  const out = [];
+  let d = new Date();
+  d.setDate(d.getDate() + ((6 - d.getDay() + 7) % 7 || 7)); // next Saturday
+  for (let i = 0; i < 8; i++) {
+    out.push(
+      d.toLocaleDateString("en-IN", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+      }),
+    );
+    d.setDate(d.getDate() + 7);
+  }
+  return out;
+}
+
 function openTrek(key) {
   const t = TREKS[key];
   if (!t) return;
@@ -238,11 +256,15 @@ function openTrek(key) {
     .join("");
   setEl("tdFaqs", faqsHtml, true);
 
-  // booking
-  const datesHtml = t.dates.map((d) => `<option>${d}</option>`).join("");
+  // booking — FIX: many treks have no `dates` array. Guard against undefined
+  // (this was throwing and aborting openTrek before the price was ever set,
+  // which is why every dateless trek showed the hardcoded fallback price).
+  const trekDates =
+    t.dates && t.dates.length ? t.dates : generateDepartureDates();
+  const datesHtml = trekDates.map((d) => `<option>${d}</option>`).join("");
   setEl("tdDates", datesHtml, true);
 
-  setEl("tdPriceOld", t.priceOld);
+  setEl("tdPriceOld", t.priceOld || "");
   updateTotal();
 
   // reset tabs
@@ -268,11 +290,17 @@ function changeCount(d) {
   updateTotal();
 }
 
+// FIX: keep the big "/ person" price fixed at the per-person rate, and update
+// the Subtotal row with price × trekkers. (No setInterval hack needed.)
 function updateTotal() {
-  const el = document.getElementById("tdTotal");
-  if (el) {
-    el.textContent = "₹" + (currentPrice * currentCount).toLocaleString("en-IN");
-  }
+  const perPerson = "₹" + currentPrice.toLocaleString("en-IN");
+  const subtotal = "₹" + (currentPrice * currentCount).toLocaleString("en-IN");
+
+  const perPersonEl = document.getElementById("tdTotal"); // big "/ person" price
+  if (perPersonEl) perPersonEl.textContent = perPerson;
+
+  const subtotalEl = document.getElementById("tdTotalDisplay"); // Subtotal row
+  if (subtotalEl) subtotalEl.textContent = subtotal;
 }
 
 function switchTdTab(id, btn) {
