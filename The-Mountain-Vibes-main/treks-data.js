@@ -2812,7 +2812,7 @@ const TREKS = {
 
   ebc: {
     title: "Everest Base Camp Trek",
-    img: "/The-Mountain-Vibes/photos/Treks/(14)Everest%20Base%20Camp%20Trek.jpg?updatedAt=1779290777946",
+    img: "https://images.unsplash.com/photo-1609660062508-1ac4a930232d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     region: "Khumbu, Nepal",
     diff: "Moderate to Difficult",
     season: "March to May & September to November",
