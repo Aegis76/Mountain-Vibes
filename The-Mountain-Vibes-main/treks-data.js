@@ -2009,7 +2009,7 @@ const TREKS = {
       "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 3.webp",
       "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 4.webp",
       "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 6.jpg",
-      "The_Mountains_All_treks_imag/13 Kailash Mansarovar Yatra 1.jpg",
+      "The_Mountains_All_treks_imag/13Kailash Mansarovar Yatra 1.jpg",
     ],
     reviews: [
       {
@@ -2617,6 +2617,15 @@ const TREKS = {
       "💊 Personal medicines and altitude sickness medication",
       "🍫 Energy snacks and hydration supplies",
     ],
+    photos: [
+      "/The-Mountain-Vibes/photos/Treks/treks/(17)Panch%20Kedar.avif",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
+      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+    ],
+    
     reviews: [
       {
         name: "Arjun Thapa",
@@ -2990,12 +2999,12 @@ const TREKS = {
       "🍫 Energy snacks and power banks",
     ],
     photos: [
-      "https://images.unsplash.com/photo-1544735716-ea9ef790f501?w=600&q=80",
-      "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 4.jpg",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 2.webp",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 6.webp",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 1.jpg",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 3.webp",
+      "The_Mountains_All_treks_imag/14 Everest Base Camp Trek 5.jpg",
     ],
     reviews: [
       {
