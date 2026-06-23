@@ -530,60 +530,93 @@ points: [
       "🏕 Scenic camps at Gulling Top & Khullara",
       "🎒 Beginner-friendly with a big-mountain reward",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Rishikesh to Joshimath",
-        sub: "250 km | 9–10 Hours | 6,150 ft",
-        points: [
-          "Follow the Alaknanda upstream past the sacred confluences of Devprayag, Rudraprayag, Karnaprayag and Chamoli.",
-          "Joshimath, a key pilgrimage and trekking hub, is the base; the evening is for rest and acclimatisation.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Joshimath to Dhak, trek to Gulling Top",
-        sub: "6 km | 4–5 Hours | 9,500 ft",
-        points: [
-          "A short drive to Dhak village, then a steady climb through terraced fields and forest.",
-          "Pass through Tugasi village for a taste of local mountain life before reaching the Gulling Top camp, with sunset light on Dronagiri.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Gulling Top to Khullara",
-        sub: "5 km | 4–5 Hours | 11,000 ft",
-        points: [
-          "Walk through dense oak and rhododendron — vivid with blooms in spring — as the big peaks begin to open up.",
-          "Khullara is a forest-edge camp with snow cover in winter and some of the best night skies of the trek.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Khullara to Kuari Pass, return to Chitrakantha",
-        sub: "12 km | 7–8 Hours | 12,516 ft",
-        points: [
-          "Summit day: a gradual climb across alpine terrain (snowy ridges in winter) to Kuari Pass.",
-          "The pass delivers a 360° panorama — Nanda Devi, Dronagiri, Kamet, Chaukhamba, Neelkanth and the Hathi-Ghoda peaks.",
-          "After taking in the view, descend to the Chitrakantha campsite.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Chitrakantha to Dhak, drive to Joshimath",
-        sub: "8 km | 5–6 Hours",
-        points: [
-          "Descend through forest and meadow with a final round of mountain views, then drive back to Joshimath.",
-          "Evening is free to relax or explore the local market.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Joshimath to Rishikesh",
-        sub: "250 km | 9–10 Hours",
-        points: ["Drive back to Rishikesh to close the Kuari Pass Trek."],
-      },
-    ],
+  itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Joshimath",
+sub: "290 km | 10–11 Hours | 6,150 ft",
+points: [
+"Your Kuari Pass Trek begins with a spectacular drive from Dehradun to Joshimath, one of Uttarakhand's most important trekking and pilgrimage hubs.",
+"Travel alongside the sacred Ganga and Alaknanda rivers while passing through the famous Panch Prayag confluences including Devprayag, Rudraprayag, Karnaprayag, and Nandprayag.",
+"The route offers breathtaking views of deep Himalayan valleys, terraced farmlands, river gorges, and traditional mountain villages.",
+"Enjoy glimpses of snow-capped peaks as you enter the heart of the Garhwal Himalayas.",
+"Reach Joshimath by evening and settle into your accommodation amidst the beautiful mountain surroundings.",
+"Attend a trek briefing, complete a gear check, and prepare for the exciting Himalayan adventure ahead.",
+"Take time to acclimatize and enjoy the peaceful atmosphere of this historic mountain town.",
+],
+},
+{
+day: 2,
+title: "Joshimath to Dhak, Trek to Gulling Top",
+sub: "6 km | 4–5 Hours | 9,500 ft",
+points: [
+"After breakfast, drive to Dhak Village, the starting point of the famous Kuari Pass Trek.",
+"The trail begins with a gradual ascent through terraced fields, traditional Garhwali settlements, and dense Himalayan forests.",
+"Pass through Tugasi Village where you can witness authentic mountain culture and local lifestyles.",
+"As the altitude increases, panoramic views of surrounding valleys and distant Himalayan peaks begin to emerge.",
+"The route is rich in natural beauty, featuring oak forests, mountain streams, and vibrant flora.",
+"Reach Gulling Top campsite by afternoon and enjoy magnificent views of Dronagiri Peak glowing in the evening sunlight.",
+"Spend the night surrounded by pristine Himalayan wilderness under a star-filled sky.",
+],
+},
+{
+day: 3,
+title: "Gulling Top to Khullara",
+sub: "5 km | 4–5 Hours | 11,000 ft",
+points: [
+"Today's trek takes you deeper into the alpine landscapes of the Garhwal Himalayas.",
+"Walk through dense oak and rhododendron forests, which burst into vibrant colors during the spring season.",
+"The trail offers increasingly spectacular views of Dronagiri, Hathi Peak, Ghoda Peak, and other Himalayan giants.",
+"Enjoy peaceful forest paths, open clearings, and occasional wildlife sightings along the route.",
+"As you approach Khullara, the forest gradually opens up to reveal expansive mountain vistas.",
+"Khullara campsite is one of the most scenic locations on the trek, offering incredible sunset and sunrise views.",
+"Spend the evening admiring the snow-covered peaks and enjoying one of the clearest night skies in Uttarakhand.",
+],
+},
+{
+day: 4,
+title: "Khullara to Kuari Pass and Descend to Chitrakantha",
+sub: "12 km | 7–8 Hours | 12,516 ft",
+points: [
+"This is the most exciting day of the Kuari Pass Trek as you journey toward the legendary Kuari Pass, also known as Lord Curzon's Trail.",
+"Begin early and ascend through alpine meadows, rocky terrain, and snow-covered ridges during the winter season.",
+"The climb gradually unveils some of the most spectacular mountain views found anywhere in the Indian Himalayas.",
+"Reach Kuari Pass at an altitude of 12,516 ft and witness an unforgettable 360-degree panorama.",
+"Marvel at towering peaks including Nanda Devi, Dronagiri, Kamet, Chaukhamba, Neelkanth, Hathi-Ghoda, and Mana Peak.",
+"The breathtaking views make Kuari Pass one of the best trekking destinations in Uttarakhand.",
+"Spend time capturing photographs and soaking in the grandeur of the Himalayan landscape.",
+"After enjoying the summit views, begin the descent toward the beautiful Chitrakantha campsite.",
+"Camp amidst vast alpine meadows surrounded by some of India's highest and most majestic mountains.",
+],
+},
+{
+day: 5,
+title: "Chitrakantha to Dhak, Drive to Joshimath",
+sub: "8 km | 5–6 Hours",
+points: [
+"Begin your descent through scenic forests, open meadows, and beautiful mountain trails.",
+"Enjoy a final opportunity to admire the stunning landscapes of the Kuari Pass region.",
+"The route offers continuous views of the Garhwal Himalayas, making the return journey equally rewarding.",
+"Reach Dhak Village and drive back to Joshimath through picturesque mountain roads.",
+"Arrive in Joshimath by evening and enjoy a comfortable stay after completing the trekking portion of the adventure.",
+"Explore the local market, interact with fellow trekkers, or simply relax and celebrate the successful completion of the trek.",
+],
+},
+{
+day: 6,
+title: "Joshimath to Dehradun",
+sub: "290 km | 10–11 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the beautiful valleys and river landscapes of Uttarakhand.",
+"Pass once again through the famous Prayag confluences and charming Himalayan towns along the route.",
+"Reflect on the incredible experiences of trekking through ancient forests, alpine meadows, and high mountain passes.",
+"Carry home unforgettable memories of Kuari Pass, Nanda Devi views, snow-covered ridges, and breathtaking Himalayan panoramas.",
+"Arrive in Dehradun by evening, marking the successful completion of one of Uttarakhand's most scenic and rewarding treks.",
+"The Kuari Pass Trek leaves every trekker with lifelong memories of adventure, natural beauty, and Himalayan grandeur.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping + guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
@@ -674,69 +707,104 @@ points: [
       "🏕 High camps with dramatic ridgeline scenery",
       "🧗 The natural step up from beginner treks",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Rishikesh to Joshimath",
-        sub: "250 km | 9–10 Hours | 6,150 ft",
-        points: [
-          "Drive along the Alaknanda past the famous river confluences to Joshimath, the trek base and a major Himalayan staging town.",
-          "Rest and acclimatise in the evening.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Joshimath to Dhak, trek to Gulling Top",
-        sub: "6 km | 4–5 Hours | 9,500 ft",
-        points: [
-          "Short drive to Dhak, then a climb through terraced fields and forest to Gulling Top.",
-          "Sunset views over Dronagiri set the tone for the days ahead.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Gulling Top to Khullara",
-        sub: "5 km | 4–5 Hours | 11,000 ft",
-        points: [
-          "Walk through oak and rhododendron forest, bright with blooms in spring, as snow peaks appear.",
-          "Khullara is the high base for the summit attempt; trekkers begin acclimatising in earnest.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Acclimatisation & summit prep at Khullara",
-        sub: "Short acclimatisation walk | 11,000 ft",
-        points: [
-          "A practice walk on snow and a gear briefing prepare you for the long summit day.",
-          "Resting and hydrating well today directly improves your chances on summit morning.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Khullara to Pangarchulla Summit, return to Khullara",
-        sub: "12 km | 10–12 Hours | 15,069 ft",
-        points: [
-          "The big one — a pre-dawn start for a steep climb over snow slopes and rock ridges to the 15,069 ft summit.",
-          "The top opens one of Uttarakhand's finest panoramas: Nanda Devi, Chaukhamba, Kamet, Dronagiri, Neelkanth and the Hathi-Ghoda peaks.",
-          "After your time on top, descend carefully back to Khullara — a genuinely long, rewarding day.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Khullara to Dhak, drive to Joshimath",
-        sub: "10 km | 5–6 Hours",
-        points: [
-          "Descend through forest to Dhak and drive back to Joshimath.",
-          "Evening is for rest and a well-earned celebration.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Joshimath to Rishikesh",
-        sub: "250 km | 9–10 Hours",
-        points: ["Drive back to Rishikesh to conclude the Pangarchulla Trek."],
-      },
-    ],
+  itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Joshimath",
+sub: "290 km | 10–11 Hours | 6,150 ft",
+points: [
+"Your Pangarchulla Peak Trek begins with a spectacular drive from Dehradun to Joshimath, one of Uttarakhand's most important trekking and pilgrimage destinations.",
+"Travel through the scenic Garhwal Himalayas while following the Alaknanda River and passing the sacred Panch Prayag confluences including Devprayag, Rudraprayag, Karnaprayag, and Nandprayag.",
+"Witness breathtaking views of deep river valleys, forest-covered mountains, traditional Himalayan villages, and snow-capped peaks throughout the journey.",
+"Joshimath serves as the gateway to several iconic Himalayan expeditions and offers a perfect setting for acclimatization.",
+"Upon arrival, attend a detailed trek briefing, complete your equipment check, and prepare for the high-altitude adventure ahead.",
+"Spend the evening exploring Joshimath's vibrant mountain atmosphere while acclimatizing to the Himalayan environment.",
+],
+},
+{
+day: 2,
+title: "Joshimath to Dhak, Trek to Gulling Top",
+sub: "6 km | 4–5 Hours | 9,500 ft",
+points: [
+"After breakfast, drive to Dhak Village, the starting point of the famous Pangarchulla Peak Trek.",
+"Begin trekking through terraced farmlands, traditional Garhwali settlements, and dense forests filled with oak and rhododendron trees.",
+"The trail offers beautiful views of surrounding valleys and introduces trekkers to the rich culture of the Himalayan region.",
+"As the climb continues, stunning mountain vistas begin to emerge, revealing the grandeur of the Garhwal Himalayas.",
+"Reach Gulling Top campsite, a picturesque location known for its breathtaking sunset views over the majestic Dronagiri Peak.",
+"Enjoy a peaceful evening surrounded by nature and prepare for higher altitudes in the coming days.",
+],
+},
+{
+day: 3,
+title: "Gulling Top to Khullara",
+sub: "5 km | 4–5 Hours | 11,000 ft",
+points: [
+"Today's trek takes you deeper into the alpine landscapes of Uttarakhand as you ascend toward Khullara.",
+"Walk through enchanting oak and rhododendron forests that burst into vibrant colors during the spring season.",
+"The trail gradually reveals magnificent views of Dronagiri, Hathi Peak, Ghoda Peak, and other Himalayan giants.",
+"Enjoy peaceful forest sections, open meadows, and stunning mountain panoramas throughout the journey.",
+"Khullara serves as the primary base camp for the Pangarchulla Peak summit attempt and offers excellent views of the surrounding ranges.",
+"Spend the evening acclimatizing, enjoying the crisp mountain air, and witnessing spectacular sunset views over the Himalayas.",
+],
+},
+{
+day: 4,
+title: "Acclimatization Day & Summit Preparation at Khullara",
+sub: "Short Acclimatization Hike | 11,000 ft",
+points: [
+"This important acclimatization day is designed to prepare your body for the challenging Pangarchulla Peak summit climb.",
+"Take a short hike around the surrounding ridges to gain altitude gradually and improve acclimatization.",
+"Practice walking techniques on snow and rocky terrain, especially during the winter and spring trekking seasons.",
+"Receive a comprehensive briefing from trek leaders regarding summit strategy, safety procedures, and weather conditions.",
+"Review your equipment, clothing layers, trekking poles, crampons, and other essential gear required for summit day.",
+"Enjoy panoramic views of the surrounding Himalayan ranges while conserving energy for the upcoming ascent.",
+"Proper rest, hydration, and nutrition today significantly increase your chances of a successful summit attempt.",
+],
+},
+{
+day: 5,
+title: "Khullara to Pangarchulla Peak Summit and Return to Khullara",
+sub: "12 km | 10–12 Hours | 15,069 ft",
+points: [
+"The most exciting day of the trek begins well before sunrise as you start the challenging ascent toward Pangarchulla Peak.",
+"Trek across snow-covered slopes, steep ridgelines, rocky sections, and high-altitude terrain under the guidance of experienced trek leaders.",
+"The climb demands endurance, determination, and careful navigation, making Pangarchulla one of Uttarakhand's most rewarding summit treks.",
+"As you gain elevation, the views become increasingly dramatic, revealing endless layers of Himalayan peaks.",
+"Reach the summit of Pangarchulla Peak at an elevation of 15,069 ft and experience one of the finest mountain panoramas in India.",
+"Marvel at breathtaking views of Nanda Devi, Chaukhamba, Kamet, Dronagiri, Neelkanth, Mana Peak, Hathi-Ghoda Peaks, and numerous snow-covered Himalayan giants.",
+"The summit offers an unforgettable 360-degree perspective of the Garhwal Himalayas and is a dream destination for adventure enthusiasts.",
+"Capture spectacular photographs and celebrate your achievement before beginning the careful descent.",
+"Return to Khullara after a long yet immensely rewarding day in the mountains.",
+"Enjoy a warm meal and well-deserved rest while reflecting on the incredible summit experience.",
+],
+},
+{
+day: 6,
+title: "Khullara to Dhak, Drive to Joshimath",
+sub: "10 km | 5–6 Hours",
+points: [
+"Begin your descent through alpine meadows, forest trails, and scenic mountain landscapes.",
+"The return journey offers fresh perspectives of the valleys, forests, and peaks encountered during the ascent.",
+"Reach Dhak Village and drive back to Joshimath through beautiful Himalayan roads.",
+"Arrive in Joshimath by evening and celebrate the successful completion of the Pangarchulla Peak Trek.",
+"Spend the evening relaxing, exploring the local market, or sharing trekking experiences with fellow adventurers.",
+],
+},
+{
+day: 7,
+title: "Joshimath to Dehradun",
+sub: "290 km | 10–11 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the stunning landscapes of Uttarakhand.",
+"Pass through river valleys, mountain towns, and the famous Himalayan confluences one final time.",
+"Reflect on your journey through alpine forests, high mountain ridges, and the successful summit of Pangarchulla Peak.",
+"Carry home unforgettable memories of breathtaking Himalayan views, challenging adventures, and one of India's most exciting trekking experiences.",
+"Arrive in Dehradun by evening, marking the successful completion of the Pangarchulla Peak Trek in the Garhwal Himalayas.",
+"This incredible expedition leaves trekkers with lifelong memories of achievement, adventure, and Himalayan beauty.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping + guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
@@ -828,68 +896,105 @@ points: [
       "🌳 Old oak & rhododendron forest",
       "🏕 Peaceful ridge camps with big sunrises",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Kathgodam to Gogina Village",
-        sub: "250 km | 10–11 Hours | 7,500 ft",
-        points: [
-          "A long, scenic Kumaon drive through Almora, Bageshwar and Kapkot to the quiet village of Gogina.",
-          "Rivers, pine forest and distant snow peaks line the way; Gogina is a peaceful base steeped in Kumaoni culture.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Gogina to Namik",
-        sub: "8 km | 5–6 Hours | 8,900 ft",
-        points: [
-          "Follow the Ramganga, crossing wooden bridges past waterfalls and terraced fields.",
-          "Namik is one of the oldest settlements in the area and offers fine views of the surrounding ridges from camp.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Namik to Thal Top",
-        sub: "9 km | 6–7 Hours | 10,800 ft",
-        points: [
-          "A steeper day through oak and rhododendron forest, bright with blooms in spring.",
-          "Thal Top sits on open grassland ringed by Himalayan ridges, with superb sunrise and sunset light.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Thal Top to Rantankhadak",
-        sub: "7 km | 5–6 Hours | 13,500 ft",
-        points: [
-          "One of the most scenic stretches, climbing through alpine meadow and rocky ridge to Rantankhadak.",
-          "From the top: Nanda Devi, Nanda Kot, the Panchachuli peaks, Rajrambha and Maiktoli spread across the skyline.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Exploration day around Rantankhadak",
-        sub: "Acclimatisation & exploration walks",
-        points: [
-          "Wander the nearby ridges, meadows and viewpoints at an easy pace.",
-          "A relaxed day for photography, acclimatisation and simply taking in a corner of the Himalaya few people ever see.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Rantankhadak to Gogina",
-        sub: "16 km | 7–8 Hours",
-        points: [
-          "A long descent retraces the route through forest and villages back to Gogina.",
-          "Evening is for rest and celebrating the trek.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Gogina to Kathgodam",
-        sub: "250 km | 10–11 Hours",
-        points: ["Drive back to Kathgodam to end the Rantankhadak Trek."],
-      },
-    ],
+ itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Gogina Village",
+sub: "350 km | 11–12 Hours | 7,500 ft",
+points: [
+"Your Rantankhadak Trek adventure begins with a scenic drive from Dehradun to Gogina Village, a remote Himalayan settlement nestled deep within the Kumaon region of Uttarakhand.",
+"The journey takes you through picturesque mountain towns, river valleys, terraced farmlands, dense pine forests, and breathtaking Himalayan landscapes.",
+"Travel via Almora, Bageshwar, and Kapkot while enjoying spectacular views of the Kumaon Himalayas and traditional mountain villages.",
+"As you gain altitude, the scenery transforms into a stunning blend of lush forests, rugged ridges, and snow-capped peaks visible on the horizon.",
+"Gogina Village serves as the gateway to the hidden trails of the Rantankhadak Trek and offers a glimpse into authentic Kumaoni culture and lifestyle.",
+"Upon arrival, complete your trek briefing, equipment check, and acclimatization preparations.",
+"Spend the evening surrounded by peaceful mountain landscapes and prepare for the trekking adventure ahead.",
+],
+},
+{
+day: 2,
+title: "Gogina Village to Namik",
+sub: "8 km | 5–6 Hours | 8,900 ft",
+points: [
+"Begin trekking along the beautiful Ramganga River through one of the most untouched regions of the Kumaon Himalayas.",
+"Cross traditional wooden bridges, pass cascading waterfalls, and walk through picturesque terraced fields cultivated by local communities.",
+"The trail gradually ascends through forests and rural settlements, offering insight into the daily lives of mountain villagers.",
+"Experience the rich biodiversity of Uttarakhand while enjoying peaceful surroundings far away from crowded trekking routes.",
+"Reach Namik Village, one of the oldest and most culturally significant settlements in the region.",
+"The campsite offers panoramic views of surrounding valleys, mountain ridges, and beautiful Himalayan landscapes.",
+"Spend the evening exploring the village and interacting with local residents before settling in for the night.",
+],
+},
+{
+day: 3,
+title: "Namik to Thal Top",
+sub: "9 km | 6–7 Hours | 10,800 ft",
+points: [
+"Today's trek involves a steady ascent through dense oak and rhododendron forests that burst into vibrant colors during the spring season.",
+"The route offers incredible opportunities to witness Himalayan flora, birdlife, and pristine mountain ecosystems.",
+"As you gain altitude, the forest gradually opens to reveal expansive mountain views and rolling alpine landscapes.",
+"Enjoy breathtaking views of distant Himalayan peaks while traversing scenic ridgelines and open clearings.",
+"Reach Thal Top, a spectacular high-altitude meadow surrounded by towering mountain ranges.",
+"The campsite is famous for its stunning sunrise and sunset views, making it one of the most beautiful camping locations on the trek.",
+"Relax amidst the peaceful alpine environment and enjoy a magical night under the stars.",
+],
+},
+{
+day: 4,
+title: "Thal Top to Rantankhadak",
+sub: "7 km | 5–6 Hours | 13,500 ft",
+points: [
+"One of the most rewarding days of the trek takes you through vast alpine meadows, rugged mountain ridges, and breathtaking high-altitude landscapes.",
+"The trail offers uninterrupted views of the Kumaon Himalayas and showcases the raw beauty of this lesser-explored trekking destination.",
+"As you approach Rantankhadak, the scenery becomes increasingly dramatic with endless mountain panoramas unfolding in every direction.",
+"Reach Rantankhadak at an elevation of approximately 13,500 ft and witness one of the finest viewpoints in Uttarakhand.",
+"Marvel at stunning views of Nanda Devi, Nanda Kot, Panchachuli Peaks, Rajrambha, Maiktoli, and numerous other Himalayan giants.",
+"The campsite is surrounded by vast alpine grasslands and offers incredible opportunities for landscape photography.",
+"Spend the evening enjoying unforgettable sunset views over some of India's highest and most beautiful mountains.",
+],
+},
+{
+day: 5,
+title: "Exploration and Acclimatization Day at Rantankhadak",
+sub: "Exploration Walks & Viewpoint Hikes",
+points: [
+"This day is dedicated to exploring the pristine surroundings of Rantankhadak and fully experiencing the beauty of the Kumaon Himalayas.",
+"Take leisurely walks across alpine meadows, nearby ridges, and hidden viewpoints offering spectacular panoramic vistas.",
+"Discover untouched Himalayan landscapes rarely visited by trekkers, making this trek a true offbeat adventure.",
+"Spend time photographing the magnificent peaks of Nanda Devi, Nanda Kot, Panchachuli, Rajrambha, and Maiktoli from various vantage points.",
+"The relaxed pace allows your body to acclimatize while maximizing your enjoyment of the surrounding wilderness.",
+"Observe changing mountain colors throughout the day, from golden sunrises to dramatic evening alpenglow.",
+"Enjoy a peaceful day immersed in nature, far away from crowded trekking routes and commercial destinations.",
+],
+},
+{
+day: 6,
+title: "Rantankhadak to Gogina Village",
+sub: "16 km | 7–8 Hours",
+points: [
+"Begin the long but rewarding descent back toward Gogina Village through beautiful forests, meadows, and mountain trails.",
+"The return journey offers a final opportunity to admire the spectacular landscapes of the Kumaon Himalayas.",
+"Walk through traditional villages and scenic forest sections while reflecting on the unforgettable experiences of the trek.",
+"The descent provides different perspectives of the valleys, ridges, and Himalayan peaks encountered during the ascent.",
+"Reach Gogina Village by evening and celebrate the successful completion of the trekking portion of your adventure.",
+"Enjoy a comfortable overnight stay while sharing stories and memories from this remarkable expedition.",
+],
+},
+{
+day: 7,
+title: "Gogina Village to Dehradun",
+sub: "350 km | 11–12 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the beautiful landscapes of Kumaon and Garhwal.",
+"Pass through charming mountain towns, river valleys, pine forests, and traditional Himalayan settlements along the route.",
+"Reflect on your incredible journey through one of Uttarakhand's most remote and untouched trekking regions.",
+"Carry home unforgettable memories of alpine meadows, panoramic Himalayan viewpoints, and the majestic peaks of Nanda Devi and Panchachuli.",
+"Arrive in Dehradun by evening, marking the successful completion of the Rantankhadak Trek.",
+"This hidden Himalayan adventure leaves trekkers with lifelong memories of solitude, natural beauty, and authentic mountain exploration.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping + guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
@@ -981,60 +1086,94 @@ points: [
       "🏕 Classic winter clearing campsites",
       "🎿 The ideal first snow trek in India",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Dehradun to Sankri",
-        sub: "190 km | 8–10 Hours | 6,400 ft",
-        points: [
-          "A long, scenic drive up the Yamuna and Tons valleys, passing Mussoorie, Purola, Mori and Netwar.",
-          "Sankri, ringed by pine forest and snow peaks in winter, is the base for several Uttarakhand treks and your home for the night.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Sankri to Juda Ka Talab",
-        sub: "4 km | 4–5 Hours | 9,100 ft",
-        points: [
-          "A gradual climb through dense pine and oak, with snow building up underfoot through the winter months.",
-          "Juda Ka Talab is a forest-ringed alpine lake that freezes solid in peak winter; the lakeside camp catches a beautiful sunset.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Juda Ka Talab to Kedarkantha Base Camp",
-        sub: "4 km | 3–4 Hours | 11,250 ft",
-        points: [
-          "Climb gradually through forest and open clearings as snow peaks crowd the skyline.",
-          "Base camp sits on open snowfields and serves up one of the best night-sky experiences in Uttarakhand — rest early for the summit push.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Kedarkantha Summit, descend to Hargaon",
-        sub: "6 km | 7–8 Hours | 12,500 ft",
-        points: [
-          "Summit day: a pre-dawn climb to catch sunrise from the top at 12,500 ft.",
-          "The summit opens a 360° panorama of Swargarohini, Bandarpoonch, Black Peak, Ranglana and the Gangotri range.",
-          "After your time on top, descend through scenic forest to the Hargaon campsite.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Hargaon to Sankri",
-        sub: "6 km | 4–5 Hours",
-        points: [
-          "An easy descent through forest and clearings back to Sankri.",
-          "The evening is for rest and celebrating a summit well earned.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Sankri to Dehradun",
-        sub: "190 km | 8–10 Hours",
-        points: ["Drive back to Dehradun to close the Kedarkantha Trek."],
-      },
-    ],
+  itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Sankri",
+sub: "190 km | 8–10 Hours | 6,400 ft",
+points: [
+"Your Kedarkantha Trek adventure begins with a breathtaking drive from Dehradun to Sankri, the gateway to one of India's most famous winter treks.",
+"Travel through the scenic Himalayan regions of Mussoorie, Purola, Mori, and Netwar while following the beautiful Yamuna and Tons River valleys.",
+"The route offers spectacular views of pine-covered mountains, traditional Garhwali villages, terraced farmlands, and snow-capped Himalayan peaks.",
+"As you ascend deeper into the Govind Wildlife Sanctuary region, the landscapes become increasingly dramatic and picturesque.",
+"Sankri is a charming Himalayan village surrounded by dense forests and towering mountains, serving as the base camp for several iconic treks in Uttarakhand.",
+"Upon arrival, complete your trek briefing, gear check, and preparations for the journey ahead.",
+"Spend the evening enjoying the peaceful mountain atmosphere while acclimatizing to the higher altitude.",
+],
+},
+{
+day: 2,
+title: "Sankri to Juda Ka Talab",
+sub: "4 km | 4–5 Hours | 9,100 ft",
+points: [
+"Begin your Kedarkantha Trek with a gradual ascent through dense pine, oak, and maple forests filled with Himalayan beauty.",
+"The trail winds through enchanting woodland paths that transform into a snowy wonderland during the winter trekking season.",
+"Enjoy breathtaking views of surrounding mountain ranges as you steadily gain altitude.",
+"The forest route is rich in biodiversity and offers excellent opportunities for nature photography and birdwatching.",
+"Reach Juda Ka Talab, a beautiful high-altitude lake surrounded by dense forests and towering trees.",
+"During peak winter, the lake freezes completely, creating one of the most iconic sights of the Kedarkantha Snow Trek.",
+"Camp beside the lake and witness a spectacular sunset reflecting across the snow-covered landscape.",
+"Spend the night under a sky filled with countless stars in the heart of the Himalayas.",
+],
+},
+{
+day: 3,
+title: "Juda Ka Talab to Kedarkantha Base Camp",
+sub: "4 km | 3–4 Hours | 11,250 ft",
+points: [
+"Today's trek takes you higher into the alpine zone as you leave the dense forests behind and enter open mountain terrain.",
+"The trail passes through snow-covered clearings, beautiful ridgelines, and panoramic viewpoints overlooking the surrounding valleys.",
+"As you gain elevation, stunning views of Himalayan peaks begin to dominate the horizon.",
+"The route provides excellent opportunities to experience the pristine winter landscapes that make Kedarkantha one of the best snow treks in India.",
+"Reach Kedarkantha Base Camp, located amidst vast snowfields with spectacular views of the surrounding mountains.",
+"The campsite is renowned for offering one of the most beautiful night-sky experiences in Uttarakhand.",
+"Attend a summit briefing and prepare your equipment for the early morning summit push.",
+"Rest early and conserve energy for the most exciting day of the trek.",
+],
+},
+{
+day: 4,
+title: "Kedarkantha Summit and Descend to Hargaon",
+sub: "6 km | 7–8 Hours | 12,500 ft",
+points: [
+"Wake before dawn and begin the thrilling ascent toward the summit of Kedarkantha Peak under a star-lit Himalayan sky.",
+"The climb takes you across snow-covered slopes and ridgelines as the first rays of sunlight illuminate the surrounding mountains.",
+"Reach the Kedarkantha Summit at an altitude of 12,500 ft and witness one of the most spectacular sunrise experiences in the Indian Himalayas.",
+"The summit offers an unforgettable 360-degree panorama of Swargarohini, Bandarpoonch, Black Peak (Kala Nag), Ranglana, Gangotri Peaks, and numerous snow-covered Himalayan ranges.",
+"Capture breathtaking photographs while enjoying the sense of achievement that comes with reaching one of Uttarakhand's most iconic trekking summits.",
+"Spend time soaking in the magnificent mountain views before beginning the descent.",
+"Descend through scenic snow-covered forests and alpine landscapes toward Hargaon campsite.",
+"Reach Hargaon by evening and celebrate a successful summit day surrounded by pristine Himalayan wilderness.",
+],
+},
+{
+day: 5,
+title: "Hargaon to Sankri",
+sub: "6 km | 4–5 Hours",
+points: [
+"Begin your descent through dense forests, snowy clearings, and beautiful mountain trails leading back to Sankri.",
+"The return journey offers a final opportunity to admire the breathtaking landscapes of the Kedarkantha Trek.",
+"Walk through peaceful woodland paths while enjoying fresh mountain air and spectacular views of the surrounding valleys.",
+"Reach Sankri Village by afternoon and unwind after completing one of India's most popular winter treks.",
+"Spend the evening relaxing, exploring the village, and sharing memorable experiences with fellow trekkers.",
+"Celebrate the successful completion of your Himalayan adventure with a comfortable overnight stay in Sankri.",
+],
+},
+{
+day: 6,
+title: "Sankri to Dehradun",
+sub: "190 km | 8–10 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the beautiful landscapes of Uttarakhand.",
+"Travel once again through the picturesque Tons Valley, traditional mountain villages, and lush Himalayan forests.",
+"Reflect on your incredible journey through snow-covered trails, frozen lakes, dense forests, and breathtaking summit views.",
+"Carry home unforgettable memories of Kedarkantha Peak, Juda Ka Talab, Himalayan sunrises, and the majestic mountain landscapes of Uttarakhand.",
+"Arrive in Dehradun by evening, marking the successful completion of the Kedarkantha Trek.",
+"This unforgettable Himalayan adventure remains one of the finest winter trekking experiences in India.",
+],
+},
+],
+
     includes: [
       "Dehradun pickup & drop (railway station)",
       "All accommodation (guesthouse + camping)",
@@ -1128,79 +1267,124 @@ points: [
       "⛺ Lakeside campsites across high passes",
       "🧭 Crossing Nichnai, Gadsar & Zaj passes",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Srinagar to Sonamarg, trek to Nichnai",
-        sub: "8 km | 5–6 Hours | 11,500 ft",
-        points: [
-          "Drive to Sonamarg, the 'meadow of gold', then begin the trek from Shitkadi, climbing through pine and open meadow.",
-          "The first big Himalayan landscapes open up on the way to the Nichnai camp, with snow patches and streams along the trail.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Nichnai to Vishansar Lake via Nichnai Pass",
-        sub: "12 km | 7–8 Hours | 12,000 ft",
-        points: [
-          "Climb to Nichnai Pass for sweeping valley and snow-peak views, then descend to the gorgeous Vishansar Lake.",
-          "Camp by water ringed with meadow and peaks; the sunset reflection here is one of the trek's highlights.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Vishansar to Gadsar via Gadsar Pass",
-        sub: "14 km | 7–8 Hours | 13,800 ft",
-        points: [
-          "The most dramatic day: past Kishansar Lake and up to the high Gadsar Pass, the trek's highest point.",
-          "Views of alpine lakes, glaciers and (in summer) carpets of wildflowers, before descending to the peaceful Gadsar camp.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Gadsar to Satsar",
-        sub: "9 km | 5–6 Hours | 12,000 ft",
-        points: [
-          "Cross broad meadows and rocky stretches dotted with small lakes.",
-          "Satsar — a cluster of seven interconnected lakes — is quieter and feels wonderfully remote.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Satsar to Gangbal Twin Lakes via Zaj Pass",
-        sub: "11 km | 6–7 Hours | 11,500 ft",
-        points: [
-          "Cross Zaj Pass and descend to the twin lakes of Gangbal and Nundkol, beneath the great mass of Mt Harmukh.",
-          "The grasslands around the lakes make for a dreamlike camp with extraordinary sunset light.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Gangbal to Naranag, drive to Srinagar",
-        sub: "12 km | 6–7 Hours",
-        points: [
-          "A long descent through pine forest and shepherd settlements to Naranag village.",
-          "Drive back to Srinagar after the trek.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Buffer & exploration day",
-        sub: "Rest and exploration",
-        points: [
-          "A spare day built in for weather, acclimatisation or simply soaking in the lakes and meadows.",
-          "Time to rest, photograph and enjoy the quiet of the high country.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Departure from Srinagar",
-        sub: "Conclusion of journey",
-        points: [
-          "The trek wraps up in Srinagar; explore Dal Lake, the Mughal Gardens or the old markets before you leave.",
-        ],
-      },
-    ],
+   itinerary: [
+{
+day: 1,
+title: "Srinagar to Sonamarg, Trek to Nichnai",
+sub: "8 km | 5–6 Hours | 11,500 ft",
+points: [
+"Your Kashmir Great Lakes Trek begins with a scenic drive from Srinagar to Sonamarg, famously known as the 'Meadow of Gold' and one of Kashmir's most beautiful destinations.",
+"The journey offers breathtaking views of lush valleys, snow-capped mountains, flowing rivers, and traditional Kashmiri villages.",
+"From Shitkadi, begin trekking through dense pine forests, alpine meadows, and picturesque mountain landscapes.",
+"The trail gradually ascends through vibrant grasslands dotted with wildflowers during the summer season.",
+"Crystal-clear streams, grazing shepherd camps, and panoramic mountain views accompany you throughout the trek.",
+"Reach Nichnai campsite surrounded by majestic Himalayan peaks and pristine wilderness.",
+"Spend the evening enjoying spectacular sunset views and preparing for the high-altitude adventure ahead.",
+],
+},
+
+{
+day: 2,
+title: "Nichnai to Vishansar Lake via Nichnai Pass",
+sub: "12 km | 7–8 Hours | 12,000 ft",
+points: [
+"Begin the day with a steady ascent toward Nichnai Pass, one of the first major mountain crossings of the trek.",
+"As you gain elevation, breathtaking views of Kashmir's alpine valleys and snow-covered peaks unfold in every direction.",
+"Cross the pass and descend through rolling meadows, glacial streams, and dramatic mountain landscapes.",
+"The trail offers incredible opportunities to witness the untouched beauty of the Kashmir Himalayas.",
+"Reach the stunning Vishansar Lake, often referred to as the 'Lake of Vishnu' and considered one of the most beautiful alpine lakes in Kashmir.",
+"The crystal-clear waters perfectly reflect the surrounding mountains, creating unforgettable photography opportunities.",
+"Camp beside the lake and witness one of the most spectacular sunsets of the entire Kashmir Great Lakes Trek.",
+],
+},
+
+{
+day: 3,
+title: "Vishansar Lake to Gadsar via Kishansar Lake and Gadsar Pass",
+sub: "14 km | 7–8 Hours | 13,800 ft",
+points: [
+"Today's trek is considered one of the most scenic and rewarding sections of the Kashmir Great Lakes Trek.",
+"Begin by trekking alongside the beautiful Kishansar Lake, another breathtaking alpine lake surrounded by towering peaks.",
+"Ascend toward Gadsar Pass, the highest point of the trek, offering unmatched panoramic views of the surrounding Himalayan ranges.",
+"The route passes through vast meadows covered with colorful wildflowers during summer months.",
+"Marvel at dramatic landscapes featuring glaciers, rocky ridgelines, alpine lakes, and distant snowfields.",
+"After crossing Gadsar Pass, descend into the stunning Gadsar Valley, often called the 'Valley of Flowers of Kashmir'.",
+"Reach Gadsar campsite and enjoy a peaceful evening surrounded by pristine mountain wilderness.",
+],
+},
+
+{
+day: 4,
+title: "Gadsar to Satsar Lakes",
+sub: "9 km | 5–6 Hours | 12,000 ft",
+points: [
+"Continue your journey through remote alpine landscapes and untouched Himalayan terrain.",
+"The trail traverses broad grasslands, rocky sections, and numerous glacial streams fed by melting snow.",
+"Witness some of the most isolated and pristine regions of the Kashmir Himalayas.",
+"Reach Satsar, a spectacular collection of seven interconnected alpine lakes hidden amidst the mountains.",
+"The serene environment, crystal-clear waters, and surrounding peaks create a magical atmosphere.",
+"Spend time exploring the area and enjoying the tranquility of one of Kashmir's most remote trekking camps.",
+"Experience a peaceful night under a sky filled with stars and surrounded by untouched nature.",
+],
+},
+
+{
+day: 5,
+title: "Satsar to Gangbal and Nundkol Lakes via Zaj Pass",
+sub: "11 km | 6–7 Hours | 11,500 ft",
+points: [
+"Today's route takes you across Zaj Pass, another spectacular viewpoint offering panoramic vistas of Kashmir's mountain landscapes.",
+"Enjoy magnificent views of alpine meadows, distant valleys, and snow-capped Himalayan peaks.",
+"Descend gradually toward the legendary twin lakes of Gangbal and Nundkol.",
+"Nestled beneath the towering Mount Harmukh, these lakes are considered among the most beautiful high-altitude lakes in India.",
+"The emerald-blue waters, lush grasslands, and dramatic mountain backdrop create an unforgettable camping experience.",
+"Spend the evening exploring the lakeshores, capturing stunning photographs, and witnessing magical sunset reflections.",
+"Camp beside the lakes while surrounded by one of the most breathtaking settings in the entire Himalayas.",
+],
+},
+
+{
+day: 6,
+title: "Gangbal Lakes to Naranag, Drive to Srinagar",
+sub: "12 km | 6–7 Hours",
+points: [
+"Begin the final trekking day with a scenic descent through beautiful alpine meadows and dense pine forests.",
+"Pass traditional shepherd settlements and ancient Himalayan landscapes that have remained unchanged for centuries.",
+"The trail offers final views of Mount Harmukh and the surrounding Kashmir Valley.",
+"Reach Naranag Village, known for its historic temples and cultural significance in Kashmir.",
+"After completing the trek, drive back to Srinagar through picturesque mountain roads and scenic valleys.",
+"Arrive in Srinagar by evening and celebrate the successful completion of the legendary Kashmir Great Lakes Trek.",
+],
+},
+
+{
+day: 7,
+title: "Buffer Day & Kashmir Exploration",
+sub: "Rest Day | Flexible Schedule",
+points: [
+"This day serves as a weather contingency, acclimatization buffer, or leisure day depending on trek conditions.",
+"If unused during the trek, spend the day exploring the beauty and culture of Srinagar.",
+"Visit Dal Lake, enjoy a traditional Shikara ride, and explore the famous Mughal Gardens.",
+"Discover local markets, Kashmiri handicrafts, and authentic regional cuisine.",
+"Use the day to relax, organize photographs, and reflect on the incredible Himalayan adventure.",
+"The extra day provides flexibility and ensures a safe trekking experience in changing mountain conditions.",
+],
+},
+
+{
+day: 8,
+title: "Departure from Srinagar",
+sub: "End of Kashmir Great Lakes Trek",
+points: [
+"After breakfast, your unforgettable Kashmir Great Lakes Trek officially comes to an end.",
+"Depending on your travel schedule, enjoy a final stroll through Srinagar's charming streets and lakeside promenades.",
+"Carry home lifelong memories of pristine alpine lakes, towering mountain passes, colorful meadows, and the unmatched beauty of Kashmir.",
+"The Kashmir Great Lakes Trek is widely regarded as one of the most beautiful treks in India and offers an unforgettable Himalayan experience.",
+"Transfer to Srinagar Airport for your onward journey.",
+],
+},
+],
+
     includes: [
       "All camp accommodation during the trek",
       "All meals from Day 1 dinner to the final breakfast",
@@ -1291,76 +1475,127 @@ points: [
       "⛺ Dramatic high-altitude camps",
       "🌅 Sunrise and sunset over the Garhwal giants",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Dehradun to Gangotri",
-        sub: "Drive | 240 km | 10,200 ft",
-        points: [
-          "A long mountain drive through Uttarkashi and the lovely Harsil Valley to Gangotri, one of the holiest towns in the Garhwal.",
-          "Settle in and rest; the altitude here already begins the acclimatisation process.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Acclimatisation day at Gangotri",
-        sub: "Rest & exploration | 10,200 ft",
-        points: [
-          "A full day to adjust to the altitude before heading higher.",
-          "Visit the Gangotri Temple and the riverside ghats, and take a short walk to ease the body into the thin air.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Gangotri to Chirbasa",
-        sub: "9 km | 11,700 ft",
-        points: [
-          "Trek through pine forest along the Bhagirathi River with the Bhagirathi peaks growing ahead of you.",
-          "Chirbasa, a stand of pines beside the river, is a peaceful first camp.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Chirbasa to Bhojbasa",
-        sub: "5 km | 12,450 ft",
-        points: [
-          "A gradual walk across wide, increasingly barren Himalayan valley with the glacier drawing near.",
-          "Bhojbasa sits close to Gaumukh and is the base for the push to the source and Tapovan.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Bhojbasa to Gaumukh and Tapovan",
-        sub: "7 km | 14,600 ft",
-        points: [
-          "Reach Gaumukh, the snout of the Gangotri Glacier where the Ganga emerges from the ice.",
-          "Then the hardest stretch — a steep climb and a glacier crossing up to the meadow of Tapovan, directly beneath Mt Shivling.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Explore Tapovan & begin descent",
-        sub: "Exploration | 14,600 ft",
-        points: [
-          "Soak in close-up views of Shivling, Meru and the surrounding peaks from one of the Garhwal's finest meadows.",
-          "After exploring, begin the descent back toward Bhojbasa.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Bhojbasa to Gangotri",
-        sub: "14 km | Descent",
-        points: [
-          "Retrace the scenic riverside trail back to Gangotri, with the Bhagirathi peaks at your back.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Gangotri to Dehradun",
-        sub: "Drive | 240 km",
-        points: ["Drive back to Dehradun to close the trek."],
-      },
-    ],
+  itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Gangotri",
+sub: "240 km | 9–10 Hours | 10,200 ft",
+points: [
+"Your Gaumukh Tapovan Trek begins with a spectacular drive from Dehradun to Gangotri, one of the most sacred pilgrimage destinations in the Indian Himalayas.",
+"Travel through the scenic mountain towns of Mussoorie, Uttarkashi, and the breathtaking Harsil Valley, known for its apple orchards, pine forests, and snow-capped peaks.",
+"Follow the course of the Bhagirathi River as it winds through deep Himalayan valleys and dramatic mountain landscapes.",
+"The journey offers stunning views of waterfalls, rugged cliffs, traditional Garhwali villages, and dense deodar forests.",
+"Reach Gangotri, the revered origin point of the River Ganga and one of the Char Dham pilgrimage sites of Uttarakhand.",
+"Check into your guesthouse and attend a trek briefing with your trek leader and support team.",
+"Spend the evening acclimatizing to the altitude while enjoying the spiritual atmosphere of Gangotri Temple and the Bhagirathi River.",
+],
+},
+
+{
+day: 2,
+title: "Acclimatization Day at Gangotri",
+sub: "Rest & Exploration | 10,200 ft",
+points: [
+"A dedicated acclimatization day helps your body adjust to the increasing altitude before ascending deeper into the Himalayas.",
+"Visit the sacred Gangotri Temple, one of India's most important pilgrimage sites and the spiritual starting point of the River Ganga.",
+"Explore the riverside ghats and witness the powerful flow of the Bhagirathi River emerging from the higher Himalayas.",
+"Take a short acclimatization hike through nearby forests and mountain trails to improve altitude adaptation.",
+"Learn about the cultural, historical, and religious significance of the Gangotri region.",
+"Enjoy panoramic views of surrounding peaks and prepare both physically and mentally for the upcoming trekking days.",
+"Return to your accommodation for a restful evening before the journey toward Gaumukh begins.",
+],
+},
+
+{
+day: 3,
+title: "Gangotri to Chirbasa",
+sub: "9 km | 5–6 Hours | 11,700 ft",
+points: [
+"Begin trekking along the famous Gaumukh trail, following the roaring Bhagirathi River through the heart of the Garhwal Himalayas.",
+"The route passes through beautiful pine forests, rocky mountain terrain, and scenic ridgelines overlooking the river valley.",
+"As you gain elevation, breathtaking views of the Bhagirathi Peaks begin to dominate the skyline.",
+"The trail offers excellent opportunities for nature photography and birdwatching in the high Himalayan ecosystem.",
+"Reach Chirbasa, meaning 'Abode of Pines,' a peaceful campsite surrounded by majestic Himalayan landscapes.",
+"Enjoy stunning sunset views over the Bhagirathi range and experience the tranquility of the mountains.",
+"Spend the night under a spectacular Himalayan sky filled with countless stars.",
+],
+},
+
+{
+day: 4,
+title: "Chirbasa to Bhojbasa",
+sub: "5 km | 3–4 Hours | 12,450 ft",
+points: [
+"Today's trek follows the widening valley of the Bhagirathi River as the terrain gradually becomes more rugged and alpine.",
+"Witness dramatic landscapes shaped by glaciers, towering peaks, and centuries of Himalayan geological activity.",
+"The tree line begins to disappear, revealing vast open views of snow-covered mountains and rocky terrain.",
+"Catch breathtaking glimpses of the Bhagirathi Peaks, Sudarshan Peak, and distant glacier systems.",
+"Reach Bhojbasa, one of the most scenic campsites on the Gaumukh Tapovan Trek.",
+"Located near the Gangotri Glacier, Bhojbasa serves as the final base before reaching the sacred source of the Ganga.",
+"Enjoy the peaceful atmosphere and prepare for the exciting journey to Gaumukh and Tapovan.",
+],
+},
+
+{
+day: 5,
+title: "Bhojbasa to Gaumukh and Tapovan",
+sub: "7 km | 7–8 Hours | 14,600 ft",
+points: [
+"This is the most exciting and rewarding day of the Gaumukh Tapovan Trek as you journey to the source of the sacred River Ganga.",
+"Reach Gaumukh, the famous snout of the Gangotri Glacier, where the Bhagirathi River emerges from a massive wall of ancient ice.",
+"Witness one of the most sacred and awe-inspiring natural landmarks in the Indian Himalayas.",
+"After spending time at Gaumukh, begin the challenging ascent toward Tapovan across glacial terrain and rocky mountain slopes.",
+"The climb requires careful navigation but rewards trekkers with some of the finest alpine scenery in India.",
+"Reach Tapovan, a spectacular high-altitude meadow situated directly beneath the majestic Mount Shivling.",
+"The campsite offers breathtaking views of Mount Shivling, Meru Peak, Bhagirathi Peaks, and the vast Gangotri Glacier.",
+"Spend the evening surrounded by some of the most iconic mountains in the Garhwal Himalayas.",
+],
+},
+
+{
+day: 6,
+title: "Explore Tapovan and Descend to Bhojbasa",
+sub: "Exploration & Descent | 14,600 ft",
+points: [
+"Wake up to unforgettable sunrise views illuminating the towering granite face of Mount Shivling.",
+"Spend the morning exploring the vast alpine meadows and glacial landscapes surrounding Tapovan.",
+"Tapovan is regarded as one of the most beautiful high-altitude camping destinations in the Himalayas.",
+"Enjoy close-up views of Mount Shivling, Meru Peak, Bhagirathi Massif, and countless surrounding Himalayan summits.",
+"Photographers and nature lovers will find endless opportunities to capture the grandeur of the region.",
+"After exploration, begin your descent back toward Bhojbasa through the dramatic glacial landscape.",
+"Reach Bhojbasa by evening and enjoy your final night amidst the stunning scenery of the Gangotri region.",
+],
+},
+
+{
+day: 7,
+title: "Bhojbasa to Gangotri",
+sub: "14 km | 6–7 Hours",
+points: [
+"Begin the scenic return trek from Bhojbasa to Gangotri following the beautiful Bhagirathi River valley.",
+"The descent offers fresh perspectives of the mountains, glaciers, and landscapes experienced during the ascent.",
+"Enjoy final views of the Bhagirathi Peaks and the rugged beauty of the Gangotri National Park region.",
+"Pass through Chirbasa and retrace the famous trekking route back to the holy town of Gangotri.",
+"Reach Gangotri by afternoon and enjoy a comfortable stay after completing the trekking section of the expedition.",
+"Celebrate the successful completion of one of India's most iconic Himalayan treks.",
+],
+},
+
+{
+day: 8,
+title: "Gangotri to Dehradun",
+sub: "240 km | 9–10 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the beautiful valleys of Uttarakhand.",
+"Travel once again through Harsil, Uttarkashi, and the stunning landscapes of the Garhwal Himalayas.",
+"Reflect on your incredible journey to Gaumukh, the source of the Ganga, and the breathtaking meadows of Tapovan.",
+"Carry home unforgettable memories of glaciers, sacred rivers, alpine meadows, and towering Himalayan peaks.",
+"Arrive in Dehradun by evening, marking the successful completion of the Gaumukh Tapovan Trek.",
+"This legendary Himalayan expedition remains one of the most rewarding trekking experiences in India.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping & guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
