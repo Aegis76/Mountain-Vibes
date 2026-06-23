@@ -26,83 +26,89 @@ const TREKS = {
       "🏘 Traditional Garhwali hamlets like Didna",
       "❄️ Early-summer snow patches near the lake",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Kathgodam to Lohajung",
-        sub: "220 km | 9–10 Hours | 7,700 ft",
-        points: [
-          "The road journey begins at Kathgodam and winds up through the Kumaon hills, passing the well-known towns of Almora, Kausani and Gwaldam.",
-          "Expect long ridge views, terraced farms and pine slopes opening to distant snow peaks as you climb.",
-          "Lohajung, a small pass-side village, is the base for the trek; the evening is for settling in, a gear check and an early dinner.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Lohajung to Didna Village",
-        sub: "6 km | 5–6 Hours | 8,000 ft",
-        points: [
-          "A short descent to the Neel Ganga is followed by a steady forest climb toward Didna.",
-          "The path runs through oak and rhododendron, with the first proper views of the valley opening behind you.",
-          "Didna is a working mountain village; staying here is your first close look at everyday Garhwali life.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Didna to Ali Bugyal",
-        sub: "10 km | 6–7 Hours | 11,700 ft",
-        points: [
-          "The day's effort is rewarded as forest gives way to the immense rolling grassland of Ali Bugyal.",
-          "Trishul and Mrigthuni anchor the skyline; in early summer the slopes carry patches of wildflowers.",
-          "Camp on open meadow with uninterrupted sunset and night-sky views.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Ali Bugyal to Patar Nachauni",
-        sub: "6 km | 4–5 Hours | 12,500 ft",
-        points: [
-          "A scenic ridge walk links the Ali and Bedni meadows before the route narrows toward Patar Nachauni.",
-          "The campsite carries local folklore tied to the Roopkund legend and offers dramatic evening light.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Patar Nachauni to Bhagwabasa",
-        sub: "5 km | 5–6 Hours | 14,100 ft",
-        points: [
-          "The terrain turns barren and rocky as you gain serious altitude; early-summer snow is common here.",
-          "Bhagwabasa sits beneath towering ridges and is the launch camp for summit day, so trekkers rest early.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Bhagwabasa to Roopkund, return to Patar Nachauni",
-        sub: "10 km | 9–10 Hours | 16,499 ft",
-        points: [
-          "Summit day starts before dawn for a steep, sustained climb to the lake at 16,499 ft.",
-          "Roopkund's edge is scattered with the ancient skeletal remains that gave it its name; on clear mornings, Trishul, Chaukhamba and Neelkanth fill the horizon.",
-          "After time at the lake, descend carefully back to the safer altitude of Patar Nachauni.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Patar Nachauni to Lohajung",
-        sub: "12 km | 7–8 Hours",
-        points: [
-          "A long, knee-friendly descent retraces the meadows and forests back to Lohajung.",
-          "The return angle reveals views you missed on the way up, making it feel like a different trail.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Lohajung to Kathgodam",
-        sub: "220 km | 9–10 Hours",
-        points: [
-          "The drive back to Kathgodam closes the trek, with time to catch onward trains or transport.",
-        ],
-      },
-    ],
+ itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Lohajung",
+sub: "280 km | 10–12 Hours | 7,700 ft",
+points: [
+"Your Roopkund Trek adventure begins with a scenic drive from Dehradun to Lohajung, the traditional base camp for one of Uttarakhand's most iconic Himalayan treks.",
+"Travel through picturesque mountain roads, charming villages, dense pine forests, and river valleys while enjoying breathtaking views of the Garhwal Himalayas.",
+"Upon arrival in Lohajung, complete a gear check, acclimatize to the mountain environment, and prepare for the exciting trekking journey ahead.",
+],
+},
+{
+day: 2,
+title: "Lohajung to Didna Village",
+sub: "6 km | 5–6 Hours | 8,000 ft",
+points: [
+"Begin the trek with a descent to the Neel Ganga River followed by a gradual climb through beautiful oak and rhododendron forests.",
+"The trail offers stunning views of surrounding valleys and introduces trekkers to the rich natural beauty of Uttarakhand.",
+"Didna Village provides an authentic cultural experience, offering a glimpse into traditional Garhwali mountain life and hospitality.",
+],
+},
+{
+day: 3,
+title: "Didna Village to Ali Bugyal",
+sub: "10 km | 6–7 Hours | 11,700 ft",
+points: [
+"Leave the forests behind as you enter the spectacular Ali Bugyal, one of Asia's largest alpine meadows and a highlight of the Roopkund Trek.",
+"Enjoy panoramic views of Mount Trishul, Mrigthuni, and rolling green meadows stretching across the Himalayan landscape.",
+"Camp beneath a star-filled sky while witnessing unforgettable sunset views across the vast grasslands.",
+],
+},
+{
+day: 4,
+title: "Ali Bugyal to Patar Nachauni",
+sub: "6 km | 4–5 Hours | 12,500 ft",
+points: [
+"Follow a scenic ridge trail connecting the famous Ali Bugyal and Bedni Bugyal meadows, two of the most beautiful trekking destinations in India.",
+"Marvel at uninterrupted Himalayan views while learning about the legends and folklore associated with the mysterious Roopkund Lake.",
+"Reach Patar Nachauni campsite and enjoy dramatic mountain sunsets in a peaceful alpine setting.",
+],
+},
+{
+day: 5,
+title: "Patar Nachauni to Bhagwabasa",
+sub: "5 km | 5–6 Hours | 14,100 ft",
+points: [
+"The landscape becomes rugged and high-altitude as the trail ascends through rocky terrain and occasional snow patches.",
+"Experience the raw beauty of the Himalayas while gaining elevation toward the final base camp.",
+"Bhagwabasa serves as the launch point for the Roopkund summit day and offers stunning views of surrounding mountain ridges.",
+],
+},
+{
+day: 6,
+title: "Bhagwabasa to Roopkund Lake (Skeleton Lake) and Return to Patar Nachauni",
+sub: "10 km | 9–10 Hours | 16,499 ft",
+points: [
+"Start before dawn for the challenging ascent to Roopkund Lake, one of the most famous high-altitude lakes in the Indian Himalayas.",
+"Discover the mysterious Skeleton Lake, known worldwide for its ancient human skeletal remains, while enjoying spectacular views of Trishul, Chaukhamba, Nanda Ghunti, and Neelkanth peaks.",
+"After spending time at the lake and capturing breathtaking Himalayan panoramas, descend safely back to Patar Nachauni for an overnight stay.",
+],
+},
+{
+day: 7,
+title: "Patar Nachauni to Lohajung",
+sub: "12 km | 7–8 Hours",
+points: [
+"Retrace your route through the scenic alpine meadows, forests, and ridgelines of the Roopkund Trek.",
+"The descent reveals fresh perspectives of Ali Bugyal and Bedni Bugyal, offering equally spectacular views on the return journey.",
+"Arrive back in Lohajung and celebrate the successful completion of one of Uttarakhand's most rewarding treks.",
+],
+},
+{
+day: 8,
+title: "Lohajung to Dehradun",
+sub: "280 km | 10–12 Hours",
+points: [
+"After breakfast, begin the return drive from Lohajung to Dehradun through the scenic landscapes of Uttarakhand.",
+"Carry home unforgettable memories of Roopkund Lake, Ali Bugyal, Bedni Bugyal, and the breathtaking Garhwal Himalayas.",
+"Reach Dehradun by evening, marking the end of an incredible Himalayan trekking adventure.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping + guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
