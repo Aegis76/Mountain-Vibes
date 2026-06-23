@@ -200,64 +200,69 @@ points: [
       "🏕 Wide-open meadow campsites and big skies",
       "🎒 Beginner-friendly gradient, no technical sections",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Kathgodam to Lohajung",
-        sub: "220 km | 9–10 Hours | 7,700 ft",
-        points: [
-          "Leave Kathgodam and climb through Almora, Kausani and Gwaldam on a long but scenic mountain drive.",
-          "River valleys, pine forest and distant ridgelines fill the windows as you gain height.",
-          "Settle into Lohajung for the night and use the evening to acclimatise and check gear.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Lohajung to Didna Village",
-        sub: "6 km | 5–6 Hours | 8,000 ft",
-        points: [
-          "Drop to the Neel Ganga, then climb steadily through oak and rhododendron toward Didna.",
-          "Didna is a quiet, traditional settlement and a gentle introduction to Garhwali village life.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Didna to Ali Bugyal",
-        sub: "8 km | 6–7 Hours | 11,700 ft",
-        points: [
-          "Forest opens into the vast sweep of Ali Bugyal, one of the largest high-altitude meadows in Asia.",
-          "Trishul and Nanda Ghunti stand clear on the skyline; spring and summer add carpets of alpine flowers.",
-          "Camping on the meadow here is the highlight of the trek for most trekkers.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Ali Bugyal to Bedni Bugyal, descend to Ghairoli Patal",
-        sub: "10 km | 6–7 Hours | 12,550 ft",
-        points: [
-          "A near-level ridge walk links Ali to Bedni with unbroken views of Trishul and Nanda Ghunti.",
-          "At Bedni, the small sacred lake Bedni Kund reflects the peaks on calm mornings.",
-          "Descend through forest to the sheltered camp at Ghairoli Patal.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Ghairoli Patal to Lohajung",
-        sub: "9 km | 5–6 Hours",
-        points: [
-          "An easy forest descent with good birdlife brings you back toward Lohajung.",
-          "Evening is for rest and celebrating the end of the trek.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Lohajung to Kathgodam",
-        sub: "220 km | 9–10 Hours",
-        points: [
-          "Drive back to Kathgodam through the Kumaon hills to close the journey.",
-        ],
-      },
-    ],
+   itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Lohajung",
+sub: "280 km | 10–12 Hours | 7,700 ft",
+points: [
+"Begin your Ali Bedni Bugyal Trek with a scenic drive from Dehradun to Lohajung, the gateway to some of Uttarakhand's most spectacular alpine meadows.",
+"The route passes through charming Himalayan villages, river valleys, dense pine forests, and breathtaking mountain landscapes of the Garhwal Himalayas.",
+"Arrive in Lohajung by evening, complete your gear check, acclimatize to the altitude, and prepare for the trekking adventure ahead.",
+],
+},
+{
+day: 2,
+title: "Lohajung to Didna Village",
+sub: "6 km | 5–6 Hours | 8,000 ft",
+points: [
+"Start the trek with a descent to the Neel Ganga River before ascending through lush oak and rhododendron forests.",
+"The trail offers beautiful valley views and introduces trekkers to the rich biodiversity of Uttarakhand's Himalayan region.",
+"Reach Didna Village, a traditional Garhwali settlement where you can experience authentic mountain culture and hospitality.",
+],
+},
+{
+day: 3,
+title: "Didna Village to Ali Bugyal",
+sub: "8 km | 6–7 Hours | 11,700 ft",
+points: [
+"Leave the forest behind as you emerge onto the magnificent Ali Bugyal, one of Asia's largest and most beautiful high-altitude meadows.",
+"Enjoy panoramic views of Mount Trishul, Nanda Ghunti, and endless rolling grasslands that make this trek one of the most scenic in India.",
+"Camp amidst the vast alpine landscape and witness spectacular sunsets beneath a sky filled with stars.",
+],
+},
+{
+day: 4,
+title: "Ali Bugyal to Bedni Bugyal via Bedni Kund, Descend to Ghairoli Patal",
+sub: "10 km | 6–7 Hours | 12,550 ft",
+points: [
+"Follow a breathtaking ridge walk connecting Ali Bugyal and Bedni Bugyal, offering uninterrupted views of Trishul and Nanda Ghunti peaks.",
+"Visit the sacred Bedni Kund, a high-altitude lake known for its spiritual significance and stunning mountain reflections.",
+"Descend through ancient forests to the peaceful campsite at Ghairoli Patal, surrounded by towering oak and rhododendron trees.",
+],
+},
+{
+day: 5,
+title: "Ghairoli Patal to Lohajung",
+sub: "9 km | 5–6 Hours",
+points: [
+"Enjoy a relaxing descent through pristine Himalayan forests rich in birdlife and natural beauty.",
+"The trail provides a final opportunity to admire the landscapes of the Ali Bedni Bugyal Trek before returning to Lohajung.",
+"Celebrate the successful completion of your trek and spend a comfortable evening in Lohajung.",
+],
+},
+{
+day: 6,
+title: "Lohajung to Dehradun",
+sub: "280 km | 10–12 Hours",
+points: [
+"After breakfast, begin the scenic return drive from Lohajung to Dehradun through the beautiful valleys and mountains of Uttarakhand.",
+"Carry home unforgettable memories of Ali Bugyal, Bedni Bugyal, Bedni Kund, and the majestic Himalayan landscapes.",
+"Arrive in Dehradun by evening, marking the end of an incredible Himalayan trekking experience.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping + guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
@@ -348,60 +353,92 @@ points: [
       "🏕 Lakeside winter campsites",
       "🌅 Big sunrise panoramas from the ridge",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Kathgodam to Lohajung",
-        sub: "220 km | 9–10 Hours | 7,700 ft",
-        points: [
-          "Climb out of Kathgodam through Almora, Kausani and Gwaldam, with the hills turning whiter as you gain height in winter.",
-          "Lohajung is the base village; expect pine forest, snow-dusted peaks and a crisp mountain evening.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Lohajung to Bekaltal",
-        sub: "6 km | 5–6 Hours | 9,689 ft",
-        points: [
-          "A gradual climb through oak and rhododendron, with snow appearing along the trail through the winter months.",
-          "Bekaltal, a forest-ringed alpine lake, partly freezes in deep winter and makes a beautiful first camp.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Bekaltal to Brahmatal",
-        sub: "7 km | 5–6 Hours | 10,450 ft",
-        points: [
-          "Steady climbing through snowy forest and open ridges, with Himalayan views opening up through the day.",
-          "Brahmatal Lake, considered sacred locally, often lies frozen; the nearby camp catches superb sunset light on Trishul and Nanda Ghunti.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Brahmatal to Brahmatal Top, descend to Daldum",
-        sub: "8 km | 7–8 Hours | 12,250 ft",
-        points: [
-          "Summit day: a climb across snowfields and ridgelines to Brahmatal Top, the high point of the trek.",
-          "The reward is a wide panorama — Trishul, Nanda Ghunti, Chaukhamba and the Hathi-Ghoda peaks.",
-          "After soaking in the views, descend to the Daldum campsite.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Daldum to Lohajung",
-        sub: "7 km | 4–5 Hours",
-        points: [
-          "A scenic descent through forest and clearings back to Lohajung.",
-          "The evening is for rest, hot food and celebrating a snow summit well earned.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Lohajung to Kathgodam",
-        sub: "220 km | 9–10 Hours",
-        points: ["Drive back to Kathgodam to wrap up the Brahmatal Trek."],
-      },
-    ],
+  itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Lohajung",
+sub: "280 km | 10–12 Hours | 7,700 ft",
+points: [
+"Your Brahmatal Trek adventure begins with a scenic drive from Dehradun to Lohajung, a picturesque Himalayan village nestled in the Chamoli district of Uttarakhand.",
+"The route winds through charming mountain towns, deep river valleys, dense pine forests, and traditional Garhwali villages, offering stunning views of the Garhwal Himalayas.",
+"As you gain elevation, the air becomes cooler and the landscape transforms into a winter wonderland, especially during the snow trekking season.",
+"Catch glimpses of snow-covered peaks, terraced farms, and beautiful mountain ridges throughout the journey.",
+"Upon arrival in Lohajung, complete your trek briefing, equipment check, and acclimatization walk around the village.",
+"Enjoy a peaceful evening surrounded by Himalayan views before resting for the trek ahead.",
+],
+},
+{
+day: 2,
+title: "Lohajung to Bekaltal",
+sub: "6 km | 5–6 Hours | 9,689 ft",
+points: [
+"Begin your trek through dense oak and rhododendron forests that are often covered in fresh snow during winter months.",
+"The trail gradually ascends through scenic woodland paths, providing beautiful views of surrounding valleys and mountain slopes.",
+"Snow-covered trees and frozen streams create a magical atmosphere, making this section one of the most photogenic parts of the Brahmatal Trek.",
+"Spot a variety of Himalayan birds and local wildlife while trekking through the pristine forest ecosystem.",
+"Reach Bekaltal, a stunning high-altitude lake surrounded by thick forests and towering mountain ridges.",
+"During winter, the lake often partially freezes, creating a spectacular alpine landscape perfect for photography.",
+"Spend the evening at the campsite enjoying breathtaking sunset views and a peaceful Himalayan night.",
+],
+},
+{
+day: 3,
+title: "Bekaltal to Brahmatal",
+sub: "7 km | 5–6 Hours | 10,450 ft",
+points: [
+"Today's trail takes you deeper into the Himalayan wilderness as you continue ascending through snowy forests and open meadows.",
+"The route offers incredible opportunities to experience winter trekking in Uttarakhand, with pristine snowfields covering much of the landscape.",
+"As the forest begins to thin out, magnificent views of Mount Trishul and Nanda Ghunti start appearing on the horizon.",
+"Walk across scenic ridgelines that offer panoramic views of the surrounding valleys and snow-clad mountains.",
+"Reach the sacred Brahmatal Lake, believed to hold spiritual significance in local mythology.",
+"During peak winter months, the lake remains completely frozen, creating one of the most iconic sights of the trek.",
+"Camp near Brahmatal while enjoying unforgettable sunset views over the mighty Himalayan peaks.",
+],
+},
+{
+day: 4,
+title: "Brahmatal to Brahmatal Top and Descend to Daldum",
+sub: "8 km | 7–8 Hours | 12,250 ft",
+points: [
+"This is the most exciting and rewarding day of the Brahmatal Trek as you head toward Brahmatal Top.",
+"Start early and trek across vast snowfields, frozen slopes, and breathtaking Himalayan ridgelines.",
+"The climb becomes steeper as you gain altitude, but every step rewards you with increasingly dramatic mountain views.",
+"Reach Brahmatal Top at approximately 12,250 ft, the highest point of the trek and one of Uttarakhand's best winter viewpoints.",
+"Witness a spectacular 360-degree panorama featuring Mount Trishul, Nanda Ghunti, Chaukhamba, Neelkanth, Hathi Peak, Ghoda Peak, and numerous Himalayan giants.",
+"The summit offers one of the finest mountain panoramas among all winter treks in India.",
+"Spend time capturing photographs and enjoying the incredible alpine scenery before beginning the descent.",
+"Descend carefully through snow-covered trails to the Daldum campsite, surrounded by pristine Himalayan wilderness.",
+"Enjoy a warm meal and celebrate your successful summit day under a sky full of stars.",
+],
+},
+{
+day: 5,
+title: "Daldum to Lohajung",
+sub: "7 km | 4–5 Hours",
+points: [
+"Begin your descent through beautiful oak forests, snow-covered clearings, and scenic mountain trails.",
+"The return journey offers a different perspective of the Himalayan landscape, revealing views often missed during the ascent.",
+"Walk through peaceful forests rich in biodiversity while enjoying the final moments of your winter trekking experience.",
+"As you approach Lohajung, the towering peaks of Trishul and Nanda Ghunti remain visible in the distance.",
+"Reach Lohajung by afternoon and enjoy a comfortable evening in the village.",
+"Celebrate the successful completion of the Brahmatal Snow Trek with fellow trekkers and guides.",
+"Relax and reflect on the unforgettable memories created during this incredible Himalayan adventure.",
+],
+},
+{
+day: 6,
+title: "Lohajung to Dehradun",
+sub: "280 km | 10–12 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the beautiful mountain roads of Uttarakhand.",
+"Pass through picturesque valleys, rivers, forests, and traditional Himalayan settlements along the way.",
+"Carry home unforgettable memories of frozen alpine lakes, snow-covered trails, breathtaking summit views, and the majestic Garhwal Himalayas.",
+"Arrive in Dehradun by evening, marking the successful completion of one of India's most beautiful winter treks.",
+"The Brahmatal Trek leaves trekkers with a lifetime of memories, making it one of the most sought-after snow treks in the Himalayas.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping + guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
