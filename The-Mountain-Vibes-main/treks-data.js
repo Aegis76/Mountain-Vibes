@@ -1685,69 +1685,115 @@ points: [
       "🏕 Dramatic high camps at Bhoj & Kedar Kharak",
       "🌅 Reflections of Thalay Sagar in the lake",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Dehradun to Gangotri",
-        sub: "240 km | 10–12 Hours | 10,200 ft",
-        points: [
-          "A long climb up through Uttarkashi and the Harsil Valley to Gangotri.",
-          "Visit the temple and rest; the altitude here starts your acclimatisation.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Gangotri to Bhoj Kharak",
-        sub: "8 km | 6–7 Hours | 12,500 ft",
-        points: [
-          "A steep, demanding start through pine and birch forest, along narrow ridges and rocky sections.",
-          "Bhoj Kharak is a scenic ridge camp overlooking the valley.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Bhoj Kharak to Kedar Kharak",
-        sub: "5 km | 4–5 Hours | 14,300 ft",
-        points: [
-          "The route turns alpine as you climb above the tree line onto open, rugged terrain.",
-          "Dramatic views of Thalay Sagar, Bhrigupanth and the Jogin peaks open up at the Kedar Kharak camp.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Kedar Kharak to Kedartal and return",
-        sub: "10 km | 7–8 Hours | 15,580 ft",
-        points: [
-          "Summit day: a careful climb over rocky moraine and glacier sections to the lake at 15,580 ft.",
-          "Kedartal's green water mirrors the towering wall of Thalay Sagar — the moment the whole trek is built around.",
-          "Return to Kedar Kharak for the night.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Kedar Kharak to Bhoj Kharak",
-        sub: "5 km | 4–5 Hours",
-        points: [
-          "Descend back through the alpine terrain and rocky ridges toward Bhoj Kharak.",
-          "Final close-up views of the dramatic peaks along the way.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Bhoj Kharak to Gangotri",
-        sub: "8 km | 5–6 Hours",
-        points: [
-          "Drop through forest and mountain trail back to Gangotri.",
-          "Evening to relax and explore the temple area.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Gangotri to Dehradun",
-        sub: "240 km | 10–12 Hours",
-        points: ["Drive back to Dehradun to complete the Kedartal Trek."],
-      },
-    ],
+ itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Gangotri",
+sub: "240 km | 10–12 Hours | 10,200 ft",
+points: [
+"Your Kedartal Trek adventure begins with a spectacular drive from Dehradun to Gangotri, one of the holiest pilgrimage destinations in the Garhwal Himalayas.",
+"Travel through the scenic mountain town of Uttarkashi and the breathtaking Harsil Valley, famous for its apple orchards, pine forests, and snow-covered peaks.",
+"Follow the Bhagirathi River through deep Himalayan gorges, charming villages, and dramatic mountain landscapes.",
+"The route offers stunning views of dense deodar forests, cascading waterfalls, and towering Himalayan ridges.",
+"Reach Gangotri, the sacred origin point of the River Ganga and one of Uttarakhand's most important spiritual destinations.",
+"Visit the famous Gangotri Temple and experience the peaceful atmosphere of this revered Himalayan town.",
+"Attend a trek briefing, complete your gear check, and begin acclimatizing to the high-altitude environment.",
+"Enjoy an overnight stay in Gangotri while preparing for one of India's most challenging and rewarding alpine lake treks.",
+],
+},
+
+{
+day: 2,
+title: "Gangotri to Bhoj Kharak",
+sub: "8 km | 6–7 Hours | 12,500 ft",
+points: [
+"Begin the Kedartal Trek with a challenging ascent through dense pine, oak, and birch forests above the Gangotri Valley.",
+"The trail is steep and demanding, making Kedartal one of the most adventurous high-altitude treks in Uttarakhand.",
+"Traverse narrow ridgelines, rocky mountain sections, and exposed trails offering breathtaking views of the Bhagirathi Valley below.",
+"As you gain altitude, the landscapes become increasingly rugged and dramatic.",
+"The route provides excellent opportunities to witness the raw beauty of the Garhwal Himalayas away from crowded trekking routes.",
+"Reach Bhoj Kharak, a beautiful campsite situated on a scenic ridge surrounded by towering mountains.",
+"Enjoy panoramic views of the valley and surrounding peaks while relaxing amidst pristine Himalayan wilderness.",
+"Spend the evening acclimatizing and preparing for the higher elevations ahead.",
+],
+},
+
+{
+day: 3,
+title: "Bhoj Kharak to Kedar Kharak",
+sub: "5 km | 4–5 Hours | 14,300 ft",
+points: [
+"Today's trek takes you above the tree line and into the rugged alpine landscapes of the upper Himalayas.",
+"The terrain transitions from forested slopes to rocky ridges, glacial valleys, and vast mountain meadows.",
+"As you ascend, spectacular views of some of the most iconic peaks in the Garhwal Himalayas begin to dominate the skyline.",
+"Witness breathtaking panoramas of Thalay Sagar, Bhrigupanth, Jogin Peaks, Meru, and numerous surrounding summits.",
+"The route showcases dramatic mountain scenery rarely found on other trekking trails in India.",
+"Reach Kedar Kharak, a stunning high-altitude campsite surrounded by snow-clad peaks and glacial landscapes.",
+"The campsite offers some of the finest mountain views of the entire trek and serves as the base for the Kedartal Lake excursion.",
+"Enjoy an unforgettable sunset over the Himalayan giants before settling in for the night.",
+],
+},
+
+{
+day: 4,
+title: "Kedar Kharak to Kedartal Lake and Return",
+sub: "10 km | 7–8 Hours | 15,580 ft",
+points: [
+"This is the most exciting and rewarding day of the Kedartal Trek as you journey toward one of the most beautiful glacial lakes in the Himalayas.",
+"The trail traverses challenging moraine sections, rocky terrain, and glacial landscapes requiring careful navigation.",
+"As you gain altitude, the dramatic mountain scenery becomes increasingly spectacular.",
+"Reach Kedartal Lake at an elevation of approximately 15,580 ft, making it one of the highest and most stunning alpine lakes in Uttarakhand.",
+"The emerald-green waters of Kedartal perfectly reflect the towering face of Thalay Sagar, one of the most beautiful mountains in the Indian Himalayas.",
+"Surrounded by Bhrigupanth, Jogin Peaks, Meru, and several glaciated summits, Kedartal offers a truly unforgettable Himalayan experience.",
+"Spend time exploring the lake, capturing breathtaking photographs, and soaking in the pristine alpine environment.",
+"The serene atmosphere and dramatic scenery make Kedartal a dream destination for trekkers and photographers alike.",
+"After enjoying the spectacular surroundings, descend carefully back to Kedar Kharak for an overnight stay.",
+],
+},
+
+{
+day: 5,
+title: "Kedar Kharak to Bhoj Kharak",
+sub: "5 km | 4–5 Hours",
+points: [
+"Begin your descent through the rugged alpine landscapes of the upper Gangotri region.",
+"Enjoy one final opportunity to admire the towering peaks and glacial valleys that define the Kedartal Trek.",
+"The descent offers fresh perspectives of Thalay Sagar, Bhrigupanth, and the surrounding Himalayan mountains.",
+"Walk across scenic ridgelines and open mountain terrain while taking in the incredible views.",
+"Reach Bhoj Kharak by afternoon and relax amidst the peaceful mountain surroundings.",
+"Spend the evening reflecting on the remarkable journey to one of Uttarakhand's most beautiful alpine lakes.",
+],
+},
+
+{
+day: 6,
+title: "Bhoj Kharak to Gangotri",
+sub: "8 km | 5–6 Hours",
+points: [
+"Continue descending through dense forests, rocky trails, and beautiful mountain landscapes toward Gangotri.",
+"The trail provides final views of the dramatic peaks and valleys encountered during the ascent.",
+"As you approach Gangotri, enjoy the changing scenery from alpine terrain back to forested Himalayan landscapes.",
+"Reach Gangotri by afternoon and enjoy a comfortable stay after completing the trekking section of the expedition.",
+"Visit the Gangotri Temple, explore the local market, or simply relax beside the Bhagirathi River.",
+"Celebrate the successful completion of the challenging Kedartal Trek amidst the spiritual atmosphere of Gangotri.",
+],
+},
+
+{
+day: 7,
+title: "Gangotri to Dehradun",
+sub: "240 km | 10–12 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the spectacular landscapes of Uttarakhand.",
+"Travel through Harsil Valley, Uttarkashi, and the beautiful mountain roads of the Garhwal Himalayas.",
+"Reflect on your journey through remote alpine valleys, rugged mountain trails, and one of India's most stunning glacial lake destinations.",
+"Carry home unforgettable memories of Kedartal Lake, Thalay Sagar, high-altitude camping, and breathtaking Himalayan panoramas.",
+"Arrive in Dehradun by evening, marking the successful completion of the Kedartal Trek.",
+"This legendary Himalayan adventure remains one of the finest high-altitude trekking experiences in India.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping & guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
@@ -1837,67 +1883,115 @@ points: [
       "🌲 Forests, waterfalls and river crossings",
       "🎿 Beginner-friendly glacier trekking",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Kathgodam to Khati Village",
-        sub: "250 km | 10–11 Hours | 7,300 ft",
-        points: [
-          "A long, scenic Kumaon drive through Almora, Bageshwar and Song to Khati.",
-          "Khati is the last inhabited village on the route — a quiet place to acclimatise and meet the local Kumaoni community.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Khati Village to Dwali",
-        sub: "11 km | 5–6 Hours | 8,500 ft",
-        points: [
-          "Follow the Pindar River through forest, past waterfalls and over wooden bridges.",
-          "Dwali is a pretty riverside camp ringed by forest and ridges.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Dwali to Phurkia",
-        sub: "5 km | 3–4 Hours | 10,660 ft",
-        points: [
-          "A steeper day as you climb deeper into the glacial valley, with alpine vegetation and snow peaks taking over.",
-          "Phurkia offers fine views of the surrounding mountains and a classic high-camp feel.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Phurkia to Pindari Zero Point and return",
-        sub: "12 km | 7–8 Hours | 12,300 ft",
-        points: [
-          "The highlight: a walk up to Pindari Glacier Zero Point, beneath Nanda Devi, Nanda Kot, Panwali Dwar and Maiktoli.",
-          "Spend time at the glacier viewpoint, then descend back to Phurkia.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Phurkia to Khati Village",
-        sub: "16 km | 7–8 Hours",
-        points: [
-          "A long descent retraces the trail through forest, river valley and villages to Khati.",
-          "Final Himalayan views accompany the walk down.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Rest & culture at Khati",
-        sub: "Rest and exploration",
-        points: [
-          "A relaxed day in Khati to recover and experience traditional Kumaoni village life — wooden homes, terraced fields and a slow mountain pace.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Khati Village to Kathgodam",
-        sub: "250 km | 10–11 Hours",
-        points: ["Drive back to Kathgodam to close the Pindari Glacier Trek."],
-      },
-    ],
+ itinerary: [
+{
+day: 1,
+title: "Drive from Dehradun to Khati Village",
+sub: "380 km | 11–13 Hours | 7,300 ft",
+points: [
+"Your Pindari Glacier Trek begins with a scenic drive from Dehradun to Khati Village, one of the most beautiful and culturally rich villages in the Kumaon Himalayas.",
+"Travel through picturesque mountain towns including Almora, Bageshwar, Kapkot, and Song while enjoying spectacular views of river valleys, terraced farmlands, pine forests, and snow-capped Himalayan peaks.",
+"The journey offers a wonderful introduction to the natural beauty and cultural heritage of Uttarakhand's Kumaon region.",
+"As you ascend deeper into the mountains, witness traditional Kumaoni villages nestled among lush green hills and dramatic landscapes.",
+"Reach Khati Village, the last permanently inhabited settlement on the Pindari Glacier route and an important gateway to the glacier valley.",
+"Meet local villagers, explore traditional wooden architecture, and experience the authentic lifestyle of the Kumaon Himalayas.",
+"Attend a trek briefing, complete your gear check, and prepare for the adventure ahead.",
+"Spend a peaceful night in the heart of the mountains while acclimatizing to the altitude.",
+],
+},
+
+{
+day: 2,
+title: "Khati Village to Dwali",
+sub: "11 km | 5–6 Hours | 8,500 ft",
+points: [
+"Begin trekking along the scenic Pindar River, following one of the most beautiful trekking routes in the Kumaon Himalayas.",
+"The trail passes through dense forests, cascading waterfalls, wooden bridges, and charming mountain landscapes.",
+"Enjoy breathtaking views of the river valley while walking through pristine natural surroundings.",
+"The route offers excellent opportunities for birdwatching, photography, and experiencing the rich biodiversity of the region.",
+"As you gain elevation, the valley becomes increasingly dramatic with towering ridges and dense forests surrounding the trail.",
+"Reach Dwali, a picturesque campsite located at the confluence of mountain streams and surrounded by lush forests.",
+"Relax amidst the peaceful Himalayan environment and enjoy a beautiful evening beside the river.",
+],
+},
+
+{
+day: 3,
+title: "Dwali to Phurkia",
+sub: "5 km | 3–4 Hours | 10,660 ft",
+points: [
+"Today's trek takes you deeper into the spectacular Pindari Glacier Valley as the landscape gradually transitions into alpine terrain.",
+"The trail climbs steadily through rugged mountain paths, glacial streams, and open valleys surrounded by towering peaks.",
+"Notice the changing vegetation as dense forests give way to alpine shrubs and high-altitude Himalayan flora.",
+"The surrounding scenery becomes increasingly dramatic with snow-covered mountains appearing closer at every turn.",
+"Enjoy breathtaking views of the upper glacier valley and several prominent Himalayan summits.",
+"Reach Phurkia, a beautiful high-altitude campsite located amidst rugged mountain landscapes.",
+"The camp offers stunning views of surrounding peaks and serves as the final base before visiting Pindari Glacier.",
+"Spend the evening enjoying the serene beauty of the high Himalayas while preparing for the next day's glacier excursion.",
+],
+},
+
+{
+day: 4,
+title: "Phurkia to Pindari Glacier Zero Point and Return",
+sub: "12 km | 7–8 Hours | 12,300 ft",
+points: [
+"The most exciting day of the trek begins with an early morning journey toward the legendary Pindari Glacier Zero Point.",
+"Follow the glacier valley through breathtaking alpine landscapes, moraines, rocky terrain, and pristine mountain wilderness.",
+"As you approach the glacier, witness magnificent views of some of the highest peaks in the Kumaon Himalayas.",
+"Reach Pindari Glacier Zero Point, one of the most iconic glacier viewpoints in Uttarakhand.",
+"Marvel at the immense glacier system surrounded by towering peaks including Nanda Devi, Nanda Kot, Panwali Dwar, Maiktoli, and Baljuri.",
+"The dramatic glacier scenery and panoramic mountain views make this one of the most rewarding trekking experiences in India.",
+"Spend time exploring the area, capturing photographs, and soaking in the grandeur of the Himalayan landscape.",
+"After enjoying the spectacular views, begin the descent back to Phurkia for an overnight stay.",
+"Celebrate the successful visit to one of the most famous glaciers in the Indian Himalayas.",
+],
+},
+
+{
+day: 5,
+title: "Phurkia to Khati Village",
+sub: "16 km | 7–8 Hours",
+points: [
+"Begin your return journey through the beautiful Pindari Valley, retracing the scenic trail back toward Khati Village.",
+"Enjoy fresh perspectives of the forests, waterfalls, mountain ridges, and river valleys encountered during the ascent.",
+"The descent offers numerous opportunities to appreciate the natural beauty of the Kumaon Himalayas.",
+"Walk through charming forest sections and traditional Himalayan landscapes while reflecting on your glacier adventure.",
+"Reach Khati Village by evening and enjoy a comfortable stay amidst the warm hospitality of the local community.",
+"Celebrate the successful completion of the trekking portion of the Pindari Glacier Trek.",
+],
+},
+
+{
+day: 6,
+title: "Cultural Exploration & Leisure Day at Khati Village",
+sub: "Rest Day | Local Experiences",
+points: [
+"Enjoy a relaxed day in Khati Village and immerse yourself in the unique culture and traditions of the Kumaon region.",
+"Explore traditional wooden houses, ancient village pathways, terraced agricultural fields, and local temples.",
+"Interact with villagers and gain insight into the lifestyle, customs, and heritage of Himalayan mountain communities.",
+"Learn about local farming practices, folk traditions, and the deep connection between villagers and the surrounding mountains.",
+"Capture beautiful photographs of village life set against a stunning Himalayan backdrop.",
+"The leisure day also allows your body to recover after several days of trekking.",
+"Enjoy a peaceful evening experiencing the authentic charm of one of Uttarakhand's most beautiful mountain villages.",
+],
+},
+
+{
+day: 7,
+title: "Khati Village to Dehradun",
+sub: "380 km | 11–13 Hours",
+points: [
+"After breakfast, begin the scenic drive back to Dehradun through the beautiful landscapes of Kumaon and Garhwal.",
+"Travel through picturesque mountain roads, river valleys, forests, and traditional Himalayan towns.",
+"Reflect on your unforgettable journey to Pindari Glacier, one of the most accessible and spectacular glaciers in the Indian Himalayas.",
+"Carry home incredible memories of glacier views, alpine valleys, Himalayan peaks, and authentic Kumaoni culture.",
+"Arrive in Dehradun by evening, marking the successful completion of the Pindari Glacier Trek.",
+"This remarkable expedition combines breathtaking natural beauty, rich cultural experiences, and one of Uttarakhand's most iconic trekking destinations.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (camping & guesthouse)",
       "All meals from Day 1 dinner to the final breakfast",
@@ -1989,70 +2083,115 @@ points: [
       "⛺ Lakeside high-altitude campsites",
       "🚣 A peaceful, less-crowded alternative to KGL",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Srinagar to Aru Valley",
-        sub: "110 km | 4–5 Hours | 7,950 ft",
-        points: [
-          "Drive via Pahalgam to the beautiful village of Aru, ringed by pine forest and meadows.",
-          "Aru is the trek base; spend the evening acclimatising and exploring the valley.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Aru Valley to Lidderwat",
-        sub: "10 km | 5–6 Hours | 9,100 ft",
-        points: [
-          "Follow the Lidder River through pine forest and green meadows, past shepherd huts and grazing grounds.",
-          "Lidderwat is a vast riverside meadow — one of the prettiest camps in Kashmir, with superb sunset light.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Lidderwat to Shekwas",
-        sub: "6 km | 4–5 Hours | 11,000 ft",
-        points: [
-          "A gradual climb through grasslands and ridges with widening views of valleys and snow peaks.",
-          "Shekwas is an alpine meadow camp, filled with wildflowers and grazing sheep in summer.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Shekwas to Tarsar Lake",
-        sub: "5 km | 3–4 Hours | 12,000 ft",
-        points: [
-          "A short, scenic climb to the magnificent Tarsar Lake, ringed by dramatic ridges and meadow.",
-          "Camp beside the lake and watch its colours shift from sunrise to sunset — the trek's signature moment.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Tarsar to Sundarsar via Marsar viewpoint",
-        sub: "10 km | 6–7 Hours | 13,201 ft",
-        points: [
-          "Climb to a high ridge for views of the often cloud-shrouded Marsar Lake and the surrounding alpine country.",
-          "Descend to Sundarsar, camped beside yet another beautiful alpine lake — some of the finest scenery in Kashmir.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Sundarsar to Homwas",
-        sub: "9 km | 5–6 Hours | 11,000 ft",
-        points: [
-          "Descend through meadows, river valleys and shepherd settlements with final views of the lakes and ridges.",
-          "Homwas, ringed by forest and streams, is a relaxing final camp.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Homwas to Aru, drive to Srinagar",
-        sub: "13 km | 6–7 Hours",
-        points: [
-          "Walk down through forest and meadow to Aru, then drive back to Srinagar to complete the trek.",
-        ],
-      },
-    ],
+   itinerary: [
+{
+day: 1,
+title: "Srinagar to Aru Valley",
+sub: "110 km | 4–5 Hours | 7,950 ft",
+points: [
+"Your Tarsar Marsar Trek begins with a scenic drive from Srinagar to the breathtaking Aru Valley via the famous hill town of Pahalgam.",
+"Travel through picturesque Kashmiri landscapes featuring pine forests, flowing rivers, apple orchards, and charming mountain villages.",
+"Aru Valley is one of Kashmir's most beautiful destinations, surrounded by lush meadows, dense forests, and snow-capped Himalayan peaks.",
+"The valley serves as the gateway to the legendary Tarsar and Marsar Lakes, two of the most spectacular alpine lakes in India.",
+"Upon arrival, complete your trek briefing, equipment check, and acclimatization preparations.",
+"Spend the evening exploring the scenic beauty of Aru Valley and enjoying the peaceful mountain atmosphere.",
+"Witness a stunning sunset over the surrounding peaks before settling in for the night.",
+],
+},
+
+{
+day: 2,
+title: "Aru Valley to Lidderwat",
+sub: "10 km | 5–6 Hours | 9,100 ft",
+points: [
+"Begin trekking along the beautiful Lidder River, following one of the most scenic trails in the Kashmir Himalayas.",
+"The route passes through dense pine forests, lush grasslands, traditional shepherd settlements, and vast grazing meadows.",
+"Enjoy the soothing sounds of mountain streams and the breathtaking scenery that surrounds the trail.",
+"The gradual ascent offers magnificent views of surrounding valleys and forest-covered mountains.",
+"Observe traditional Gujjar and Bakarwal shepherd communities that have inhabited these mountains for generations.",
+"Reach Lidderwat, a vast riverside meadow often considered one of the most beautiful camping locations in Kashmir.",
+"The campsite is surrounded by towering peaks, flowing streams, and endless green landscapes.",
+"Spend the evening relaxing beside the river while enjoying a spectacular Himalayan sunset.",
+],
+},
+
+{
+day: 3,
+title: "Lidderwat to Shekwas",
+sub: "6 km | 4–5 Hours | 11,000 ft",
+points: [
+"Today's trail gradually climbs through expansive alpine meadows and rolling mountain landscapes.",
+"Leave the dense forests behind as the scenery opens into breathtaking grasslands filled with seasonal wildflowers.",
+"The route offers increasingly dramatic views of surrounding valleys, ridgelines, and distant snow-covered peaks.",
+"Walk through some of the most pristine alpine environments in the Kashmir Himalayas.",
+"Reach Shekwas, a stunning high-altitude meadow known for its untouched natural beauty.",
+"During summer, the meadows are covered with colorful wildflowers and grazing sheep, creating a postcard-perfect Himalayan landscape.",
+"Enjoy panoramic mountain views and a peaceful evening under the open sky.",
+],
+},
+
+{
+day: 4,
+title: "Shekwas to Tarsar Lake",
+sub: "5 km | 3–4 Hours | 12,000 ft",
+points: [
+"One of the highlights of the Tarsar Marsar Trek begins with a scenic ascent toward the magnificent Tarsar Lake.",
+"The trail winds through alpine meadows and rolling hills before revealing the breathtaking beauty of the lake.",
+"Reach Tarsar Lake, one of the most beautiful alpine lakes in Kashmir, surrounded by dramatic mountain ridges and lush grasslands.",
+"The crystal-clear waters of the lake reflect the surrounding peaks, creating an unforgettable visual spectacle.",
+"Spend time exploring the lakeshore and appreciating the untouched wilderness of the Kashmir Himalayas.",
+"The changing colors of Tarsar Lake throughout the day make it a paradise for photographers and nature enthusiasts.",
+"Camp beside the lake and witness an incredible sunset as golden light illuminates the surrounding mountains.",
+"Experience one of the most memorable nights of the entire trek under a sky filled with stars.",
+],
+},
+
+{
+day: 5,
+title: "Tarsar Lake to Sundarsar via Marsar Viewpoint",
+sub: "10 km | 6–7 Hours | 13,201 ft",
+points: [
+"Today's trek takes you through some of the most dramatic alpine landscapes of the Kashmir Valley.",
+"Climb toward a high ridge that offers spectacular views of the mysterious Marsar Lake, often hidden beneath drifting clouds and mist.",
+"The viewpoint provides breathtaking panoramas of surrounding valleys, mountain ridges, and untouched wilderness.",
+"Marsar Lake is considered one of the most mystical and beautiful lakes in Kashmir due to its remote location and ever-changing appearance.",
+"Continue across scenic alpine terrain with uninterrupted views of snow-covered peaks and vast meadows.",
+"Descend toward Sundarsar, another stunning high-altitude lake nestled amidst the mountains.",
+"The area surrounding Sundarsar offers some of the finest alpine scenery found anywhere in the Indian Himalayas.",
+"Camp beside the tranquil lake and enjoy a peaceful evening surrounded by pristine wilderness.",
+],
+},
+
+{
+day: 6,
+title: "Sundarsar to Homwas",
+sub: "9 km | 5–6 Hours | 11,000 ft",
+points: [
+"Begin your descent through beautiful meadows, mountain valleys, and traditional shepherd routes.",
+"The trail offers final views of the spectacular alpine lakes and surrounding mountain landscapes.",
+"Pass through lush grasslands, glacial streams, and remote sections of the Kashmir Himalayas.",
+"The route showcases the incredible diversity of landscapes that make the Tarsar Marsar Trek one of India's most beautiful trekking experiences.",
+"Reach Homwas, a peaceful campsite surrounded by forests, streams, and green mountain slopes.",
+"Relax and enjoy your final night in the wilderness while reflecting on the unforgettable journey through Kashmir's alpine paradise.",
+],
+},
+
+{
+day: 7,
+title: "Homwas to Aru Valley, Drive to Srinagar",
+sub: "13 km | 6–7 Hours",
+points: [
+"Begin the final trekking day with a scenic walk through forests, meadows, and river valleys leading back to Aru Valley.",
+"Enjoy one last opportunity to admire the breathtaking beauty of the Kashmir Himalayas and its pristine alpine landscapes.",
+"Reach Aru Valley and complete the trekking portion of your adventure.",
+"Drive back to Srinagar through the beautiful landscapes of Pahalgam and the Kashmir Valley.",
+"Arrive in Srinagar by evening and celebrate the successful completion of the Tarsar Marsar Trek.",
+"Carry home unforgettable memories of Tarsar Lake, Marsar Lake, Sundarsar, alpine meadows, and some of the most spectacular mountain scenery in India.",
+"This trek remains one of Kashmir's most iconic and rewarding Himalayan adventures.",
+],
+},
+],
+
     includes: [
       "All camp accommodation during the trek",
       "All meals from Day 1 dinner to the final breakfast",
@@ -2144,116 +2283,201 @@ points: [
       "🙏 Spiritual rituals and meditation",
       "🌄 Stunning Himalayan and Tibetan landscapes",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Arrival in Kathmandu",
-        sub: "Altitude: 4,600 ft",
-        points: [
-          "Pilgrims arrive in Kathmandu, Nepal, where the journey officially begins.",
-          "The day is reserved for briefing sessions, document verification, and preparation for the high-altitude expedition.",
-          "Trekkers can also visit famous spiritual sites such as Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Temple.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Kathmandu to Syabrubesi / Border Region",
-        sub: "Drive: 7–8 Hours",
-        points: [
-          "The journey continues through scenic Himalayan roads toward the Nepal-Tibet border region.",
-          "Trekkers witness beautiful river valleys, forests, and mountain landscapes.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Cross Border and Enter Tibet",
-        sub: "Border Crossing",
-        points: [
-          "After immigration formalities, the group enters Tibet and proceeds toward Kerung.",
-          "Trekkers immediately notice dramatic changes in landscape as lush Himalayan valleys transition into vast Tibetan plateaus.",
-          "Acclimatization becomes extremely important from this stage onward.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Acclimatization Day at Kerung",
-        sub: "Altitude: ~9,000 ft",
-        points: [
-          "This day is reserved for acclimatization to reduce the risk of altitude sickness.",
-          "Trekkers can explore nearby monasteries and Tibetan settlements while adjusting to the thin mountain air.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Drive from Kerung to Saga",
-        sub: "Drive: 230 km | Altitude: 15,000 ft",
-        points: [
-          "The route passes through massive Tibetan plains, snow-covered peaks, and glacial rivers.",
-          "Trekkers witness distant Himalayan ranges including Shishapangma and other Tibetan mountains.",
-          "Saga serves as an important acclimatization stop before proceeding toward Mansarovar.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Saga to Lake Mansarovar",
-        sub: "Drive: 450 km | Altitude: 15,060 ft",
-        points: [
-          "Trekkers finally reach the sacred Lake Mansarovar, considered one of the holiest lakes in the world.",
-          "Pilgrims perform rituals, prayers, meditation, and holy bathing at the lake.",
-          "The crystal-clear waters reflect Mount Kailash under clear skies, creating a spiritually powerful atmosphere.",
-          "Sunrise and sunset views at Mansarovar are unforgettable.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Mansarovar to Darchen",
-        sub: "Drive: 40 km | Altitude: 15,300 ft",
-        points: [
-          "Darchen is the base camp for the Kailash Parikrama.",
-          "Trekkers rest, prepare equipment, and acclimatize before beginning the sacred circumambulation around Mount Kailash.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Darchen to Dirapuk",
-        sub: "Trek: 12 km | 6–7 Hours | Altitude: 16,500 ft",
-        points: [
-          "The Parikrama begins with a gradual ascent through dramatic mountain valleys.",
-          "Trekkers witness the magnificent north face of Mount Kailash for the first time.",
-          "The spiritual energy and breathtaking scenery make this one of the most emotional moments of the journey.",
-          "Dirapuk Monastery campsite offers extraordinary views of Mount Kailash.",
-        ],
-      },
-      {
-        day: 9,
-        title: "Dirapuk to Zuthulpuk via Dolma La Pass",
-        sub: "Trek: 22 km | 10–12 Hours | Altitude: 18,600 ft",
-        points: [
-          "This is the most difficult and sacred day of the trek. Trekkers cross the high-altitude Dolma La Pass, the highest point of the journey.",
-          "The route involves steep ascents, rocky terrain, snow sections, and glacier crossings.",
-          "Pilgrims also visit the sacred Gauri Kund during descent.",
-          "After crossing the pass, descend toward Zuthulpuk campsite.",
-        ],
-      },
-      {
-        day: 10,
-        title: "Zuthulpuk to Darchen",
-        sub: "Trek: 10 km | 3–4 Hours",
-        points: [
-          "The final section of the Parikrama follows river valleys and open plains back to Darchen.",
-          "Completing the Kailash Parikrama is considered spiritually transformative by many pilgrims.",
-        ],
-      },
-      {
-        day: 11,
-        title: "Return Journey (Days 11-13)",
-        sub: "Drive back to Kathmandu",
-        points: [
-          "The group retraces the route back through Saga, Kerung, and Kathmandu.",
-          "Trekkers can relax and reflect on the spiritual and physical journey completed during the expedition.",
-        ],
-      },
-    ],
+  itinerary: [
+{
+day: 1,
+title: "Arrival in Kathmandu",
+sub: "Altitude: 4,600 ft",
+points: [
+"Your sacred Kailash Mansarovar Yatra begins in Kathmandu, the spiritual and cultural heart of Nepal.",
+"Upon arrival, meet your expedition team and fellow pilgrims before attending a comprehensive orientation and briefing session.",
+"The day is dedicated to document verification, permit processing, medical checks, and preparation for the high-altitude pilgrimage ahead.",
+"Explore some of Nepal's most revered spiritual landmarks including the sacred Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Temple.",
+"Experience the unique blend of Hindu and Buddhist traditions that define Kathmandu's rich heritage.",
+"Spend the evening preparing mentally and physically for one of the world's most revered spiritual journeys.",
+],
+},
+
+{
+day: 2,
+title: "Kathmandu to Syabrubesi / Border Region",
+sub: "Drive: 7–8 Hours",
+points: [
+"Begin the overland journey toward the Nepal-Tibet border through scenic Himalayan mountain roads.",
+"Travel alongside beautiful river valleys, terraced hillsides, traditional villages, and dense mountain forests.",
+"The route offers stunning views of the Himalayan foothills and remote mountain landscapes.",
+"Witness the gradual transition from Nepal's lush green valleys to the rugged terrain leading toward Tibet.",
+"Arrive at the border region and prepare for the international crossing into the Tibetan Autonomous Region.",
+"Enjoy an overnight stay while resting for the next phase of the Kailash Mansarovar pilgrimage.",
+],
+},
+
+{
+day: 3,
+title: "Cross Border and Enter Tibet (Kerung)",
+sub: "Border Crossing | Altitude Gain",
+points: [
+"After completing immigration and customs formalities, cross into Tibet and officially begin the Tibetan section of the journey.",
+"Travel onward to Kerung, a beautiful Tibetan town surrounded by dramatic mountain landscapes.",
+"Witness a striking transformation in scenery as lush Himalayan valleys give way to vast Tibetan plateaus and rugged high-altitude terrain.",
+"The region offers spectacular views of snow-covered peaks, deep valleys, and traditional Tibetan settlements.",
+"Acclimatization becomes increasingly important as you enter higher elevations.",
+"Spend the evening resting and allowing your body to adjust to the thinner mountain air.",
+],
+},
+
+{
+day: 4,
+title: "Acclimatization Day at Kerung",
+sub: "Altitude: ~9,000 ft",
+points: [
+"A dedicated acclimatization day helps prepare your body for the significantly higher elevations ahead.",
+"Take short walks around Kerung and explore local Tibetan culture and traditions.",
+"Visit nearby monasteries and observe the unique spiritual heritage of the Tibetan Plateau.",
+"Enjoy magnificent mountain scenery while gradually adapting to the high-altitude environment.",
+"The day is essential for minimizing the risk of altitude-related discomfort during the later stages of the pilgrimage.",
+"Rest, hydrate, and prepare for the journey deeper into Tibet.",
+],
+},
+
+{
+day: 5,
+title: "Drive from Kerung to Saga",
+sub: "230 km | Altitude: 15,000 ft",
+points: [
+"Today's drive takes you across the vast Tibetan Plateau, one of the highest and most spectacular landscapes on Earth.",
+"Witness endless grasslands, glacial rivers, turquoise lakes, and snow-covered mountain ranges stretching to the horizon.",
+"Enjoy distant views of Himalayan giants including Shishapangma, the world's 14th-highest mountain.",
+"The route offers incredible opportunities to experience the unique geography and beauty of Tibet.",
+"Reach Saga, an important acclimatization stop for pilgrims traveling to Mount Kailash and Lake Mansarovar.",
+"Spend the evening resting and continuing your altitude adaptation process.",
+],
+},
+
+{
+day: 6,
+title: "Saga to Sacred Lake Mansarovar",
+sub: "450 km | Altitude: 15,060 ft",
+points: [
+"One of the most anticipated moments of the Kailash Mansarovar Yatra arrives as you journey toward the sacred Lake Mansarovar.",
+"Drive through breathtaking Tibetan landscapes featuring vast plains, snow-covered peaks, and crystal-clear mountain lakes.",
+"Reach Lake Mansarovar, considered one of the holiest lakes in Hinduism, Buddhism, Jainism, and Bon traditions.",
+"The lake is believed to possess immense spiritual significance and is visited by pilgrims from around the world.",
+"Perform prayers, meditation, spiritual rituals, and holy bathing according to personal beliefs and traditions.",
+"On clear days, witness the awe-inspiring reflection of Mount Kailash in the pristine waters of the lake.",
+"Experience unforgettable sunrise and sunset views that create a deeply spiritual and peaceful atmosphere.",
+"Spend the night near the sacred shores of Mansarovar.",
+],
+},
+
+{
+day: 7,
+title: "Lake Mansarovar to Darchen",
+sub: "40 km | Altitude: 15,300 ft",
+points: [
+"After morning prayers and exploration around Lake Mansarovar, continue toward Darchen.",
+"Darchen serves as the official base camp for the Mount Kailash Parikrama (Kora).",
+"The town is surrounded by spectacular views of the sacred mountain and the vast Tibetan Plateau.",
+"Pilgrims spend time organizing equipment, finalizing preparations, and resting before the three-day circumambulation.",
+"Receive important instructions regarding trekking, altitude safety, and route conditions.",
+"The excitement builds as the sacred Mount Kailash comes closer into view.",
+],
+},
+
+{
+day: 8,
+title: "Darchen to Dirapuk",
+sub: "Trek: 12 km | 6–7 Hours | Altitude: 16,500 ft",
+points: [
+"Begin the sacred Mount Kailash Parikrama, one of the world's most revered pilgrimage journeys.",
+"The trail follows a gradual ascent through dramatic valleys surrounded by towering cliffs and sacred landscapes.",
+"Witness your first close and unforgettable views of the magnificent North Face of Mount Kailash.",
+"For many pilgrims, this moment is considered the emotional and spiritual highlight of the entire expedition.",
+"The route offers breathtaking views of glaciers, mountain ridges, and the sacred geography of Kailash.",
+"Reach Dirapuk Monastery and campsite, located directly beneath the majestic North Face of Mount Kailash.",
+"Spend the evening immersed in the spiritual atmosphere and extraordinary mountain scenery.",
+],
+},
+
+{
+day: 9,
+title: "Dirapuk to Zuthulpuk via Dolma La Pass",
+sub: "Trek: 22 km | 10–12 Hours | Altitude: 18,600 ft",
+points: [
+"This is the most challenging and spiritually significant day of the Kailash Parikrama.",
+"Begin before sunrise and ascend toward the sacred Dolma La Pass, the highest point of the pilgrimage.",
+"The route includes steep climbs, rocky paths, snow-covered sections, and demanding high-altitude terrain.",
+"At 18,600 ft, Dolma La Pass represents spiritual transformation and renewal according to many traditions.",
+"Visit the sacred Gauri Kund, a revered glacial lake associated with Hindu mythology and spirituality.",
+"The panoramic views from the pass encompass some of Tibet's most dramatic mountain landscapes.",
+"After crossing the pass, descend carefully through glacial valleys and rugged terrain toward Zuthulpuk.",
+"Reach the campsite and rest after completing the most demanding stage of the pilgrimage.",
+],
+},
+
+{
+day: 10,
+title: "Zuthulpuk to Darchen",
+sub: "Trek: 10 km | 3–4 Hours",
+points: [
+"The final stage of the Kailash Parikrama follows gentle river valleys and open Tibetan plains.",
+"Enjoy your last views of the sacred mountain and surrounding landscapes.",
+"Complete the full Mount Kailash circumambulation, an achievement considered profoundly meaningful by pilgrims worldwide.",
+"Reach Darchen and celebrate the successful completion of the sacred Kora.",
+"Spend time reflecting on the spiritual, cultural, and personal significance of the journey.",
+"Enjoy a well-deserved evening of rest and celebration.",
+],
+},
+
+{
+day: 11,
+title: "Return Journey Begins: Darchen to Saga",
+sub: "Drive Through Tibetan Plateau",
+points: [
+"Begin the return journey through the magnificent landscapes of western Tibet.",
+"Travel across vast plateaus, mountain ranges, and remote high-altitude wilderness.",
+"Reflect on the transformative experiences of Mount Kailash and Lake Mansarovar.",
+"Reach Saga for an overnight stay and continued acclimatized travel.",
+],
+},
+
+{
+day: 12,
+title: "Saga to Kerung",
+sub: "Drive Across Tibet",
+points: [
+"Continue the return journey toward the Nepal border while enjoying one final experience of Tibet's breathtaking scenery.",
+"Witness snow-capped mountains, glacial rivers, and endless high-altitude plains.",
+"Arrive in Kerung and prepare for border formalities the following day.",
+"Spend the evening relaxing after an extraordinary Himalayan pilgrimage.",
+],
+},
+
+{
+day: 13,
+title: "Kerung to Kathmandu",
+sub: "Border Crossing & Drive",
+points: [
+"Complete immigration formalities and cross back into Nepal.",
+"Drive through scenic Himalayan valleys and mountain roads toward Kathmandu.",
+"Arrive in Kathmandu and enjoy a comfortable stay after completing the sacred expedition.",
+"Celebrate the successful completion of the Kailash Mansarovar Yatra with fellow pilgrims.",
+],
+},
+
+{
+day: 14,
+title: "Departure from Kathmandu",
+sub: "End of Kailash Mansarovar Yatra",
+points: [
+"After breakfast, transfer to Kathmandu International Airport for your onward journey.",
+"Carry home unforgettable memories of Mount Kailash, Lake Mansarovar, Tibetan culture, and one of the world's most sacred pilgrimages.",
+"The Kailash Mansarovar Yatra is regarded as a life-changing spiritual experience that leaves a lasting impact on every traveler.",
+"Depart with blessings, memories, and the profound sense of accomplishment gained from completing this extraordinary Himalayan journey.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek and tour",
       "All meals (breakfast, lunch, dinner) during the trek",
@@ -2345,104 +2569,154 @@ points: [
       "🌊 River confluences and hot springs",
       "⛰️ Views of Chaukhamba and other Himalayan peaks",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Haridwar / Rishikesh to Barkot",
-        sub: "Drive: 180 km | 7–8 Hours | 4,000 ft",
-        points: [
-          "The journey begins from Haridwar or Rishikesh and proceeds toward Barkot through scenic mountain roads and river valleys.",
-          "Trekkers witness beautiful Himalayan landscapes, forests, and traditional villages throughout the drive.",
-          "Barkot serves as the base for the Yamunotri pilgrimage.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Barkot to Yamunotri and Return",
-        sub: "Trek: 6 km One Way | 10,804 ft",
-        points: [
-          "The trek to Yamunotri begins from Janki Chatti. Pilgrims can trek, hire ponies, or use palanquins.",
-          "Yamunotri Temple is dedicated to Goddess Yamuna and is located beside hot water springs surrounded by mountains.",
-          "Pilgrims take holy baths in Surya Kund before offering prayers at the temple.",
-          "Return to Barkot after darshan.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Barkot to Uttarkashi",
-        sub: "Drive: 100 km | 4–5 Hours | 3,800 ft",
-        points: [
-          "The drive follows scenic valleys and river routes toward Uttarkashi, an important spiritual and trekking town in Uttarakhand.",
-          "Pilgrims can visit the famous Kashi Vishwanath Temple in the evening.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Uttarkashi to Gangotri and Return",
-        sub: "Drive: 100 km One Way | 10,200 ft",
-        points: [
-          "The route toward Gangotri passes through Harsil Valley, one of the most beautiful locations in Uttarakhand.",
-          "Gangotri Temple is dedicated to Goddess Ganga and marks the spiritual origin of the River Ganga.",
-          "The surrounding snow-covered mountains and Bhagirathi River create a peaceful spiritual atmosphere.",
-          "Return to Uttarkashi after temple visit.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Uttarkashi to Guptkashi",
-        sub: "Drive: 220 km | 8–9 Hours | 4,300 ft",
-        points: [
-          "The journey continues through Rudraprayag and scenic Himalayan valleys toward Guptkashi.",
-          "Guptkashi is an important stop before Kedarnath and is famous for the Vishwanath Temple and views of Chaukhamba Peak.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Guptkashi to Kedarnath",
-        sub: "Trek: 16 km | 11,755 ft",
-        points: [
-          "The Kedarnath trek begins from Gaurikund and gradually ascends through mountain valleys and river routes.",
-          "Pilgrims can also use ponies, palkis, or helicopter services.",
-          "Kedarnath Temple, dedicated to Lord Shiva, is one of the twelve Jyotirlingas and among the holiest temples in India.",
-          "The temple backdrop against snow-covered peaks creates an unforgettable spiritual experience.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Kedarnath to Guptkashi",
-        sub: "Descent",
-        points: [
-          "After morning prayers and temple darshan, descend back to Gaurikund and drive toward Guptkashi.",
-          "The evening is reserved for rest and recovery.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Guptkashi to Badrinath",
-        sub: "Drive: 190 km | 7–8 Hours | 10,279 ft",
-        points: [
-          "The route passes through Joshimath and scenic Himalayan landscapes before reaching Badrinath.",
-          "Badrinath Temple, dedicated to Lord Vishnu, lies between Nar and Narayan mountain ranges beside the Alaknanda River.",
-          "Pilgrims can also visit Tapt Kund, Mana Village, Vyas Gufa, and Bhim Pul.",
-        ],
-      },
-      {
-        day: 9,
-        title: "Badrinath to Rudraprayag",
-        sub: "Drive: 160 km | 6–7 Hours",
-        points: [
-          "After morning darshan at Badrinath Temple, drive toward Rudraprayag through beautiful mountain roads and river confluences.",
-        ],
-      },
-      {
-        day: 10,
-        title: "Rudraprayag to Haridwar / Rishikesh",
-        sub: "Drive: 160 km | 6–7 Hours",
-        points: [
-          "Drive back to Haridwar or Rishikesh concludes the Char Dham Yatra.",
-        ],
-      },
-    ],
+   itinerary: [
+{
+day: 1,
+title: "Haridwar / Rishikesh to Barkot",
+sub: "Drive: 180 km | 7–8 Hours | 4,000 ft",
+points: [
+"Your sacred Char Dham Yatra begins from Haridwar or Rishikesh, two of India's most revered spiritual gateways to the Himalayas.",
+"Travel through scenic mountain roads, winding river valleys, lush forests, and charming Himalayan villages as you journey toward Barkot.",
+"The route offers breathtaking views of the Garhwal Himalayas, terraced farmlands, waterfalls, and pristine natural landscapes.",
+"Enjoy the peaceful atmosphere of the mountains while gradually entering the sacred region of Uttarakhand's Char Dham circuit.",
+"Barkot, situated near the Yamuna River, serves as the primary base for the Yamunotri pilgrimage.",
+"Upon arrival, relax and acclimatize while enjoying beautiful views of the surrounding Himalayan peaks.",
+"Attend a pilgrimage briefing and prepare for the first sacred dham visit of the journey.",
+],
+},
+
+{
+day: 2,
+title: "Barkot to Yamunotri and Return",
+sub: "Trek: 6 km One Way | 10,804 ft",
+points: [
+"Begin your pilgrimage to Yamunotri, the first destination of the Char Dham Yatra and the sacred source of the River Yamuna.",
+"The trek starts from Janki Chatti and follows a picturesque mountain path surrounded by waterfalls, forests, and steep Himalayan slopes.",
+"Pilgrims may choose to trek on foot or utilize pony, palanquin, or porter services.",
+"Reach the revered Yamunotri Temple dedicated to Goddess Yamuna, nestled amidst spectacular mountain scenery.",
+"Visit the famous Surya Kund hot water springs where devotees traditionally prepare offerings before temple darshan.",
+"Take part in sacred rituals and seek blessings from Goddess Yamuna for health, prosperity, and spiritual well-being.",
+"Enjoy the peaceful atmosphere of this high-altitude pilgrimage site before beginning the descent.",
+"Return to Barkot for an overnight stay and rest after completing the first dham.",
+],
+},
+
+{
+day: 3,
+title: "Barkot to Uttarkashi",
+sub: "Drive: 100 km | 4–5 Hours | 3,800 ft",
+points: [
+"After breakfast, continue your spiritual journey toward Uttarkashi, one of Uttarakhand's most important religious and cultural centers.",
+"The route passes through beautiful valleys, riverside landscapes, pine forests, and traditional Himalayan settlements.",
+"Uttarkashi is often referred to as the 'Kashi of the North' due to its deep spiritual significance.",
+"Located along the banks of the Bhagirathi River, the town has served as a center for pilgrimage and meditation for centuries.",
+"Visit the famous Kashi Vishwanath Temple dedicated to Lord Shiva and experience its serene spiritual atmosphere.",
+"Spend the evening exploring the sacred ghats and temples of Uttarkashi before retiring for the night.",
+],
+},
+
+{
+day: 4,
+title: "Uttarkashi to Gangotri and Return",
+sub: "Drive: 100 km One Way | 10,200 ft",
+points: [
+"Today's journey takes you to Gangotri, the second sacred destination of the Char Dham Yatra and the spiritual origin of the holy River Ganga.",
+"Drive through the breathtaking Harsil Valley, famous for its apple orchards, dense deodar forests, and spectacular Himalayan scenery.",
+"The route offers magnificent views of snow-covered mountains, glacial rivers, and picturesque villages.",
+"Reach Gangotri Temple, dedicated to Goddess Ganga and considered one of the holiest pilgrimage sites in India.",
+"Participate in prayers and rituals while experiencing the spiritual energy of the Bhagirathi River.",
+"The temple's location amidst towering mountains creates a truly divine and peaceful atmosphere.",
+"After darshan and exploration, return to Uttarkashi for an overnight stay.",
+],
+},
+
+{
+day: 5,
+title: "Uttarkashi to Guptkashi",
+sub: "Drive: 220 km | 8–9 Hours | 4,300 ft",
+points: [
+"Continue the Char Dham pilgrimage toward Guptkashi, an important spiritual destination on the route to Kedarnath.",
+"Travel through scenic Himalayan roads, river valleys, and the famous town of Rudraprayag where sacred rivers converge.",
+"The journey offers spectacular views of mountain landscapes and traditional Garhwali villages.",
+"Guptkashi is renowned for its religious significance and ancient temples dedicated to Lord Shiva.",
+"Visit the Vishwanath Temple and admire the breathtaking views of Chaukhamba Peak rising majestically above the valley.",
+"Rest and prepare for the pilgrimage to Kedarnath, one of the most revered Jyotirlingas in India.",
+],
+},
+
+{
+day: 6,
+title: "Guptkashi to Kedarnath",
+sub: "Trek: 16 km | 11,755 ft",
+points: [
+"The journey to Kedarnath, the third sacred dham of the Char Dham circuit, begins from Gaurikund.",
+"Follow the famous Kedarnath trekking route through mountain valleys, waterfalls, forests, and the Mandakini River gorge.",
+"Pilgrims can choose to trek on foot or utilize pony, palki, porter, or helicopter services.",
+"The route offers magnificent Himalayan scenery and a deeply spiritual atmosphere.",
+"Reach Kedarnath Temple, one of the twelve Jyotirlingas and among the most sacred temples dedicated to Lord Shiva.",
+"Surrounded by snow-covered peaks and dramatic mountain landscapes, the temple creates a truly unforgettable spiritual experience.",
+"Participate in evening prayers and soak in the divine energy of this revered pilgrimage destination.",
+"Overnight stay near Kedarnath Temple.",
+],
+},
+
+{
+day: 7,
+title: "Kedarnath to Guptkashi",
+sub: "Trek & Drive",
+points: [
+"Begin the day with early morning darshan and blessings at the sacred Kedarnath Temple.",
+"Witness the serene mountain sunrise illuminating the temple and surrounding Himalayan peaks.",
+"After completing prayers and spiritual rituals, begin the descent back to Gaurikund.",
+"The return journey offers another opportunity to enjoy the spectacular scenery of the Kedarnath Valley.",
+"Drive back to Guptkashi and relax after completing one of the most important pilgrimages in Hinduism.",
+"Spend the evening resting and reflecting on the spiritual significance of the Kedarnath experience.",
+],
+},
+
+{
+day: 8,
+title: "Guptkashi to Badrinath",
+sub: "Drive: 190 km | 7–8 Hours | 10,279 ft",
+points: [
+"Proceed toward Badrinath, the fourth and final dham of the Char Dham Yatra.",
+"Travel through Joshimath and witness some of the most beautiful landscapes in the Garhwal Himalayas.",
+"Reach Badrinath Temple, dedicated to Lord Vishnu and situated between the sacred Nar and Narayan mountain ranges.",
+"The temple stands beside the Alaknanda River and is one of the most important pilgrimage sites in Hinduism.",
+"Take a holy dip in the natural hot water springs of Tapt Kund before darshan.",
+"Explore nearby attractions including Mana Village, Vyas Gufa, Ganesh Gufa, Bhim Pul, and the Saraswati River.",
+"Attend evening prayers and experience the divine atmosphere of Badrinath Dham.",
+],
+},
+
+{
+day: 9,
+title: "Badrinath to Rudraprayag",
+sub: "Drive: 160 km | 6–7 Hours",
+points: [
+"Begin the day with early morning darshan at Badrinath Temple before departing.",
+"Travel through scenic Himalayan valleys, river confluences, and mountain towns on the return journey.",
+"Pass through Joshimath and witness the spectacular beauty of the Alaknanda River valley.",
+"Reach Rudraprayag, one of the sacred Panch Prayag confluences where the Alaknanda and Mandakini Rivers meet.",
+"Spend the evening enjoying the peaceful riverside atmosphere and reflecting on the sacred pilgrimage.",
+],
+},
+
+{
+day: 10,
+title: "Rudraprayag to Haridwar / Rishikesh",
+sub: "Drive: 160 km | 6–7 Hours",
+points: [
+"After breakfast, begin the final leg of the Char Dham Yatra as you return to Haridwar or Rishikesh.",
+"Travel through scenic mountain roads, sacred river valleys, and picturesque Himalayan landscapes.",
+"Reflect on the spiritual experiences gained from visiting Yamunotri, Gangotri, Kedarnath, and Badrinath.",
+"Carry home blessings, memories, and a profound sense of spiritual fulfillment from one of India's most sacred pilgrimages.",
+"Arrive in Haridwar or Rishikesh, marking the successful completion of the Char Dham Yatra in Uttarakhand.",
+"This life-changing journey offers spiritual awakening, cultural discovery, and unforgettable Himalayan experiences.",
+],
+},
+],
+
     includes: [
       "All accommodation during the Yatra",
       "All meals (breakfast, lunch, dinner)",
@@ -2532,136 +2806,201 @@ points: [
       "🌾 Himalayan meadows and forests",
       "🙏 Spiritual trekking experience",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Haridwar / Rishikesh to Guptkashi",
-        sub: "200 km | 8–9 Hours",
-        points: [
-          "The journey begins through scenic Himalayan roads along river valleys and mountain landscapes.",
-          "Guptkashi serves as an important base before beginning the Kedarnath pilgrimage.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Guptkashi to Kedarnath",
-        sub: "16 km | 11,755 ft",
-        points: [
-          "The trek starts from Gaurikund and ascends gradually toward Kedarnath Temple.",
-          "Surrounded by snow-covered mountains, Kedarnath is one of the holiest Shiva temples in India and among the twelve Jyotirlingas.",
-          "The temple atmosphere and Himalayan scenery create a deeply spiritual experience.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Kedarnath to Guptkashi",
-        sub: "Descent",
-        points: [
-          "After morning prayers and darshan, descend back to Gaurikund and return to Guptkashi.",
-          "The evening is reserved for rest and recovery.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Guptkashi to Chopta",
-        sub: "40 km | 2–3 Hours",
-        points: [
-          "Chopta is known as the “Mini Switzerland of Uttarakhand” and serves as the base for Tungnath Temple.",
-          "The region is famous for alpine meadows, forests, and panoramic Himalayan views.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Chopta to Tungnath and Chandrashila",
-        sub: "5 km | 12,073 ft",
-        points: [
-          "The trek to Tungnath passes through beautiful meadows and mountain ridges.",
-          "Tungnath is the highest Shiva temple in the world and offers breathtaking views of Chaukhamba, Nanda Devi, Trishul, and Kedarnath Peak.",
-          "Trekkers can continue toward Chandrashila Peak for a spectacular Himalayan panorama.",
-          "Return to Chopta after the trek.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Chopta to Sagar Village",
-        sub: "70 km Drive",
-        points: [
-          "Sagar Village serves as the base point for the Rudranath Trek.",
-          "Trekkers prepare for one of the most remote and scenic sections of the Panch Kedar circuit.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Sagar Village to Panar Bugyal",
-        sub: "12 km | 6–7 Hours",
-        points: [
-          "The trail passes through dense forests, alpine meadows, and ridge sections.",
-          "Panar Bugyal offers magnificent sunset views over the Himalayan ranges.",
-          "Camping here is one of the highlights of the yatra.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Panar Bugyal to Rudranath Temple",
-        sub: "8 km | 11,800 ft",
-        points: [
-          "The route toward Rudranath is scenic and spiritually significant.",
-          "Rudranath Temple is located amidst remote alpine terrain surrounded by mountains and forests. The natural rock temple and peaceful atmosphere create a unique spiritual experience.",
-        ],
-      },
-      {
-        day: 9,
-        title: "Rudranath to Sagar Village",
-        sub: "20 km Descent",
-        points: [
-          "Descend back through forests and meadows toward Sagar Village.",
-          "Trekkers can enjoy final views of the Himalayan landscapes during the descent.",
-        ],
-      },
-      {
-        day: 10,
-        title: "Sagar Village to Ransi",
-        sub: "Approx. 80 km Drive",
-        points: [
-          "Ransi Village is the starting point for the Madhyamaheshwar Trek.",
-        ],
-      },
-      {
-        day: 11,
-        title: "Ransi to Madhyamaheshwar",
-        sub: "16 km | 10,750 ft",
-        points: [
-          "The trail passes through forests, waterfalls, and mountain villages.",
-          "Madhyamaheshwar Temple lies in a beautiful valley beneath Chaukhamba Peak. The peaceful surroundings and mountain views make this temple extremely scenic.",
-        ],
-      },
-      {
-        day: 12,
-        title: "Madhyamaheshwar to Ransi",
-        sub: "Descent",
-        points: [
-          "After morning prayers and exploration, descend back to Ransi Village.",
-        ],
-      },
-      {
-        day: 13,
-        title: "Ransi to Helang and Trek to Kalpeshwar",
-        sub: "2 km | 7,200 ft",
-        points: [
-          "Kalpeshwar is the only Panch Kedar temple accessible throughout the year.",
-          "The temple lies inside a cave surrounded by forests and mountain landscapes.",
-          "Pilgrims offer final prayers and complete the Panch Kedar Yatra here.",
-        ],
-      },
-      {
-        day: 14,
-        title: "Return to Haridwar / Rishikesh",
-        sub: "End of Journey",
-        points: [
-          "Drive back through the scenic Garhwal Himalayas, concluding the Panch Kedar pilgrimage.",
-        ],
-      },
-    ],
+   itinerary: [
+{
+day: 1,
+title: "Haridwar / Rishikesh to Guptkashi",
+sub: "200 km | 8–9 Hours | 4,300 ft",
+points: [
+"Your sacred Panch Kedar Yatra begins from Haridwar or Rishikesh, the spiritual gateways to the Garhwal Himalayas.",
+"Travel through scenic mountain roads, sacred river valleys, and picturesque Himalayan landscapes while following the course of the Ganga and Alaknanda rivers.",
+"Pass through Devprayag, Rudraprayag, and charming Garhwali towns that hold immense religious significance.",
+"The route offers breathtaking views of forests, waterfalls, terraced fields, and snow-capped Himalayan peaks.",
+"Reach Guptkashi, one of Uttarakhand's most important pilgrimage towns and the traditional base for the Kedarnath Yatra.",
+"Visit the ancient Vishwanath Temple and Ardhnarishwar Temple, both deeply associated with Lord Shiva.",
+"Enjoy magnificent views of the Chaukhamba Massif and prepare for the first temple of the Panch Kedar circuit.",
+],
+},
+
+{
+day: 2,
+title: "Guptkashi to Kedarnath",
+sub: "16 km Trek | 11,755 ft",
+points: [
+"Begin the pilgrimage to Kedarnath, the most revered temple of the Panch Kedar and one of the twelve Jyotirlingas of Lord Shiva.",
+"The trek starts from Gaurikund and follows a scenic mountain trail alongside the Mandakini River.",
+"Pilgrims may trek on foot or use ponies, palkis, porters, or helicopter services.",
+"The route offers breathtaking views of waterfalls, glaciers, forests, and towering Himalayan peaks.",
+"Reach Kedarnath Temple, dramatically situated amidst snow-covered mountains and sacred landscapes.",
+"Participate in evening aarti and experience the divine atmosphere of one of India's holiest pilgrimage destinations.",
+"The temple's majestic setting beneath the Kedarnath Range creates an unforgettable spiritual experience.",
+],
+},
+
+{
+day: 3,
+title: "Kedarnath to Guptkashi",
+sub: "Trek & Drive",
+points: [
+"Begin the day with early morning darshan and blessings at Kedarnath Temple.",
+"Witness the peaceful sunrise over the Himalayan peaks surrounding the shrine.",
+"After prayers, descend back to Gaurikund through scenic mountain trails and river valleys.",
+"The descent offers another opportunity to appreciate the stunning landscapes of the Kedarnath region.",
+"Drive back to Guptkashi and enjoy a comfortable evening of rest and recovery.",
+"Reflect on the spiritual significance of visiting the first and most important temple of the Panch Kedar Yatra.",
+],
+},
+
+{
+day: 4,
+title: "Guptkashi to Chopta",
+sub: "40 km | 2–3 Hours",
+points: [
+"After breakfast, drive toward Chopta, one of Uttarakhand's most beautiful high-altitude destinations.",
+"Often called the 'Mini Switzerland of Uttarakhand,' Chopta is famous for its lush meadows, dense forests, and panoramic Himalayan views.",
+"The route passes through scenic mountain roads lined with rhododendron forests and alpine landscapes.",
+"Enjoy magnificent views of Chaukhamba, Trishul, Nanda Devi, and Kedarnath Peak along the journey.",
+"Upon arrival, spend the evening exploring the pristine surroundings and preparing for the Tungnath Trek.",
+"The peaceful atmosphere and spectacular mountain scenery make Chopta one of the highlights of the Panch Kedar circuit.",
+],
+},
+
+{
+day: 5,
+title: "Chopta to Tungnath Temple and Chandrashila Summit",
+sub: "5 km Trek | 12,073 ft",
+points: [
+"Today's journey takes you to Tungnath Temple, the highest Shiva temple in the world and the third temple of the Panch Kedar pilgrimage.",
+"The trek follows a beautifully paved trail through alpine meadows and breathtaking mountain ridges.",
+"Reach Tungnath Temple and offer prayers at this ancient shrine believed to be over a thousand years old.",
+"The temple is associated with the arms of Lord Shiva according to Panch Kedar mythology.",
+"Continue the trek to Chandrashila Summit for one of the most spectacular Himalayan panoramas in India.",
+"Witness breathtaking views of Chaukhamba, Nanda Devi, Trishul, Kedarnath Peak, Bandarpoonch, and numerous Himalayan giants.",
+"Return to Chopta after completing one of the most scenic sections of the pilgrimage.",
+],
+},
+
+{
+day: 6,
+title: "Chopta to Sagar Village",
+sub: "70 km Drive",
+points: [
+"Drive toward Sagar Village, the gateway to the remote and spiritually significant Rudranath Temple.",
+"The route traverses beautiful Himalayan valleys, dense forests, and traditional mountain settlements.",
+"Sagar Village serves as the starting point for one of the most adventurous and rewarding treks in the Panch Kedar Yatra.",
+"Spend time preparing equipment and supplies for the upcoming high-altitude trekking section.",
+"Enjoy the peaceful atmosphere of the Garhwal Himalayas before beginning the journey to Rudranath.",
+],
+},
+
+{
+day: 7,
+title: "Sagar Village to Panar Bugyal",
+sub: "12 km | 6–7 Hours",
+points: [
+"Begin trekking through dense oak, rhododendron, and deodar forests filled with Himalayan biodiversity.",
+"The trail gradually ascends through mountain ridges and alpine meadows, offering spectacular views throughout the journey.",
+"Panar Bugyal is one of Uttarakhand's most beautiful alpine meadows and a highlight of the Rudranath Trek.",
+"Witness panoramic views of Nanda Devi, Trishul, Nanda Ghunti, Hathi Parvat, and other majestic Himalayan peaks.",
+"The vast grasslands and dramatic mountain scenery create a perfect high-altitude camping experience.",
+"Enjoy an unforgettable sunset over the Garhwal Himalayas before settling in for the night.",
+],
+},
+
+{
+day: 8,
+title: "Panar Bugyal to Rudranath Temple",
+sub: "8 km | 11,800 ft",
+points: [
+"Continue through some of the most scenic alpine landscapes in the Garhwal Himalayas.",
+"The route offers breathtaking views of valleys, meadows, ridges, and distant snow-covered peaks.",
+"Reach Rudranath Temple, the fourth temple of the Panch Kedar and one of the most spiritually powerful shrines dedicated to Lord Shiva.",
+"Unlike other temples, Rudranath is naturally formed within a rock cave amidst remote mountain wilderness.",
+"The temple is believed to represent the face of Lord Shiva according to Hindu mythology.",
+"Surrounded by forests, alpine meadows, and dramatic mountain scenery, Rudranath offers a truly unique pilgrimage experience.",
+"Spend time in prayer and meditation amidst the serene Himalayan environment.",
+],
+},
+
+{
+day: 9,
+title: "Rudranath to Sagar Village",
+sub: "20 km Descent",
+points: [
+"Begin the descent back through beautiful meadows, forests, and mountain trails toward Sagar Village.",
+"Enjoy final views of the spectacular landscapes surrounding Rudranath Temple.",
+"The return journey provides ample opportunities for photography and appreciation of the untouched Himalayan wilderness.",
+"Reach Sagar Village by evening and rest after completing one of the most remote sections of the Panch Kedar circuit.",
+],
+},
+
+{
+day: 10,
+title: "Sagar Village to Ransi",
+sub: "80 km Drive",
+points: [
+"Drive toward Ransi Village, the starting point of the Madhyamaheshwar Trek.",
+"The route passes through picturesque mountain roads, forests, rivers, and traditional Himalayan settlements.",
+"Ransi serves as the gateway to one of the most beautiful temple valleys in Uttarakhand.",
+"Spend the evening preparing for the trek to Madhyamaheshwar, the fourth temple of the Panch Kedar pilgrimage.",
+],
+},
+
+{
+day: 11,
+title: "Ransi to Madhyamaheshwar Temple",
+sub: "16 km Trek | 10,750 ft",
+points: [
+"Trek through dense forests, cascading waterfalls, mountain streams, and traditional Himalayan villages.",
+"The trail offers stunning views of alpine landscapes and remote Garhwal mountain scenery.",
+"Reach Madhyamaheshwar Temple, beautifully situated beneath the towering Chaukhamba Peak.",
+"According to legend, this temple represents the navel and torso of Lord Shiva.",
+"The tranquil valley, lush meadows, and magnificent mountain backdrop create one of the most scenic temple settings in the Himalayas.",
+"Attend evening prayers and experience the peaceful spiritual atmosphere of this sacred shrine.",
+],
+},
+
+{
+day: 12,
+title: "Madhyamaheshwar to Ransi",
+sub: "Descent",
+points: [
+"Begin the descent back to Ransi Village after morning prayers and temple darshan.",
+"Enjoy final views of Chaukhamba Peak and the beautiful Madhyamaheshwar Valley.",
+"The return journey passes through forests, streams, and traditional mountain settlements.",
+"Reach Ransi and rest before the final temple visit of the Panch Kedar pilgrimage.",
+],
+},
+
+{
+day: 13,
+title: "Ransi to Helang and Kalpeshwar Temple",
+sub: "Drive & Short Trek | 7,200 ft",
+points: [
+"Travel toward Helang and begin the final stage of the Panch Kedar Yatra.",
+"Reach Kalpeshwar Temple, the fifth and only Panch Kedar temple accessible throughout the year.",
+"The temple is located inside a sacred cave surrounded by dense forests and beautiful mountain landscapes.",
+"Kalpeshwar is believed to represent the hair (jata) of Lord Shiva according to Panch Kedar mythology.",
+"Offer final prayers and complete the sacred Panch Kedar pilgrimage circuit.",
+"The serene surroundings provide a perfect conclusion to this extraordinary spiritual journey.",
+],
+},
+
+{
+day: 14,
+title: "Return to Haridwar / Rishikesh",
+sub: "End of Panch Kedar Yatra",
+points: [
+"After breakfast, begin the return journey through the scenic Garhwal Himalayas.",
+"Travel along beautiful river valleys, mountain roads, and sacred confluences that define Uttarakhand's spiritual landscape.",
+"Reflect on the blessings and experiences gained from visiting Kedarnath, Tungnath, Rudranath, Madhyamaheshwar, and Kalpeshwar.",
+"Carry home unforgettable memories of sacred temples, Himalayan adventures, and profound spiritual experiences.",
+"Arrive in Haridwar or Rishikesh, marking the successful completion of the Panch Kedar Yatra.",
+"This sacred pilgrimage combines spirituality, trekking, culture, and the breathtaking beauty of the Himalayas.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek",
       "All meals (breakfast, lunch, dinner)",
@@ -2757,115 +3096,202 @@ points: [
       "🛕 Sacred Muktinath Temple",
       "🌲 Annapurna Conservation Area exploration",
     ],
-    itinerary: [
-      {
-        day: 1,
-        title: "Drive from Kathmandu to Besisahar",
-        sub: "2,500 ft | 6–7 Hours",
-        points: [
-          "The journey begins with a scenic drive from Kathmandu to Besisahar through river valleys, terraced farms, and mountain roads.",
-          "Besisahar is the gateway to the Annapurna region and marks the starting point of the trek.",
-          "Trekkers spend the evening preparing for the long Himalayan expedition ahead.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Besisahar to Chame",
-        sub: "8,694 ft | Drive/Trek Combination",
-        points: [
-          "The route enters the Annapurna Conservation Area and passes through dense forests, waterfalls, and traditional villages.",
-          "Trekkers witness the first close views of Annapurna II and Lamjung Himal.",
-          "Chame, the administrative center of Manang district, offers beautiful mountain scenery and hot springs.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Chame to Pisang",
-        sub: "13 km | 5–6 Hours | 10,826 ft",
-        points: [
-          "The trail follows the Marsyangdi River through pine forests and dramatic valleys.",
-          "Trekkers pass narrow rock sections and suspension bridges while witnessing stunning views of Annapurna II and Pisang Peak.",
-          "Upper Pisang offers magnificent sunset views over the Annapurna range.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Pisang to Manang",
-        sub: "17 km | 6–7 Hours | 11,614 ft",
-        points: [
-          "The trail climbs gradually through dry alpine landscapes and Tibetan-style villages.",
-          "Trekkers experience dramatic changes in scenery as green forests transition into barren mountain terrain.",
-          "Manang is one of the most important acclimatization stops on the circuit and offers spectacular Himalayan views.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Acclimatization Day at Manang",
-        sub: "Acclimatization",
-        points: [
-          "Trekkers spend the day acclimatizing to higher altitude.",
-          "Optional hikes to Gangapurna Lake, Ice Lake, or nearby viewpoints provide incredible mountain panoramas.",
-          "Proper acclimatization is extremely important before crossing Thorong La Pass.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Manang to Yak Kharka",
-        sub: "10 km | 4–5 Hours | 13,123 ft",
-        points: [
-          "The trail enters high-altitude terrain with sparse vegetation and open mountain landscapes.",
-          "Trekkers often encounter yaks grazing in alpine meadows along the route.",
-          "Yak Kharka offers peaceful surroundings and stunning mountain scenery.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Yak Kharka to Thorong Phedi",
-        sub: "7 km | 4–5 Hours | 14,764 ft",
-        points: [
-          "The route becomes steeper and more rugged as trekkers approach the base of Thorong La Pass.",
-          "Trekkers rest early and prepare for the challenging pass crossing the following day.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Thorong Phedi to Thorong La Pass and Descend to Muktinath",
-        sub: "15 km | 9–10 Hours | 17,769 ft",
-        points: [
-          "This is the most difficult and rewarding day of the trek. Trekkers start before sunrise and climb steadily toward Thorong La Pass.",
-          "From the pass, witness breathtaking views of the Annapurna Range, Dhaulagiri, Nilgiri Peaks, and the Tibetan Plateau.",
-          "After crossing the pass, descend toward the sacred pilgrimage town of Muktinath.",
-        ],
-      },
-      {
-        day: 9,
-        title: "Muktinath to Jomsom",
-        sub: "18 km | 6–7 Hours | 8,900 ft",
-        points: [
-          "The route descends through the Kali Gandaki Valley, the world's deepest gorge between Annapurna and Dhaulagiri ranges.",
-          "Trekkers pass through traditional villages and desert-like landscapes influenced by Tibetan culture.",
-          "Jomsom is a major town in the Mustang region.",
-        ],
-      },
-      {
-        day: 10,
-        title: "Return Journey (Jomsom to Tatopani/Ghorepani)",
-        sub: "3–4 Days Return",
-        points: [
-          "Trekkers continue through Tatopani, Ghorepani, or take flights/drives depending on the selected itinerary variation.",
-          "Many trekkers also combine the Annapurna Circuit with the famous Poon Hill Trek.",
-          "The trail offers final glimpses of the majestic Himalayas.",
-        ],
-      },
-      {
-        day: 14,
-        title: "Return to Kathmandu",
-        sub: "Drive or Flight",
-        points: [
-          "Drive or flight back to Kathmandu concludes the Annapurna Circuit Trek.",
-        ],
-      },
-    ],
+   itinerary: [
+{
+day: 1,
+title: "Drive from Kathmandu to Besisahar",
+sub: "2,500 ft | 6–7 Hours",
+points: [
+"Your Annapurna Circuit Trek begins with a scenic drive from Kathmandu to Besisahar, the gateway to one of the world's most legendary trekking routes.",
+"Travel through lush river valleys, terraced farmlands, traditional Nepalese villages, and beautiful Himalayan foothills.",
+"The journey follows winding mountain roads alongside the Trishuli and Marsyangdi Rivers, offering spectacular countryside views.",
+"Witness rural Nepal's rich culture, vibrant landscapes, and daily mountain life throughout the drive.",
+"Reach Besisahar, the official starting point of the Annapurna Circuit and a bustling trekking hub.",
+"Attend a trek briefing, organize equipment, and prepare for the incredible Himalayan adventure ahead.",
+"Enjoy your first evening surrounded by the stunning landscapes of the Annapurna region.",
+],
+},
+
+{
+day: 2,
+title: "Besisahar to Chame",
+sub: "8,694 ft | Drive & Trek Combination",
+points: [
+"Enter the breathtaking Annapurna Conservation Area, Nepal's largest protected mountain region.",
+"The route passes through dense forests, cascading waterfalls, deep river gorges, and charming Gurung villages.",
+"Enjoy spectacular views of Annapurna II, Lamjung Himal, and numerous snow-capped peaks rising above the valleys.",
+"Witness dramatic changes in landscape as subtropical forests gradually transition into alpine mountain terrain.",
+"Reach Chame, the administrative headquarters of Manang District and an important stop on the Annapurna Circuit.",
+"Explore the local town, natural hot springs, and surrounding mountain scenery.",
+"Spend the evening acclimatizing while enjoying breathtaking views of the Annapurna Range.",
+],
+},
+
+{
+day: 3,
+title: "Chame to Pisang",
+sub: "13 km | 5–6 Hours | 10,826 ft",
+points: [
+"Follow the Marsyangdi River through beautiful pine forests and dramatic Himalayan valleys.",
+"The trail passes towering rock faces, suspension bridges, and stunning mountain viewpoints.",
+"Witness magnificent views of Annapurna II, Pisang Peak, and surrounding snow-covered summits.",
+"One of the highlights of today's trek is crossing through the famous Paungda Danda rock wall, a massive curved cliff rising dramatically above the valley.",
+"Reach Upper Pisang, a traditional Himalayan village known for its Tibetan Buddhist culture and architecture.",
+"Enjoy incredible sunset views over the Annapurna Range and surrounding peaks.",
+"Spend the night immersed in the unique mountain culture of the region.",
+],
+},
+
+{
+day: 4,
+title: "Pisang to Manang",
+sub: "17 km | 6–7 Hours | 11,614 ft",
+points: [
+"Today's trek offers some of the most spectacular mountain scenery on the Annapurna Circuit.",
+"The route climbs through high-altitude landscapes, traditional Tibetan-style villages, and ancient monasteries.",
+"Experience a dramatic transformation in scenery as lush forests give way to dry alpine terrain and rugged mountain deserts.",
+"Pass through villages such as Ghyaru and Ngawal while enjoying panoramic views of Annapurna III, Annapurna IV, Gangapurna, and Tilicho Peak.",
+"Reach Manang, one of Nepal's most famous trekking villages and a crucial acclimatization stop.",
+"The village is surrounded by towering Himalayan giants and offers incredible opportunities for exploration and photography.",
+"Spend the evening relaxing and preparing for higher elevations ahead.",
+],
+},
+
+{
+day: 5,
+title: "Acclimatization Day at Manang",
+sub: "Rest & Acclimatization",
+points: [
+"A dedicated acclimatization day is essential for safely preparing your body for the high-altitude crossing of Thorong La Pass.",
+"Take optional hikes to Gangapurna Lake, Ice Lake, Chongkor Viewpoint, or nearby monasteries.",
+"These acclimatization walks provide breathtaking views of Annapurna III, Gangapurna, Tilicho Peak, Chulu East, and Chulu West.",
+"Learn about local Tibetan Buddhist traditions and the unique culture of the Manang Valley.",
+"The day allows trekkers to rest, hydrate, and adapt to the thinner mountain air.",
+"Proper acclimatization significantly increases the chances of a successful and enjoyable trek.",
+],
+},
+
+{
+day: 6,
+title: "Manang to Yak Kharka",
+sub: "10 km | 4–5 Hours | 13,123 ft",
+points: [
+"Leave Manang behind and enter the high-altitude wilderness of the Annapurna Himalayas.",
+"The trail gradually ascends through alpine grasslands, rocky slopes, and open mountain terrain.",
+"Observe grazing yaks, Himalayan blue sheep, and breathtaking views of the surrounding peaks.",
+"As vegetation becomes sparse, the dramatic mountain environment becomes increasingly rugged and beautiful.",
+"Reach Yak Kharka, a peaceful settlement surrounded by vast alpine landscapes.",
+"Enjoy magnificent views of Annapurna III, Gangapurna, and other nearby peaks while acclimatizing to the higher altitude.",
+],
+},
+
+{
+day: 7,
+title: "Yak Kharka to Thorong Phedi",
+sub: "7 km | 4–5 Hours | 14,764 ft",
+points: [
+"Continue ascending toward the base of the legendary Thorong La Pass.",
+"The route traverses rocky trails, landslide sections, and dramatic mountain landscapes.",
+"The scenery becomes increasingly barren as you enter the highest section of the Annapurna Circuit Trek.",
+"Reach Thorong Phedi, the traditional base camp for the pass crossing.",
+"Spend the afternoon resting, hydrating, and preparing for the challenging summit day ahead.",
+"An early night is essential as the trek to Thorong La begins before dawn.",
+],
+},
+
+{
+day: 8,
+title: "Thorong Phedi to Thorong La Pass and Descend to Muktinath",
+sub: "15 km | 9–10 Hours | 17,769 ft",
+points: [
+"This is the most challenging and rewarding day of the Annapurna Circuit Trek.",
+"Begin before sunrise and steadily climb toward Thorong La Pass, one of the highest trekking passes in the world.",
+"Reach Thorong La Pass at 17,769 ft and celebrate your achievement amidst breathtaking Himalayan scenery.",
+"Witness extraordinary views of Annapurna, Dhaulagiri, Nilgiri, Tilicho Peak, Thorong Peak, and the vast Tibetan Plateau.",
+"The panoramic mountain vistas from the pass are among the finest in the Himalayas.",
+"After spending time at the summit, begin the long descent toward Muktinath.",
+"Reach Muktinath, one of Nepal's most sacred pilgrimage destinations for both Hindus and Buddhists.",
+"Visit the famous Muktinath Temple and experience the spiritual significance of this revered site.",
+],
+},
+
+{
+day: 9,
+title: "Muktinath to Jomsom",
+sub: "18 km | 6–7 Hours | 8,900 ft",
+points: [
+"Descend through the spectacular Kali Gandaki Valley, known as the deepest gorge in the world.",
+"The landscape transforms into a dramatic high-altitude desert influenced by Tibetan geography and culture.",
+"Pass through traditional villages such as Kagbeni and witness ancient monasteries, prayer flags, and unique Mustang architecture.",
+"Enjoy magnificent views of Dhaulagiri, Nilgiri, and the surrounding mountain ranges.",
+"Reach Jomsom, the administrative center of the Mustang region and a major trekking hub.",
+"Explore the local market and celebrate the successful crossing of Thorong La Pass.",
+],
+},
+
+{
+day: 10,
+title: "Jomsom to Tatopani",
+sub: "Drive & Trek Combination",
+points: [
+"Continue through the beautiful Kali Gandaki Valley while passing traditional villages and dramatic landscapes.",
+"Reach Tatopani, famous for its natural hot springs and relaxing mountain atmosphere.",
+"The warm mineral-rich waters provide an excellent opportunity to relax after several days of trekking.",
+"Enjoy a peaceful evening surrounded by lush hills and river valleys.",
+],
+},
+
+{
+day: 11,
+title: "Tatopani to Ghorepani",
+sub: "Trek | 9–10 Hours",
+points: [
+"Trek through dense rhododendron forests, traditional villages, and beautiful mountain trails.",
+"The route offers stunning views of the Annapurna and Dhaulagiri mountain ranges.",
+"Reach Ghorepani, one of Nepal's most popular trekking villages and the gateway to Poon Hill.",
+"Prepare for the famous sunrise viewpoint hike the following morning.",
+],
+},
+
+{
+day: 12,
+title: "Poon Hill Sunrise & Trek to Nayapul",
+sub: "Sunrise Hike & Trek",
+points: [
+"Wake before dawn and hike to Poon Hill, one of the most famous viewpoints in Nepal.",
+"Witness a spectacular Himalayan sunrise over Annapurna I, Dhaulagiri, Machhapuchhre, Nilgiri, and numerous surrounding peaks.",
+"The golden morning light illuminating the mountains creates an unforgettable experience.",
+"After returning to Ghorepani, continue trekking toward Nayapul through forests and villages.",
+"Complete the final trekking section of the Annapurna Circuit adventure.",
+],
+},
+
+{
+day: 13,
+title: "Nayapul to Pokhara",
+sub: "Drive",
+points: [
+"Drive to the beautiful lakeside city of Pokhara after completing the trek.",
+"Relax beside Phewa Lake and enjoy views of the Annapurna and Machhapuchhre ranges.",
+"Explore Pokhara's vibrant cafés, lakeside promenade, and cultural attractions.",
+"Celebrate the successful completion of one of the world's greatest trekking adventures.",
+],
+},
+
+{
+day: 14,
+title: "Pokhara to Kathmandu",
+sub: "Drive or Flight",
+points: [
+"Return to Kathmandu by scenic mountain drive or domestic flight.",
+"Reflect on your incredible journey through the Annapurna Circuit, one of the most famous treks in the world.",
+"Carry home unforgettable memories of Thorong La Pass, Annapurna peaks, Tibetan villages, and Nepal's breathtaking mountain landscapes.",
+"Arrive in Kathmandu, marking the successful completion of the Annapurna Circuit Trek.",
+"This legendary Himalayan adventure offers a perfect combination of culture, mountain scenery, and high-altitude trekking.",
+],
+},
+],
+
     includes: [
       "All accommodation during the trek (Tea houses/Lodges)",
       "All meals (breakfast, lunch, dinner)",
@@ -3120,132 +3546,193 @@ points: [
       "🏞 Sagarmatha National Park exploration",
       "🛕 Tengboche Monastery visit",
     ],
+
     itinerary: [
-      {
-        day: 1,
-        title: "Flight from Kathmandu to Lukla and Trek to Phakding",
-        sub: "8 km | 8,562 ft",
-        points: [
-          "The adventure begins with a thrilling mountain flight from Kathmandu to Lukla, one of the world’s most famous high-altitude airports.",
-          "The trek starts with a gradual walk through pine forests, suspension bridges, and traditional Sherpa villages toward Phakding.",
-          "Trekkers get their first glimpse of the beautiful Khumbu Valley and surrounding Himalayan landscapes.",
-        ],
-      },
-      {
-        day: 2,
-        title: "Phakding to Namche Bazaar",
-        sub: "10 km | 6–7 Hours | 11,286 ft",
-        points: [
-          "The trail follows the Dudh Koshi River and crosses several suspension bridges, including the famous Hillary Suspension Bridge.",
-          "Trekkers enter Sagarmatha National Park before ascending steeply toward Namche Bazaar, the main trading and cultural hub of the Khumbu region.",
-          "Namche offers cafes, bakeries, gear shops, and panoramic mountain views.",
-        ],
-      },
-      {
-        day: 3,
-        title: "Acclimatization Day at Namche Bazaar",
-        sub: "Acclimatization",
-        points: [
-          "Trekkers spend the day acclimatizing to higher altitude.",
-          "Short hikes to Everest View Hotel or nearby viewpoints provide stunning views of Mount Everest, Ama Dablam, Lhotse, and Thamserku.",
-          "Trekkers can also explore local museums and monasteries.",
-        ],
-      },
-      {
-        day: 4,
-        title: "Namche Bazaar to Tengboche",
-        sub: "10 km | 5–6 Hours | 12,687 ft",
-        points: [
-          "The trail offers breathtaking views of Everest and Ama Dablam while passing through rhododendron forests and mountain villages.",
-          "Tengboche is famous for the ancient Tengboche Monastery, the largest monastery in the Khumbu region.",
-          "The monastery backdrop against Ama Dablam Peak creates one of the most photographed scenes in Nepal.",
-        ],
-      },
-      {
-        day: 5,
-        title: "Tengboche to Dingboche",
-        sub: "11 km | 5–6 Hours | 14,469 ft",
-        points: [
-          "The route gradually enters alpine terrain as forests disappear and rugged mountain landscapes dominate the scenery.",
-          "Trekkers cross suspension bridges and traditional settlements while witnessing magnificent Himalayan panoramas.",
-          "Dingboche is surrounded by snow-covered peaks and serves as another important acclimatization stop.",
-        ],
-      },
-      {
-        day: 6,
-        title: "Acclimatization Day at Dingboche",
-        sub: "Acclimatization",
-        points: [
-          "Trekkers spend the day adjusting to the altitude through short hikes to nearby ridges and viewpoints.",
-          "This day is extremely important for preventing altitude sickness before entering higher elevations.",
-        ],
-      },
-      {
-        day: 7,
-        title: "Dingboche to Lobuche",
-        sub: "8 km | 5–6 Hours | 16,210 ft",
-        points: [
-          "The trail passes through glacial valleys and memorial sites dedicated to climbers who lost their lives on Everest expeditions.",
-          "Trekkers witness dramatic landscapes and increasingly rugged terrain while approaching the Everest region.",
-          "Lobuche campsite offers spectacular views of surrounding Himalayan peaks.",
-        ],
-      },
-      {
-        day: 8,
-        title: "Lobuche to Everest Base Camp and Return to Gorakshep",
-        sub: "15 km | 8–9 Hours | 17,598 ft",
-        points: [
-          "This is the most anticipated day of the trek. Trekkers follow rocky glacier trails toward Everest Base Camp.",
-          "The sight of the Khumbu Icefall and surrounding peaks creates an unforgettable experience.",
-          "Reaching Everest Base Camp is a dream accomplishment for trekkers worldwide.",
-          "After spending time at base camp, return to Gorakshep for the night.",
-        ],
-      },
-      {
-        day: 9,
-        title: "Kala Patthar Summit and Trek to Pheriche",
-        sub: "13 km | 7–8 Hours | 18,192 ft",
-        points: [
-          "Trekkers wake up early for the climb to Kala Patthar, the highest viewpoint of the trek.",
-          "Kala Patthar offers the best panoramic sunrise views of Mount Everest, Nuptse, Lhotse, Pumori, and Ama Dablam.",
-          "After descending, continue toward Pheriche.",
-        ],
-      },
-      {
-        day: 10,
-        title: "Pheriche to Namche Bazaar",
-        sub: "Descent",
-        points: [
-          "Trekkers begin their descent through the beautiful Khumbu valleys.",
-          "The trail leads back toward Namche Bazaar while enjoying the final Himalayan views and Sherpa culture.",
-        ],
-      },
-      {
-        day: 11,
-        title: "Namche Bazaar to Lukla",
-        sub: "Descent",
-        points: [
-          "Continue descending through Phakding back to Lukla.",
-          "The final trekking stretch is a time to reflect on the incredible journey completed.",
-        ],
-      },
-      {
-        day: 12,
-        title: "Lukla to Kathmandu",
-        sub: "Flight",
-        points: [
-          "The adventure concludes with a scenic mountain flight from Lukla back to Kathmandu.",
-        ],
-      },
-      {
-        day: 13,
-        title: "Departure from Kathmandu",
-        sub: "End of Journey",
-        points: [
-          "Trekkers depart from Kathmandu, marking the final completion of the Everest Base Camp Trek.",
-        ],
-      },
+  {
+    day: 1,
+    title: "Flight from Kathmandu to Lukla and Trek to Phakding",
+    sub: "8 km | 3–4 Hours | 8,562 ft",
+    points: [
+      "Your Everest Base Camp Trek begins with a breathtaking mountain flight from Kathmandu to Lukla, home to one of the world's most iconic high-altitude airports.",
+      "The flight offers spectacular aerial views of the Himalayan range, including snow-capped peaks, deep valleys, and remote mountain villages.",
+      "Upon arrival in Lukla, meet your trekking crew and begin the journey through the legendary Khumbu region of Nepal.",
+      "The trail descends gradually through pine forests, stone-paved paths, prayer wheels, and traditional Sherpa settlements.",
+      "Cross suspension bridges over the turquoise waters of the Dudh Koshi River while soaking in the beauty of the Everest region.",
+      "Enjoy your first encounters with Buddhist culture, colorful prayer flags, and ancient mani walls.",
+      "Reach the peaceful village of Phakding, nestled along the river amidst beautiful mountain scenery.",
+      "Spend the evening preparing for the unforgettable adventure ahead while enjoying your first night in the Himalayas.",
     ],
+  },
+
+  {
+    day: 2,
+    title: "Phakding to Namche Bazaar",
+    sub: "10 km | 6–7 Hours | 11,286 ft",
+    points: [
+      "Today's trek follows the Dudh Koshi River through dense forests, charming villages, and a series of suspension bridges.",
+      "Cross the famous Hillary Suspension Bridge, one of the most iconic landmarks on the Everest Base Camp route.",
+      "Enter Sagarmatha National Park, a UNESCO World Heritage Site renowned for its incredible mountain landscapes and biodiversity.",
+      "The trail climbs steadily through pine forests and steep mountain paths toward Namche Bazaar.",
+      "Along the ascent, weather permitting, trekkers may catch their first glimpse of Mount Everest in the distance.",
+      "Reach Namche Bazaar, the bustling Sherpa capital of the Khumbu region and the most important trading center in the Everest area.",
+      "Explore vibrant markets, bakeries, cafés, gear shops, and local museums while surrounded by spectacular Himalayan views.",
+      "Spend the night acclimatizing in this beautiful mountain town.",
+    ],
+  },
+
+  {
+    day: 3,
+    title: "Acclimatization Day at Namche Bazaar",
+    sub: "Acclimatization & Exploration",
+    points: [
+      "A dedicated acclimatization day is crucial for adapting safely to the increasing altitude.",
+      "Take an acclimatization hike to the famous Everest View Hotel, one of the highest luxury hotels in the world.",
+      "Enjoy breathtaking panoramic views of Mount Everest, Ama Dablam, Lhotse, Nuptse, Thamserku, and Kongde Ri.",
+      "Visit the Sherpa Culture Museum and learn about the history of Everest expeditions and Himalayan mountaineering.",
+      "Explore nearby monasteries, traditional villages, and scenic viewpoints around Namche.",
+      "The day follows the principle of 'climb high, sleep low,' helping your body prepare for higher elevations.",
+      "Return to Namche Bazaar for a relaxing evening amidst the stunning mountain scenery.",
+    ],
+  },
+
+  {
+    day: 4,
+    title: "Namche Bazaar to Tengboche",
+    sub: "10 km | 5–6 Hours | 12,687 ft",
+    points: [
+      "The trail offers some of the finest mountain views of the entire Everest Base Camp Trek.",
+      "Walk along scenic ridgelines with uninterrupted views of Mount Everest, Ama Dablam, Lhotse, and Nuptse.",
+      "Pass through rhododendron forests, traditional Sherpa villages, and alpine landscapes.",
+      "Cross the Dudh Koshi River before ascending toward Tengboche.",
+      "Reach the world-famous Tengboche Monastery, the largest and most important monastery in the Khumbu region.",
+      "The monastery sits beneath the magnificent Ama Dablam Peak, creating one of Nepal's most photographed mountain landscapes.",
+      "Attend evening prayers and experience the spiritual atmosphere of Himalayan Buddhism.",
+      "Enjoy a peaceful overnight stay surrounded by some of the world's highest mountains.",
+    ],
+  },
+
+  {
+    day: 5,
+    title: "Tengboche to Dingboche",
+    sub: "11 km | 5–6 Hours | 14,469 ft",
+    points: [
+      "Descend through beautiful forests before crossing the Imja Khola River and entering the upper Khumbu Valley.",
+      "The scenery changes dramatically as dense forests give way to alpine terrain and rugged mountain landscapes.",
+      "Pass traditional Sherpa settlements including Pangboche, one of the oldest villages in the Everest region.",
+      "Enjoy magnificent views of Ama Dablam, Island Peak, Lhotse, and numerous surrounding summits.",
+      "Reach Dingboche, a picturesque village surrounded by stone-walled fields and towering Himalayan peaks.",
+      "The village serves as a major acclimatization stop before ascending toward Everest Base Camp.",
+      "Spend the evening enjoying spectacular mountain views and preparing for higher altitudes.",
+    ],
+  },
+
+  {
+    day: 6,
+    title: "Acclimatization Day at Dingboche",
+    sub: "Acclimatization & High-Altitude Hike",
+    points: [
+      "A second acclimatization day helps prepare trekkers for the demanding high-altitude sections ahead.",
+      "Optional hikes to Nangkartshang Peak or nearby ridges provide incredible views of Makalu, Lhotse, Ama Dablam, and Island Peak.",
+      "The higher elevation hikes help improve acclimatization while offering breathtaking Himalayan panoramas.",
+      "Learn about altitude management and prepare for the approach toward Everest Base Camp.",
+      "The dramatic mountain scenery around Dingboche makes this one of the most memorable acclimatization days of the trek.",
+      "Return to the village for rest and hydration before continuing upward.",
+    ],
+  },
+
+  {
+    day: 7,
+    title: "Dingboche to Lobuche",
+    sub: "8 km | 5–6 Hours | 16,210 ft",
+    points: [
+      "The trail ascends gradually through glacial valleys and rugged high-altitude terrain.",
+      "Pass the moving Everest Memorial Site dedicated to climbers and Sherpas who lost their lives on Everest expeditions.",
+      "Witness dramatic views of Taboche, Cholatse, Pumori, and the Khumbu Glacier.",
+      "The landscape becomes increasingly barren and alpine as you approach the heart of the Everest region.",
+      "Reach Lobuche, a small settlement surrounded by towering Himalayan peaks and glacial terrain.",
+      "Spend the evening resting and preparing for the long-awaited Everest Base Camp day.",
+    ],
+  },
+
+  {
+    day: 8,
+    title: "Lobuche to Everest Base Camp and Return to Gorakshep",
+    sub: "15 km | 8–9 Hours | 17,598 ft",
+    points: [
+      "This is the most anticipated day of the Everest Base Camp Trek and a dream milestone for adventurers worldwide.",
+      "Follow the rugged trail alongside the Khumbu Glacier toward Gorakshep, the last settlement before Everest Base Camp.",
+      "Continue across rocky glacial terrain to reach Everest Base Camp at the foot of the world's highest mountain.",
+      "Witness the incredible Khumbu Icefall, towering glaciers, and expedition camps used by climbers attempting Mount Everest.",
+      "Standing at Everest Base Camp is an unforgettable achievement and one of the greatest trekking experiences on Earth.",
+      "Capture photographs and celebrate your accomplishment amidst the breathtaking Himalayan surroundings.",
+      "After spending time at base camp, return to Gorakshep for an overnight stay.",
+    ],
+  },
+
+  {
+    day: 9,
+    title: "Kala Patthar Summit and Trek to Pheriche",
+    sub: "13 km | 7–8 Hours | 18,192 ft",
+    points: [
+      "Wake before sunrise for the ascent to Kala Patthar, the highest viewpoint of the Everest Base Camp Trek.",
+      "At 18,192 ft, Kala Patthar offers the most spectacular panoramic views of Mount Everest available to trekkers.",
+      "Witness a magical Himalayan sunrise illuminating Everest, Nuptse, Lhotse, Pumori, Ama Dablam, and countless surrounding peaks.",
+      "The viewpoint provides unparalleled photography opportunities and unforgettable mountain scenery.",
+      "After descending from Kala Patthar, begin the journey back through the Khumbu Valley.",
+      "Continue to Pheriche for a well-earned rest after two of the trek's most challenging and rewarding days.",
+    ],
+  },
+
+  {
+    day: 10,
+    title: "Pheriche to Namche Bazaar",
+    sub: "Descent | 7–8 Hours",
+    points: [
+      "Descend through alpine valleys, Sherpa villages, and beautiful mountain landscapes.",
+      "Enjoy fresh perspectives of the Himalayan peaks encountered during the ascent.",
+      "Pass through Pangboche and Tengboche while revisiting some of the most scenic sections of the trail.",
+      "Reach Namche Bazaar and celebrate your successful journey to Everest Base Camp.",
+      "Spend the evening enjoying modern comforts and reflecting on the incredible adventure completed.",
+    ],
+  },
+
+  {
+    day: 11,
+    title: "Namche Bazaar to Lukla",
+    sub: "Descent | 6–7 Hours",
+    points: [
+      "Continue descending through forests, suspension bridges, and traditional mountain villages.",
+      "Retrace the beautiful Dudh Koshi Valley route back toward Lukla.",
+      "Enjoy final views of the Everest region and immerse yourself one last time in Sherpa culture.",
+      "Reach Lukla and celebrate the completion of one of the world's most iconic trekking adventures.",
+      "The evening is filled with stories, memories, and a sense of accomplishment.",
+    ],
+  },
+
+  {
+    day: 12,
+    title: "Flight from Lukla to Kathmandu",
+    sub: "Scenic Mountain Flight",
+    points: [
+      "Board a spectacular mountain flight back to Kathmandu.",
+      "Enjoy one final aerial view of the Everest region, snow-capped peaks, and dramatic Himalayan valleys.",
+      "Upon arrival in Kathmandu, transfer to your hotel and enjoy a comfortable evening in Nepal's vibrant capital.",
+      "Celebrate the successful completion of the Everest Base Camp Trek with fellow trekkers and guides.",
+    ],
+  },
+
+  {
+    day: 13,
+    title: "Departure from Kathmandu",
+    sub: "End of Everest Base Camp Trek",
+    points: [
+      "After breakfast, transfer to Kathmandu International Airport for your onward journey.",
+      "Carry home unforgettable memories of Mount Everest, Kala Patthar, Sherpa culture, and the breathtaking beauty of the Himalayas.",
+      "The Everest Base Camp Trek is more than an adventure—it is a life-changing journey through the heart of the world's highest mountains.",
+      "Depart Nepal with a profound sense of achievement after completing one of the greatest trekking experiences on Earth.",
+    ],
+  },
+],
     includes: [
       "Return flights Kathmandu–Lukla",
       "All accommodation (tea houses/lodges)",
