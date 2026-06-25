@@ -83,16 +83,16 @@ if (navSearchInput) {
 // ─── HERO SLIDER ───
 const heroSlides = [
   {
-    title: "There are moments<br>you <em>can't explain</em>",
-    sub: 'Standing in the Himalayas, feeling completely alive — this is one of them. Trek for <a href="https://api.whatsapp.com/send?phone=919557711495&text=Hi!%20I\'m%20interested%20in%20becoming%20a%20Trek%20Ambassador%20for%20The%20Mountain%20Vibes.">FREE</a> as our Ambassador.',
+    title: "The mountains are calling,<br>and you <em>must go</em>.",
+    sub: 'Don\'t just dream about the Himalayas—live them. Experience the thrill of the climb and the peace of the peak with the most trusted name in the mountains. <a href="https://api.whatsapp.com/send?phone=919557711495&text=Hi!%20I\'m%20interested%20in%20becoming%20a%20Trek%20Ambassador%20for%20The%20Mountain%20Vibes." style="color:#ffd740;font-weight:700">Answer the call</a>.'
   },
   {
-    title: "Be more than a trekker,<br>Become a <em>Trek Ambassador</em>",
-    sub: 'Inspire others, build your story, and unlock opportunities to trek in the Himalayas — for <a href="https://api.whatsapp.com/send?phone=919557711495&text=Hi!%20I\'m%20interested%20in%20becoming%20a%20Trek%20Ambassador%20for%20The%20Mountain%20Vibes." style="color:#ffd740;font-weight:700">FREE</a>.',
+    title: "The trail doesn't just show<br>you the world. It shows you <em>yourself</em>.",
+    sub: 'Leave the noise behind. Find your rhythm, find your people, and find a version of you that only exists above the clouds. Start your journey with <a href="https://api.whatsapp.com/send?phone=919557711495&text=Hi!%20I\'m%20interested%20in%20becoming%20a%20Trek%20Ambassador%20for%20The%20Mountain%20Vibes." style="color:#ffd740;font-weight:700">us</a>.',
   },
   {
-    title: "Adventures that<br><em>change your life</em>",
-    sub: "Over 500,000 trekkers have trusted us. Join the Mountain Vibes family and experience the Himalayas safely.",
+    title: "If not now, when?<br>If not you, <em>who else</em>?",
+    sub: 'The trail doesn\'t care about your age, your job, or your fears. It only cares that you show up. So show up—and let the Himalayas do the rest. <a href="https://api.whatsapp.com/send?phone=919557711495&text=Hi!%20I\'m%20interested%20in%20becoming%20a%20Trek%20Ambassador%20for%20The%20Mountain%20Vibes." style="color:#ffd740;font-weight:700">Claim your trek</a>.',
   },
 ];
 let hs = 0;
