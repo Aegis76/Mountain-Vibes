@@ -2,7 +2,7 @@ const TREKS = {
   roopkund: {
     num: 1,
     title: "Roopkund Trek",
-    img: "The_Mountains_All_treks_imag/1Roopkund4.webp?updatedAt=1779290806474",
+    img: "images/20251102_114618.jpg",
     region: "Uttarakhand",
     diff: "Moderate to Difficult",
     season: "May–June & September–October",
@@ -1023,7 +1023,7 @@ points: [
       "💊 Personal medicines and energy snacks",
     ],
     photos: [
-      "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 3.jpg?updatedAt=1779290768973",
+      "images/20250602_142500.jpg?updatedAt=1779290762548",
       "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 6.jpg",
       "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 5.jpg",
       "The_Mountains_All_treks_imag/6 Ranthan khadak Trek 4.webp",
@@ -1415,10 +1415,10 @@ points: [
     photos: [
       "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 1.webp?updatedAt=1779290763235",
       "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 3.webp",
-      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 4.webp",
+      "images/GPTempDownload (1).jpg",
       "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 5.jpeg",
       "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 6.webp",
-      "The_Mountains_All_treks_imag/8 Kashmir Great Lake Trek 2.jpg",
+      "images/GPTempDownload.jpg",
     ],
     reviews: [
       {
@@ -3362,7 +3362,7 @@ points: [
 
   vof: {
     title: "Valley of Flowers",
-    img: "https://images.unsplash.com/photo-1600707656536-c5ace2c14c29?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://lh3.googleusercontent.com/pw/AP1GczNO2tsM3A9WrqsOiP77-zWIK_fnBWUda4a8LdfCQ1xMEkZ3TxrcE3PcDD1jfSB27tV_uC_1WYQoVjRpZ6iVHy2MQVOnr_3NpIxm87CDI4nJRQjvssEsqMgAKp94NW8LdmI4QxFBoddlVMhPYMSSAi0G-w=w1851-h869-s-no-gm?authuser=0",
     region: "Uttarakhand",
     diff: "Easy to Moderate",
     season: "July to September",
@@ -3477,12 +3477,12 @@ points: [
       "💊 Personal medicines and hydration salts",
     ],
     photos: [
-      "/The-Mountain-Vibes/Valley-of-Flowers-with-Badrinath-Tour.jpg",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80",
-      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "https://lh3.googleusercontent.com/pw/AP1GczPr_oL81WzbY-KWzZCVZlIaLwGK-KE2Exw3e01ka9OsmDIn-Cs7V1R9nPXfmh7ye8kl2hbiB57ELFTP_WBuWm0IAot67oYDvg6sj7AxZxF0lSgQuBKOedQXOhGwBfeKFMiMMKfPM3nvXwgo7ljJskNKHg=w1851-h869-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczO7r5EcUwX_gFZo8RSBUOVI8ArciOln9hokq2G7hAu8O6QN6ZtJnGyJJ3IcbIasgVekUQjM-5rj05r9kMJqeupkBhuzxRGZ0I2ASNm0OhN2GSjhUKWPEYFSrCGStmt6mmXESCArZMC7GZ3ugk-yligDhg=w1159-h869-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczOM9PbizlUibWBSX7pR6KwwKCY6TbZ__pNs0ljqjcQ5ZqAXWS7AfnmI0yuUsMuuM5v_Gdhz4HVh-IXLlN_RFPna3vhz9DWjv7ZfaKzX-TfvXDieveGt9uJczR9BmgcMkXSGPsXqWAopi7Del923S3LYHQ=w1159-h869-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczPVlsAu97PZpD4UlzrugRN-ny6wBe8OX5lkmM3Rq7jQFm1EUHuIanYf9gpiq-dngT8BrFCOBtQv49eSiWZSsyf7tj4kQKvx7CV8cjHbE_sKAgFGREv87FLVYbPpYeB2AVCH8pe-uOmct-KfqQoJwPq9BQ=w1851-h869-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczPyifv8ctHKQsy7QKCiP1oBm-nupRilChk8PAmMFmygpdKeCYUOM0LqtepBkUS6COow0hhfolqAcMKzEoUTVUx_aNrd716qTiDiHYt-usxPz066J93vIPvGHgD_yuFSfAQ0EgkxTLmaPTXx_8iboZSbfA=w1851-h869-s-no-gm?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AP1GczPeZVUpJ4-2NZgxfr-X0_wweUcAH6c7rJJE1qOtVxLvRx0-kcczHMEIFDyN14epQ0SXNyCbp0A3kjVVogp3Y3AGpXf_andppVn6-Br1R0oFiyOaBdbqnyei0bU5QvqrImkI_yXs_rZ8PRKtb9AuI7Z4NA=w1851-h869-s-no-gm?authuser=0",
     ],
     reviews: [
       {
