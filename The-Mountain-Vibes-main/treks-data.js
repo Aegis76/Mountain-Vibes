@@ -137,9 +137,9 @@ points: [
     ],
     photos: [
       "images/20251101_162014.jpg",
-      "The_Mountains_All_treks_imag/1Roopkund3.jpg",
-      "The_Mountains_All_treks_imag/1Roopkund5.jpg",
-      "The_Mountains_All_treks_imag/1roopkund2.jpg",
+      "images/20251102_070133.jpg",
+      "images/20251028_091021.jpg",
+      "images/20251102_104157.jpg",
       "The_Mountains_All_treks_imag/(1)Roopkund Trek 5.jpg",
       "images/20251102_072937.jpg",
     ],
@@ -290,12 +290,12 @@ points: [
       "💊 Personal medicines and a small first aid kit",
     ],
     photos: [
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 5.jpg?updatedAt=1779290777946",
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal6.jpg?updatedAt=1779290777946",
+      "images/20251026_091434.jpg",
+      "images/20251027_090249.jpg",
+      "images/IMG_1055.jpg",
+      "images/IMG_1034.jpg",
       "images/20251028_093314.jpg?updatedAt=1779290777946",
       "images/20251028_080632.jpg?updatedAt=1779290777946",
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 1.jpg?updatedAt=1779290777946",
-      "The_Mountains_All_treks_imag/(2)Ali Bedani Bugyal 3.jpg?updatedAt=1779290777946",
     ],
     reviews: [
       {
@@ -470,8 +470,8 @@ points: [
       "images/IMG_7072.jpg?updatedAt=1779290762548",
       "images/IMG_7398.jpg",
       "The_Mountains_All_treks_imag/3 brahmataal 5.jpg?updatedAt=1779290777946",
-      "The_Mountains_All_treks_imag/3 brahmataal 3.jpg?updatedAt=1779290777946",
-      "The_Mountains_All_treks_imag/3 brahmataal 2.jpg?updatedAt=1779290777946",
+      "images/IMG_8411_Original.jpg",
+      "images/IMG_7426.jpg",
       "The_Mountains_All_treks_imag/3 brahmataal  1.webp?updatedAt=1779290777946",
     ],
     reviews: [
