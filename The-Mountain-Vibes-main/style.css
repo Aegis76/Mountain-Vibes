@@ -835,30 +835,27 @@
   }
 }
 
+/* ─── REVIEWS CONTAINER & CARDS (UPDATED FOR VERTICAL LIST) ─── */
 .rev-container {
-  display: flex;
-  position: relative;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 10px;
+  /* Remove horizontal scroll and snap */
+  overflow: visible;
+  scroll-snap-type: none;
+  padding-bottom: 0;
 }
-.rev-container::-webkit-scrollbar {
-  height: 4px;
-}
-.rev-container::-webkit-scrollbar-thumb {
-  background: var(--gold);
-  border-radius: 10px;
-}
+
 .rev-cards {
   display: flex;
-  align-items: stretch;
+  flex-direction: column;   /* stack vertically */
   gap: 1.5rem;
-  padding: 0 10px;
+  padding: 0;
 }
+
 .rev-card {
-  min-width: 350px;
-  flex: 0 0 auto;
-  scroll-snap-align: center;
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: unset;         /* remove fixed minimum width */
+  scroll-snap-align: unset;
+  /* keep existing styling */
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -867,6 +864,10 @@
   display: flex;
   flex-direction: column;
 }
+
+/* ─── END REVIEWS UPDATE ─── */
+
+/* Responsive adjustments for reviews */
 @media (max-width: 768px) {
   .reviews-row {
     flex-direction: column;
@@ -877,7 +878,7 @@
     margin-bottom: 1.5rem;
   }
   .rev-card {
-    min-width: 85vw;
+    min-width: unset;      /* already unset, but ensure full width */
   }
   .trust-tabs {
     padding: 0 1rem;
@@ -891,6 +892,7 @@
     padding: 12px 20px;
   }
 }
+
 .rc-top {
   display: flex;
   align-items: center;
