@@ -11,92 +11,35 @@
     <link href="navbar.css" rel="stylesheet" />
     <link href="footer.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
-
-    <!-- ADD these styles for the fixed logo (if not already in navbar.css) -->
-    <style>
-      /* ─── FIXED LOGO STYLES ─── */
-      .logo {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        text-decoration: none;
-        flex-shrink: 0;
-      }
-      .logo-icon {
-        height: 48px;
-        width: auto;
-        object-fit: contain;
-        display: block;
-        border-radius: 4px;
-        background: #0f1f2e;
-        padding: 2px;
-      }
-      .logo-txt {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.2;
-      }
-      .logo-txt strong {
-        font-size: 22px;
-        font-weight: 800;
-        color: #ffffff;
-        letter-spacing: -0.3px;
-        font-family: 'Inter', sans-serif;
-      }
-      .logo-txt .logo-highlight {
-        color: #ffd740; /* golden yellow */
-      }
-      .logo-txt span:last-child {
-        font-size: 10px;
-        font-weight: 500;
-        color: rgba(255, 255, 255, 0.7);
-        letter-spacing: 0.3px;
-        text-transform: uppercase;
-        margin-top: -2px;
-      }
-      @media (max-width: 768px) {
-        .logo-icon { height: 38px; }
-        .logo-txt strong { font-size: 18px; }
-        .logo-txt span:last-child { font-size: 8px; }
-        .logo { gap: 8px; }
-      }
-      @media (max-width: 480px) {
-        .logo-icon { height: 32px; }
-        .logo-txt strong { font-size: 15px; }
-        .logo-txt span:last-child { font-size: 7px; }
-        .logo { gap: 6px; }
-      }
-    </style>
   </head>
 
   <body>
     <!-- ─── NAVBAR (FIXED VERSION) ─── -->
-    <nav>
-      <a href="index.html" class="logo">
-        <!-- ✅ Uses raw GitHub URL so the image loads correctly -->
-        <img
-          src="https://raw.githubusercontent.com/Aegis76/Mountain-Vibes/main/The-Mountain-Vibes-main/images/LogoImg.png"
-          alt="The Mountain Vibes"
-          class="logo-icon"
-        />
-        <div class="logo-txt">
-          <strong>The Mountain<span class="logo-highlight">Vibes</span></strong>
-          <span>Safest &amp; Trusted Adventure Provider</span>
-        </div>
-      </a>
-      <ul class="nav-right">
-        <div class="nav-search">
-          <input type="text" placeholder="Search treks..." />
-        </div>
-        <li><a href="trek.html" class="nb">All Treks</a></li>
-        <li><a href="camp.html" class="nb">Summer Camps</a></li>
-        <li><a href="about.html" class="nb">About Us</a></li>
-        <li><a href="gallery.html" class="nb">Gallery</a></li>
-        <li><a href="contact.html" class="nb">Contact Us</a></li>
-      </ul>
-      <button class="nb menu" type="button">☰</button>
-    </nav>
-
+<nav>
+  <a href="index.html" class="logo">
+    <img
+      src="https://raw.githubusercontent.com/Aegis76/Mountain-Vibes/main/The-Mountain-Vibes-main/images/LogoImg.png"
+      alt="The Mountain Vibes"
+      class="logo-icon"
+    />
+    <div class="logo-txt">
+      <strong>The Mountain<span class="logo-highlight">Vibes</span></strong>
+      <span>Safest &amp; Trusted Adventure Provider</span>
+    </div>
+  </a>
+  <ul class="nav-right">
+    <div class="nav-search">
+      <input type="text" placeholder="Search treks..." />
+    </div>
+    <li><a href="trek.html" class="nb">All Treks</a></li>
+    <li><a href="camp.html" class="nb">Summer Camps</a></li>
+    <li><a href="about.html" class="nb">About Us</a></li>
+    <li><a href="gallery.html" class="nb">Gallery</a></li>
+    <li><a href="contact.html" class="nb">Contact Us</a></li>
+  </ul>
+  <button class="nb menu" type="button">☰</button>
+</nav>
+    
     <!-- PAGE CONTENT (unchanged) -->
     <div class="page active" id="page-home">
       <!-- HERO SLIDER -->
