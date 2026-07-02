@@ -94,19 +94,15 @@ nav {
   height: 60px;
 }
 
-/* ===== UPDATED LOGO STYLES ===== */
+/* ===== FIXED LOGO STYLES ===== */
 .logo-icon {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   flex-shrink: 0;
-  background-image: url('/images/LogoImg.png');   /* absolute path from root */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--gold);  /* optional fallback while loading */
+  object-fit: cover;          /* added to fill the circle */
 }
-/* ===== END UPDATED LOGO ===== */
+/* ===== END FIXED LOGO ===== */
 
 .logo-txt strong {
   font-size: 16px;
