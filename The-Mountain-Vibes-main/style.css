@@ -1566,7 +1566,17 @@
 }
 
 /* ─── FIXED LOGO STYLES ─── */
-/* Add these to navbar.css or keep here */
+/* 
+   HTML STRUCTURE NEEDED:
+   <a href="/" class="logo">
+     <img src="/logo-icon.png" alt="Logo" class="logo-icon">
+     <div class="logo-txt">
+       <strong>MOUNTAIN <span class="logo-highlight">VIBES</span></strong>
+       <span>THE MOUNTAIN VIBES</span>
+     </div>
+   </a>
+   The .logo-highlight class makes "VIBES" appear in golden (#ffd740).
+*/
 .logo {
   display: flex;
   align-items: center;
